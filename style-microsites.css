@@ -1,0 +1,2510 @@
+.clear_only{
+	clear:both;
+}
+body.single-autoescuela .column{
+	margin-bottom:20px !important;
+}
+.planes_microsites a#planes{
+	position:relative;
+	top:-145px;
+}
+.planes_microsites .header_planes{
+	background:url(img/planes_microsites/bg_header.png) no-repeat 0 0;
+	background-size:cover;
+	padding:7.18755rem 0 13rem;
+}
+.planes_microsites .header_planes .text_block{
+	padding-right:4rem;
+}
+.planes_microsites .header_planes .text_block .title{
+  color: #FFF;
+  font-family: "Exo 2";
+  font-size: 36px;
+  line-height: 45px;
+  padding-right: 4rem;
+  margin-bottom:20px;
+}
+.planes_microsites .header_planes .text_block .text,
+.planes_microsites .fifth_block .text{
+	color: #FFF;
+	font-family: "Gordita Regular";
+	font-size: 23px;
+	line-height: 28px;
+	margin-bottom:1.875rem;
+}
+.planes_microsites .fifth_block .text{
+	color:#263238;
+}
+.planes_microsites .cta_button_container{
+	clear:both;
+}
+.planes_microsites .cta_button{
+	border-radius: 6px;
+	display:block;
+	font-family: "Gordita Medium";
+	font-size: 23px;
+	line-height: 40px;
+	padding:1rem 3.125rem;
+	text-align:center;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	background:#FF7300;
+	color:#fff;
+	border:1px solid #FF7300;
+}
+.planes_microsites .cta_button:hover{
+	text-decoration:none;
+	background:#fff;
+	color:#FF7300;
+}
+.planes_microsites .cta_button.cta_button_2{
+	box-shadow: 0 2px 120px 0 rgba(145,97,5,0.5);
+	background-color: #FFF;
+	color: #263238;
+}
+.planes_microsites .cta_button.cta_button_2:hover{
+	background-color: #FF7300;
+	color: #FFF;
+}
+.planes_microsites .youtube-player{
+	border:3px solid #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.planes_microsites .youtube-player img{
+	position:absolute;
+}
+.planes_microsites .youtube-player .play{
+	background:url(img/planes_microsites/play_button.png) no-repeat 0 0;
+	background-size:cover;
+}
+.planes_microsites .first_block{
+	margin-top:-9rem;
+}
+.planes_microsites .first_block .text_block{
+	border-radius: 10px;
+	background-color: #FFF;
+	box-shadow: 0 2px 800px 0 rgba(138,144,155,0.21);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:40px 280px 40px 90px;
+	position:relative;
+}
+.planes_microsites .first_block .text_block .text{
+	color: #263238;
+	font-family: "Exo 2";
+	font-size: 36px;
+	line-height: 45px;	
+}
+.planes_microsites .first_block .text_block .icon{
+	background:url(img/planes_microsites/down_icon.png) no-repeat 0 0;
+	background-size:cover;
+	width:90px;
+	height:90px;
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	right:10%;
+}
+.planes_microsites .first_block .text_block span{
+	color:#FF7300;
+}
+.planes_microsites .second_block,
+.planes_microsites .third_block,
+.planes_microsites .fourth_block,
+.planes_microsites .fifth_block{
+	margin-top:4.375rem;
+}
+.planes_microsites .pretitle{
+	color: #62727B;
+	font-family: "Gordita Regular";
+	font-size: 23px;
+	line-height: 28px;
+	text-align:center;
+	margin-bottom:10px;
+}
+.planes_microsites .second_block .title,
+.planes_microsites .third_block .title,
+.planes_microsites .fourth_block .title,
+.planes_microsites .fifth_block .title{
+	color: #263238;
+	font-family: "Exo 2";
+	font-size: 36px;
+	line-height: 45px;
+	text-align: center;
+	max-width:75%;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+.planes_microsites .fifth_block .title{
+	max-width:100% !important;
+}
+.planes_microsites .fifth_block .title{
+	text-align:left;
+}
+.planes_microsites .second_block .info_blocks,
+.planes_microsites .third_block .info_blocks,
+.planes_microsites .fourth_block .products_block{
+	margin-top:2.8125rem;
+}
+.planes_microsites .second_block .info_blocks .info_block:nth-of-type(4n){
+	clear:both;
+}
+.planes_microsites .second_block .info_blocks .info_block{
+	border-radius: 5px;
+	background-color: #FFF;
+	box-shadow: 0 2px 230px 0 rgba(38,50,56,0.09);
+	height:19.5rem;
+}
+.planes_microsites .second_block .info_blocks .info_block img{
+	width:50px;
+	margin-bottom:0.5rem;
+}
+.planes_microsites .second_block .info_blocks .info_block .info_block_title{
+	font-family: "Gordita Medium";
+	font-size: 16px;
+	line-height: 22px;
+}
+.planes_microsites .second_block .info_blocks .info_block .info_block_text{
+	color: #000;
+	font-family: "Gordita Regular";
+	font-size: 16px;
+	line-height: 22px;
+}
+.planes_microsites .second_block .info_blocks .info_block .gutter{
+	padding:3.4375rem;
+}
+.planes_microsites .second_block .cta_button_container,
+.planes_microsites .third_block .cta_button_container{
+	max-width:485px;
+	margin:0 auto;
+}
+.planes_microsites .third_block .info_blocks .info_block .info_block_text{
+	color: #333;
+	font-family: "Gordita Regular";
+	font-size: 23px;
+	line-height: 28px;
+	background:url(img/planes_microsites/tick.png) no-repeat 0 0;
+	background-size:40px 40px;
+	padding-left:3.5rem;
+}
+.planes_microsites .fourth_block .products_block{
+	display:inline-block;
+}
+.planes_microsites .fourth_block .products_block .product{
+	border-radius: 12px;
+	background-color: #FFF;
+	/*border: 2px solid rgba(84,110,122,0.34);*/
+	margin:0;
+	position:relative;
+	box-shadow: 
+	2px 0 0 0 rgba(84,110,122,0.34), 
+    0 2px 0 0 rgba(84,110,122,0.34), 
+    2px 2px 0 0 rgba(84,110,122,0.34),   /* Just to fix the corner */
+    2px 0 0 0 rgba(84,110,122,0.34) inset, 
+    0 2px 0 0 rgba(84,110,122,0.34) inset;
+	margin-top:30px;
+	z-index:5;
+	width:33.333%
+}
+.planes_microsites .fourth_block .products_block .product.featured{
+	margin-top:0;
+	box-shadow: 
+	6px 0 0 0 #FF7300, 
+    0 6px 0 0 #FF7300, 
+    6px 6px 0 0 #FF7300,   /* Just to fix the corner */
+    6px 0 0 0 #FF7300 inset, 
+    0 6px 0 0 #FF7300 inset;
+	z-index:10;
+}
+.planes_microsites .fourth_block .products_block .product .product_title{
+	position:absolute;
+	left:50%;
+	top:0;
+	transform:translate(-50%,-50%);
+	border-radius: 300px;
+	background-color: #263238;
+	color: #FFF;
+	font-family: "Gordita Regular";
+	font-size: 16px;
+	line-height: 22px;
+	padding:10px 30px;
+}
+.planes_microsites .fourth_block .products_block .product.featured .product_title{
+	background-color: #FF7300;
+}
+.planes_microsites .fourth_block .products_block .product .product_details_container{
+	padding:2.8125rem 4rem;
+}
+.planes_microsites .fourth_block .products_block .product .product_details_container .product_description{
+	color: #333;
+	font-family: "Gordita Medium";
+	font-size: 21px;
+	line-height: 28px;
+	text-align: center;
+}
+.planes_microsites .fourth_block .products_block .product .product_details_container .product_price{
+	color: #263238;
+	font-family: "Gordita Medium";
+	font-size: 60px;
+	line-height: 60px;
+	text-align:center;
+	margin:1.5rem auto;
+	display:table;
+}
+.planes_microsites .fourth_block .products_block .product .product_details_container .product_price .price_beginning{
+	float:left;	
+}
+.planes_microsites .fourth_block .products_block .product .product_details_container .product_price .price_rest{
+	float:left;
+	color: #263238;
+	font-family: "Gordita Medium";
+	font-size: 21px;
+	line-height: 21px;
+	margin-top:0.5rem;
+}
+.planes_microsites .fourth_block .products_block .product .product_details_container .product_price .price_rest p{
+	margin-bottom:0;
+	color: #546E7A;
+	font-family: "Gordita Medium";
+	font-size: 12px;
+	line-height: 16px;
+	text-align: center;
+}
+.planes_microsites .fourth_block .products_block .product .product_details_container .quantity label,
+.planes_microsites .fourth_block .products_block .product .product_details_container .qty{
+	display:none;
+}
+.planes_microsites .fourth_block .products_block .product .product_details_container .el_boton{
+	border-radius: 4px;
+	border: 3px solid #FF7300;
+	background:#fff;
+	color: #263238;
+	font-family: "Gordita Regular";
+	font-size:1rem;
+	width:90%;
+	display:block;
+	margin:0 auto 2rem;
+	padding:15px;
+}
+.planes_microsites .fourth_block .products_block .product .product_details_container .el_boton.el_boton_2{
+	border:none;
+	background:#FF7300;
+	color:#fff;
+	padding:15px;
+}
+.planes_microsites .fourth_block .products_block .product .product_details_container ul{
+	list-style:none;
+	margin:0 0 1.875rem 0;
+}
+.planes_microsites .fourth_block .products_block .product .product_details_container ul li{
+	background-image:url(img/planes_microsites/tick.png);
+	background-repeat:no-repeat;
+	background-size:1.875rem 1.875rem;
+	background-position:0 50%;
+	min-height:1.875rem;
+	padding-left:2.5rem;
+	color: #263238;
+	font-family: "Gordita Regular";
+	font-size: 16px;
+	line-height: 20px;
+	padding-top:5px;
+	margin-bottom:15px;
+}
+.planes_microsites .fourth_block .products_block .product .product_details_container ul li.inactive{
+	background-image:url(img/planes_microsites/tick-locked.png);
+	opacity: 0.20;
+	filter: alpha(opacity =20);
+}
+.planes_microsites .fourth_block .products_block .product .product_details_container .gutter_featured{
+	height:30px;
+}
+.planes_microsites .fifth_block .form_title{
+	padding-right:4rem;
+}
+.planes_microsites .fifth_block .wpcf7{
+	border-radius: 8px;
+	background-color: #FFF;
+	box-shadow: 0 2px 60px 0 rgba(98,114,123,0.15);
+	padding:3.75rem;
+}
+.planes_microsites .fifth_block .wpcf7 .form_title{
+	padding-right:0;
+	color: #333;
+	font-family: "Gordita Regular";
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	margin-bottom:1.5625rem;
+}
+.planes_microsites .fifth_block .wpcf7 input:not(.wpcf7-submit){
+	border-radius: 5px !important;
+	background-color: rgba(207,216,220,0.29);
+	border: 2px solid #FF7300 !important;
+}
+.planes_microsites .fifth_block .wpcf7 p{
+	margin:0;
+}
+.planes_microsites .g-recaptcha{
+	margin:5px 0;
+}
+.planes_microsites .fifth_block .wpcf7 input.wpcf7-submit{
+	width:100%;
+	font-family:"Gordita Regular";
+	margin:0.625rem 0;
+	font-size:1rem;
+	background:#FF7300;
+	margin-bottom:5px !important;
+	padding:15px;
+}
+.planes_microsites .fifth_block .wpcf7 .ShowRgpd,
+.planes_microsites .fifth_block .wpcf7 .HideRGPD{
+	border:0 !important;
+	cursor:pointer;
+}
+@media only screen and (max-width: 960px){
+	.planes_microsites .header_planes{
+		padding:3.593775rem 0;
+	}
+	.planes_microsites .first_block .text_block{
+		padding:2.5rem;
+		font-size:28px;
+		line-height:35px;
+	}
+	.planes_microsites .first_block .text_block .icon{
+		display:none;
+	}
+	.planes_microsites .first_block .text_block br:nth-of-type(1){
+		display:none;
+	}
+	.planes_microsites .third_block .info_blocks .info_block .info_block_text{
+		min-height:52px;
+	}
+	.planes_microsites .fourth_block .products_block .product .product_details_container{
+		padding:2rem;
+	}
+	.planes_microsites .fourth_block .products_block .product .product_details_container .product_price{
+		font-size:2.8125rem;
+		line-height:2.8125rem;
+	}
+	.planes_microsites .fifth_block .column{
+		clear:both;
+		float:none;
+		width:100%;
+	}
+	.planes_microsites .fifth_block .form_title,
+	.planes_microsites .header_planes .text_block{
+		padding-right:0;
+	}
+}
+@media only screen and (max-width: 767px){
+	.planes_microsites .fourth_block .products_block .product.featured{
+		margin-top:30px;
+	}
+	.planes_microsites .fourth_block .products_block .product .product_details_container .gutter_featured{
+		display:none;
+	}
+}
+@media only screen and (max-width: 500px){
+	.planes_microsites .cta_button{
+		font-size:1.125rem;
+	}
+	.planes_microsites .first_block{
+		margin-top:-2rem;
+	}
+	.planes_microsites .first_block .text_block{
+		padding:2rem;
+		font-size:1.4375rem;
+		line-height:1.4375rem;
+		text-align:center;
+	}
+	.planes_microsites .g-recaptcha {
+		transform:scale(0.7);
+		transform-origin:0 0;
+	}
+}
+/* END PLANES MICROSITES */
+
+/* MICROSITE */
+.vertical-align{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+}
+.transitions{
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+.text-color2{
+	color:#e85e02;
+}
+.clear_both{
+	clear:both;
+}
+body.single-autoescuela #Content{
+	padding-top:0;
+}
+body.single-autoescuela.microsite-level-pro .zopim,
+body.single-autoescuela.microsite-level-premium .zopim,
+body.single-autoescuela.microsite-level-exclusive .zopim{
+	display:none !important;
+}
+body.single-autoescuela{
+	overflow-x:visible !important;
+}
+.single-autoescuela .header_principal{
+	height:80px;
+	position:relative;
+}
+.single-autoescuela .header_principal img.logo{
+	left:0;
+}
+.single-autoescuela .header_principal .edit_microsite{
+	right:0;
+}
+.single-autoescuela .header_principal .edit_microsite.editing{
+	top:30%;
+}
+.single-autoescuela .header_principal .edit_microsite a{
+	background: url(img/microsites/icono-editar.png) no-repeat 0 50%;
+	display: block;
+	padding-left: 36px;
+	color:#383838;
+	line-height:23px;
+}
+.single-autoescuela .header_principal .edit_microsite a:hover{
+	text-decoration:none;
+	color:#e85e02;
+}
+.single-autoescuela .header_microsite{
+	background-image:url(img/microsites/fondo_cabecera.png);
+	background-repeat:no-repeat;
+	background-size:cover !important;
+	padding-top:55px;
+	text-align:center;
+	padding-bottom:13.4375rem;
+}
+.single-autoescuela .header_microsite.new{
+	background-image:url(img/microsites/fondo_cabecera_tr.png);
+	position: relative;
+	overflow:hidden;
+}
+
+.single-autoescuela .header_microsite .informacion-centro-cabecera{
+	padding-top:33px;
+	text-align:left;
+	margin-bottom:0 !important;
+}
+.single-autoescuela .header_microsite .informacion-centro-cabecera .logo_principal{
+	padding:10px 25px;
+	background:#fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float:left;
+	margin-bottom:33px;
+}
+.single-autoescuela .header_microsite .informacion-centro-cabecera .logo_principal img{
+	display:inherit;
+}
+.single-autoescuela .header_microsite .cabecera_contenido .one-second{
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	width:50%;
+}
+.single-autoescuela .header_microsite .cabecera_contenido .texto_cabecera .titulo{
+	font-family:"Gordita Medium";
+	font-weight:bold;
+	font-size: 30px;
+	line-height: 35px;
+}
+.single-autoescuela .header_microsite .cabecera_contenido .texto_cabecera .descripcion{
+	font-family: "Gordita Regular";
+	color: #FFF;
+	font-size: 18px;
+	line-height: 28px;
+}
+.las_estrellas svg{
+	display:none;
+}
+.single-autoescuela .header_microsite .cabecera_contenido .valoraciones{
+	margin-top:2rem;
+}
+.single-autoescuela .header_microsite .cabecera_contenido .valoraciones .sin_valoraciones{
+	font-family: "Gordita Regular";
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+}
+.single-autoescuela .header_microsite .cabecera_contenido .valoraciones .val{
+	font-family: "Gordita Medium";
+	font-size: 1.4375rem;
+	line-height: 1.875rem;
+	display:flex;
+	/*justify-content: center;*/
+}
+.single-autoescuela .header_microsite .cabecera_contenido .valoraciones .val .titulo{
+	float:left;
+	margin-right:1rem;
+	margin-bottom:0;
+}
+.single-autoescuela .header_microsite .cabecera_contenido .valoraciones.shadowed .enabled_stars img{
+	/*filter: drop-shadow(1px 1px 3px #AC5712);*/
+	/*filter:drop-shadow(1px 1px 1px #fff) drop-shadow(-1px -1px 1px #fff);*/
+	filter: brightness(0) invert(1);
+}
+.single-autoescuela .header_microsite .cabecera_contenido .valoraciones.shadowed .numero{
+	color:#fff !important;
+}
+.single-autoescuela .gdrts-rating-element{
+	width:170px !important;
+}
+.single-autoescuela .gdrts-with-image.gdrts-image-star .gdrts-stars-active,
+.single-autoescuela .gdrts-with-image.gdrts-image-star .gdrts-stars-current,
+.single-autoescuela .gdrts-with-image.gdrts-image-star .gdrts-stars-empty{
+	/*background: url(img/microsites/stars.svg) 0 0/40px repeat-x;*/
+	background:none;
+	overflow:hidden;
+	white-space: nowrap;
+}
+.single-autoescuela .gdrts-with-image.gdrts-image-star .gdrts-stars-active svg,
+.single-autoescuela .gdrts-with-image.gdrts-image-star .gdrts-stars-current svg,
+.single-autoescuela .gdrts-with-image.gdrts-image-star .gdrts-stars-empty svg{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.single-autoescuela .gdrts-with-image.gdrts-image-star .gdrts-stars-current svg{
+	/*float:left;*/
+	/*position:relative;*/
+}
+.single-autoescuela .pagina_valorar .gdrts-stars-current{
+	display:none;
+}
+.single-autoescuela .gdrts-with-image.gdrts-image-star .gdrts-stars-empty > svg path{
+	fill:#999999;
+}
+.single-autoescuela .gdrts-with-image.gdrts-image-star .gdrts-stars-current svg path,
+.single-autoescuela .gdrts-with-image.gdrts-image-star .gdrts-stars-active svg path{
+	/*fill:#000;*/
+}
+.single-autoescuela .gdrts-rating-user{
+	display:none;
+}
+.single-autoescuela .gdrts-with-image{
+	float:left;
+}
+.single-autoescuela .gdrts-with-image.gdrts-image-star svg{
+	float:left;
+	width:30px;
+	height:30px;
+}
+.single-autoescuela .gdrts-rating-please-wait,
+.single-autoescuela .gdrts-rating-thanks{
+	text-align:center;
+}
+.single-autoescuela .header_microsite .formulario-contacto{
+	margin-bottom:0 !important;
+}
+.single-autoescuela .header_microsite .formulario-contacto .wpcf7{
+	padding-left:50px;	
+}
+.single-autoescuela .header_microsite .formulario-contacto .wpcf7 .formulario_contacto_microsite_container{
+	background:#fff;
+	padding:45px 60px;
+	box-shadow: 0 2px 50px 0 rgba(0,0,0,0.2);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.single-autoescuela .conoce_autoescuela .logo img{
+	max-width:21.25rem !important;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+.microsite_main_cta{
+	color: #263238;
+	font-family: "Gordita Medium";
+	font-size: 24px;
+	line-height: 28px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding:23px 60px;
+	display:inline-block;
+}
+.microsite_main_cta:hover{
+	background:#263238 !important;
+	color:#fff;
+	text-decoration:none;
+}
+.microsite_main_cta:active{
+	position:relative;
+	top:1px;
+	left:1px;
+}
+.microsite_tip{
+	font-family:"Gordita Regular";
+	font-size:13px;
+}
+.detalles_autoescuela .microsite_main_cta{
+	padding-left:0;
+	padding-right:0;
+	text-align:center;
+	width:100%;
+}
+.microsite_sections{
+	margin-top: -8.875rem;
+	z-index: 60;
+	position: relative;
+}
+.microsite_sections section{
+	margin-bottom:5rem;
+}
+.microsite_sections section.conoce_autoescuela {
+    margin-bottom:85px;
+}
+.microsite_sections .detalles_autoescuela{
+}
+.microsite_sections .detalles_autoescuela .section_gutter{
+	background:#fff;
+	padding:3.75rem 5rem;
+	overflow:auto;
+	display:flex;
+	box-shadow: 0 2px 800px 0 rgba(138,144,155,0.21);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.microsite_sections .detalles_autoescuela .titulo{
+	font-family: "Gordita Medium";
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+	margin-bottom:1.25rem;
+}
+.microsite_sections .detalles_autoescuela .elemento{
+	overflow:auto;
+	clear:both;
+	font-family: "Gordita Medium";
+	font-size: 1rem;
+	line-height: 1.375rem;
+	margin-bottom:2rem;
+}
+.microsite_sections .detalles_autoescuela .elemento:nth-last-of-type(1){
+	margin-bottom:0;
+}
+.microsite_sections .detalles_autoescuela .elemento .icono{
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	width:3.25rem;
+	height:2.25rem;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	float:left;
+	margin-right:0;
+	margin-right:1.875rem;
+	position:relative;
+}
+.microsite_sections .detalles_autoescuela .elemento .icono svg{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+}
+.microsite_sections .detalles_autoescuela .elemento.horario .icono svg{
+	width:26px;
+	height:26px;
+}
+.microsite_sections .detalles_autoescuela .elemento.ubicacion .icono svg{
+	width:21px;
+	height:21px;
+}
+.microsite_sections .detalles_autoescuela .horarios_ubicacion{
+	position:relative;
+	padding-right:2rem;
+}
+.microsite_sections .detalles_autoescuela .horarios_ubicacion .separador{
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	width:1px;
+	background:#000;
+}
+.microsite_sections .detalles_autoescuela .telefonos .telefonos_container{
+	padding-left:4.375rem;
+}
+.microsite_sections .detalles_autoescuela .telefonos .telefonos_container ul{
+	list-style:none;
+}
+.microsite_sections .detalles_autoescuela .telefonos .telefonos_container ul li{
+	color: #263238;
+	font-family: "Gordita Medium";
+	font-size: 1rem;
+	line-height: 1.375rem;
+	position:relative;
+}
+.microsite_sections .detalles_autoescuela .telefonos .telefonos_container ul li .mascara{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	color:#fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor:pointer;
+	-webkit-transition: background-color 0.25s ease-in-out;
+	-moz-transition: background-color 0.25s ease-in-out;
+	-ms-transition: background-color 0.25s ease-in-out;
+	-o-transition: background-color 0.25s ease-in-out;
+	transition: background-color 0.25s ease-in-out;
+}
+.microsite_sections .detalles_autoescuela .telefonos .telefonos_container ul li .mascara:hover{
+	background-color:#263238 !important;
+}
+.microsite_sections .detalles_autoescuela .telefonos .telefonos_container ul li .mascara span{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.microsite_sections .detalles_autoescuela div.horarios_ubicacion,
+.microsite_sections .detalles_autoescuela div.telefonos{
+	margin-bottom:0;	
+}
+.microsite_sections .detalles_autoescuela ul.telefonos,
+.microsite_sections .detalles_autoescuela ul.telefonos li{
+	margin-bottom:0.5rem;
+}
+.microsite_sections .detalles_autoescuela .email{
+	margin-bottom:0;
+}
+.microsite_sections .detalles_autoescuela li.elemento .icono{
+	width:30px;
+	height:30px;
+}
+.microsite_sections .detalles_autoescuela ul.telefonos li.elemento .icono.whatsapp svg{
+	height:22px;
+	width:22px;
+}
+.microsite_sections .detalles_autoescuela ul.telefonos li.elemento .icono.movil svg{
+	height:19px;
+	width:19px;
+}
+.microsite_sections .detalles_autoescuela ul.email li.elemento .icono svg{
+	height:19px;
+	width:19px;
+}
+.microsite_sections .detalles_autoescuela .no_plan .microsite_main_cta{
+	max-width:520px;
+	display:block;
+	margin:0 auto;
+}
+.single-autoescuela .titulo_2{
+	color: #333;
+	font-family: "Gordita Medium";
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	margin-bottom:65px;
+}
+.single-autoescuela .conoce_autoescuela .logo img{
+	max-width: 21.25rem !important;
+}
+.single-autoescuela .conoce_autoescuela .titulo_descripcion{
+	color: #263238;
+	font-family: "Gordita Regular";
+	font-size: 24px;
+	line-height: 34px;
+	margin-bottom:10px;
+}
+.single-autoescuela .conoce_autoescuela .texto_descripcion{
+	color: #333;
+	font-family: "Gordita Regular";
+	font-size: 16px;
+	line-height: 26px;
+	text-align: justify;
+}
+.owl-nav{
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 112%;
+	left: 50%;
+}
+.imagenes_autoescuela .owl-carousel{
+	width:87%;
+	margin:0 auto;
+}
+.owl-nav button span{
+	display:none;	
+}
+.owl-nav button{
+	background:url(img/microsites/carousel-icon.png) no-repeat 0 0 !important;
+	height:50px;
+	width:50px;
+	background-size:cover !important;
+	border:none !important;
+	background-color:transparent !important;
+	margin:0;
+}
+.owl-nav button.owl-prev{
+	float:left;
+}
+.owl-nav button.owl-next{
+	float:right;
+	transform:rotate(180deg);
+}
+.owl-carousel.default img{
+	border: 2px solid #37474F;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	max-width:99% !important;
+}
+.single-autoescuela .the_cta{
+	/*overflow:auto;*/
+	display:flex;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+	padding:50px 100px;
+}
+.single-autoescuela .the_cta .column{
+	margin:0;
+}
+.single-autoescuela .the_cta .textos .gutter{
+	/*padding:5rem 0 5rem 7.5rem;*/
+}
+.single-autoescuela .the_cta .textos .titulo_2{
+	text-align:left;
+	color:#fff;
+	margin-bottom:3.125rem;
+	font-family: "Gordita Medium";
+	font-size: 35px;
+	line-height: 43px;
+}
+.single-autoescuela .the_cta .textos .microsite_main_cta,
+.single-autoescuela .contacto_cabecera .microsite_main_cta{
+	background-color:#fff !important;
+}
+.single-autoescuela .contacto_cabecera .microsite_main_cta{
+	margin: 20px auto 0;
+	display: block;
+	text-align: center;
+	width: 250px;
+}
+.single-autoescuela .the_cta .textos .microsite_main_cta:hover,
+.single-autoescuela .contacto_cabecera .microsite_main_cta:hover{
+	background-color:#263238 !important;
+}
+.single-autoescuela .the_cta .imagen .gutter{
+	/*padding:5rem 7.5rem 0 0;*/
+	text-align:right;
+}
+.cursos_genericos{
+	display:flex;
+}
+.cursos_genericos .column{
+	padding:60px 0;
+	margin:0;
+	width:33.333%;
+	background-color: rgba(207,216,220,0.19);
+}
+.cursos_genericos .column .sin_cursos{
+	text-align:center;
+	padding:2rem 2rem 0 2rem;
+}
+.cursos_genericos .column.cursos_genericos_2{
+	background-color: rgba(207,216,220,0.27);
+}
+.cursos_genericos .column .cabecera{
+	height:7.1rem;
+}
+.titulo_3{
+	color: #383838;
+	font-family: "Gordita Medium";
+	font-size: 22px;
+	line-height: 26px;
+	text-align:center;
+	padding:1.25rem 0;
+	max-width:70%;
+	margin:0 auto;
+	border-bottom: 3px solid;
+	text-transform:uppercase;
+}
+.cursos_genericos .column .cursos{
+	max-width:70%;
+	margin:0 auto;
+	list-style:none;
+}
+.cursos_genericos .column .cursos li{
+	border-bottom:1px solid;
+	margin:0;
+	overflow:auto;
+	padding:1.125rem 0;
+	position:relative;
+}
+.cursos_genericos .column .cursos li a{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:1;
+}
+.cursos_genericos .column .cursos li .icon{
+	width:22%;
+	border:2px solid;
+	float:left;
+	margin-right:5%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border-sizing:border-box;
+	position:relative;
+}
+.cursos_genericos .column .cursos li .icon:after{
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+.cursos_genericos .column .cursos li .icon svg{
+	max-width:2rem;
+	max-height:2rem;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.cursos_genericos .column .cursos li .texto{
+	float:left;
+	width:55%;
+}
+.cursos_genericos .column .cursos li .texto .titulo{
+	color: #333;
+	font-family: "Gordita Regular";
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom:0;
+}
+.cursos_genericos .column .cursos li .texto a{
+	font-family: "Gordita Regular";
+	font-size: 14px;
+	line-height: 22px;
+}
+.listado_cursos .listado_cursos_inner{
+	/*display:flex;*/
+}
+.listado_cursos .listado_cursos_inner .gdrts-rating-element svg{
+	max-width:20px;
+	max-height:20px;
+}
+.listado_cursos .titulo_cursos{
+	color: #333;
+	font-family: "Gordita Medium";
+	font-size: 35px;
+	line-height: 47px;
+	text-align:center;
+	margin-bottom:70px;
+}
+.listado_cursos .curso{
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;	
+	border: 2px solid rgba(207,216,220,0.91);
+	margin:0 1% 40px;
+}
+.listado_cursos .curso:nth-of-type(1),
+.listado_cursos .curso:nth-of-type(4n+1){
+	margin-left:0;
+	clear:both;
+}
+.listado_cursos .curso:nth-of-type(4n){
+	margin-right:0;
+}
+.listado_cursos .curso .curso_inner{
+	padding:40px 30px 30px 30px;
+	position:relative;
+}
+.listado_cursos .curso .curso_inner .top_tag{
+	position:absolute;
+	top:-10px;
+	right:15px;
+	color: #F60;
+	font-family: "Gordita Medium";
+	font-size: 14px;
+	line-height: 22px;
+	box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.2);
+	background:#F2F4F5;
+	padding:10px 20px;
+	max-width:160px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.listado_cursos .curso .curso_inner .logo_autoescuela{
+	margin-bottom:20px;
+}
+.listado_cursos .curso .curso_inner .logo_autoescuela img{
+	max-width:140px;
+	max-height:35px;
+}
+.listado_cursos .curso .curso_inner .nota_autoescuela{
+	/*display:flex;*/
+	margin-bottom:15px;
+}
+.listado_cursos .curso .curso_inner .nota_autoescuela .gdrts-stars-rating.gdrts-state-active .gdrts-stars-empty:not(.gdrts-vote-saving){
+	cursor:default;
+}
+.listado_cursos .curso .curso_inner .nota_autoescuela{
+	overflow:auto;
+}
+.listado_cursos .curso .curso_inner .nota_autoescuela .sin_valoraciones{
+	font-size:14px;
+	line-height:14px;
+}
+.listado_cursos .curso .curso_inner .titulo_curso{
+	font-size:14px;
+	font-family:"Gordita Medium";
+}
+.listado_cursos .curso .curso_inner .datos_autoescuela{
+	list-style:none;
+	margin-left:0;
+}
+.listado_cursos .curso .curso_inner .datos_autoescuela li{
+	font-family: "Gordita Regular";
+	font-size: 14px;
+	line-height: 22px;
+	color:#333;
+}
+.listado_cursos .curso .curso_inner .datos_autoescuela li span{
+	color:#F60;
+}
+.listado_cursos .curso .curso_inner .precio{
+	color: #333;
+	font-family: "Gordita Regular";
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom:25px;
+}
+.listado_cursos .curso .curso_inner .precio span{
+	font-family: "Gordita Medium";
+	font-size:20px;
+}
+.listado_cursos .curso .curso_inner a.button{
+	margin-top:25px;
+	font-family: "Gordita Regular";
+	color:#fff;
+	background:#F60;
+	font-size:16px;
+	padding:10px 0;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	display:block;
+	text-align:center;
+}
+.listado_cursos .curso .curso_inner a.button:hover{
+	text-decoration:none;
+	background: #263238 !important;
+}
+.listado_cursos .curso .curso_inner a.button:active{
+	position:relative;
+	top:1px;
+	left:1px;
+}
+.formulario_contacto_microsite_container .titulo_form{
+	font-family: "Roboto Bold";
+	color: #4E4E4E;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+}
+.formulario_contacto_microsite_container .subtitulo_form{
+	color:#333;
+	font-family: "Gordita Regular";
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	margin-top: 5px;
+	padding: 0 45px;
+	margin-bottom: 25px;
+}
+.formulario_contacto_microsite_container span.wpcf7-form-control-wrap input,
+.formulario_contacto_microsite_container span.wpcf7-form-control-wrap textarea,
+.formulario_contacto_microsite_container select{
+	border: 1px solid #BBB;
+	color: #333;
+	font-family: "Gordita Regular" !important;
+	font-size: 15px;
+	line-height: 22px;
+	width:100%;
+}
+.formulario_contacto_microsite_container select{
+	margin-bottom:10px;
+}
+.formulario_contacto_microsite_container select option{
+	font-family: 'Roboto Regular'
+}
+.formulario_contacto_microsite_container p{
+	margin-bottom:0;
+}
+.formulario_contacto_microsite_container .politicas{
+	text-align:left;
+	color: #333;
+	font-family: "Gordita Regular";
+	font-size: 12px;
+	line-height: 22px;
+	margin-bottom:10px;
+}
+.formulario_contacto_microsite_container span.wpcf7-form-control-wrap textarea{
+	height:80px;
+}
+.formulario_contacto_microsite_container span.wpcf7-form-control-wrap textarea::placeholder{
+	color: #333 !important;
+	font-family: 'Roboto Regular' !important;
+	font-size: 15px !important;
+	line-height: 22px !important;
+}
+.formulario_contacto_microsite_container input.wpcf7-submit{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #F60;
+	width:100%;
+	color:#fff;
+	font-family: "Gordita Regular"; !important;
+	font-size: 18px;
+	line-height: 13px;
+	padding:20px 0;
+}
+.formulario_contacto_microsite_container .wpcf7-form-control-wrap.acceptance-188{
+	width:auto;
+	margin-left:0;
+	margin-right:0;
+}
+.formulario_contacto_microsite_container .wpcf7-form-control-wrap.acceptance-188 input{
+	border:1px solid #37474F !important;
+	height:15px !important;
+	width:15px !important;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+}
+.single-autoescuela .pum-container .formulario_contacto_microsite_container .MinText p{
+	color: #333;
+	font-family: "Exo 2";
+	font-size: 9.8px;
+	line-height: 13px;
+	text-align: justify;
+}
+.single-autoescuela .pum-container .formulario_contacto_microsite_container .politicas{
+	margin-left:10px;
+}
+
+@media (max-width: 1239px){
+	.planes_microsites .header_planes .text_block {
+		padding-right: 6rem !important;
+	}
+	.planes_microsites .header_planes .text_block .text, .planes_microsites .fifth_block .text {
+		padding-right: 0px;
+	}
+	.planes_microsites .second_block .info_blocks .info_block .gutter {
+		padding: 40px;
+	}
+	.planes_microsites .fifth_block {
+		background-position-y: 50px;
+	}
+	.form_title .fa-chevron-right:before {
+		margin: -23px 0 0px 22px;
+	}
+	.planes_microsites .fifth_block .wpcf7 {
+		padding: 30px 35px 35px 35px;
+	}
+	.planes_microsites .fifth_block .text {
+		padding-right: 0px;
+	}
+}
+@media only screen and (max-width: 1050px){
+	.owl-nav{
+		width:100%;
+		position:static;
+		transform:none;
+		margin-top:1rem;
+	}
+}
+@media only screen and (max-width: 960px){
+	.single-autoescuela .header_microsite{
+		padding:7.5rem 2rem 13.4375rem;
+	}
+	.planes_microsites .second_block .info_blocks .info_block {
+		height: 24.5rem;
+	}
+	.planes_microsites .second_block .info_blocks .info_block .gutter {
+		padding: 35px;
+	}
+	.form_title .fa-chevron-right:before {
+		display: none;
+	}
+	.planes_microsites .fifth_block .wpcf7 {
+		padding: 45px 35px 35px 35px;
+	}
+	.section_wrapper{
+		max-width:90%;
+	}
+	.conoce_autoescuela .logo{
+		width:100%;
+		text-align:center;
+	}
+	.single-autoescuela .header_microsite .formulario-contacto .wpcf7 .formulario_contacto_microsite_container{
+		padding:20px;
+	}
+	.formulario_contacto_microsite_container .subtitulo_form{
+		padding:0 20px;
+	}
+	.conoce_autoescuela .textos{
+		width:100%;
+	}
+	.single-autoescuela .the_cta{
+		display:block;
+		padding:20px 50px;
+	}
+	.single-autoescuela .the_cta .textos .titulo_2{
+		text-align:center;
+	}
+	.single-autoescuela .the_cta .textos{
+		width:100% !important;
+		float:none;
+	}
+	.single-autoescuela .the_cta .textos .gutter{
+		padding:3rem;
+	}
+	.single-autoescuela .the_cta .textos .gutter a{
+		width:100%;
+		padding:1.875rem 0;
+		text-align:center;
+	}
+	.single-autoescuela .the_cta .imagen{
+		width:100%;
+		float:none;
+	}
+	.single-autoescuela .the_cta .imagen .gutter{
+		padding:0;
+		text-align:center;
+	}
+	.single-autoescuela .cursos_genericos{
+		display:block;
+	}
+	.single-autoescuela .cursos_genericos .cabecera{
+		display:none;
+	}
+	.single-autoescuela .cursos_genericos .cabecera_mobile{
+		display:block !important;
+		color: #333;
+	    font-family: "Gordita Medium";
+	    font-size: 35px;
+	    line-height: 47px;
+    	text-align: center;
+	    margin-bottom: 4rem;
+	}
+	.single-autoescuela .cursos_genericos .column{
+		width:100%;
+		margin-bottom:0 !important;
+	}
+	.single-autoescuela .cursos_genericos .column .cursos li .texto{
+		width:75%;
+	}
+	.single-autoescuela .cursos_genericos .column .cursos li .icon{
+		width:15%;
+	}
+	.single-autoescuela .cursos_genericos .column .cursos li .icon svg{
+		max-width:3rem;
+		max-height:3rem;
+	}
+	.listado_cursos .curso{
+		width:48%;
+	}
+	.listado_cursos .curso:nth-of-type(1),
+	.listado_cursos .curso:nth-of-type(2n+1){
+		margin-left:0;
+		clear:both;
+	}
+	.listado_cursos .curso:nth-of-type(2n){
+		margin-right:0;
+	}
+	.planes_microsites .header_planes .text_block {
+        padding-right: 0rem !important;
+	}
+	.coche-micro-mobile {
+		display: block !important;
+		width: 300px;
+		margin: 0 auto;
+		position: relative;
+		margin-top: -130px;
+	}
+	.planes_microsites .cta_button.cta_button_2 {
+		margin-bottom: 40px;
+	}
+	.planes_microsites .first_block .text_block {
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 855px){
+	.microsite_sections .detalles_autoescuela .section_gutter{
+		display:block;
+	}
+	.microsite_sections .detalles_autoescuela .section_gutter .horarios_ubicacion,
+	.microsite_sections .detalles_autoescuela .section_gutter .telefonos{
+		width:100%;
+	}
+	.microsite_sections .detalles_autoescuela .section_gutter .horarios_ubicacion .separador{
+		display:none;
+	}
+	.microsite_sections .detalles_autoescuela .section_gutter .telefonos .telefonos_container{
+		padding-left:0;
+	}
+	.microsite_sections .detalles_autoescuela .section_gutter .telefonos .telefonos_container ul{
+		margin-left:0;
+	}
+	.microsite_sections .detalles_autoescuela li.elemento .icono{
+		width:2.25rem;
+		height:2.25rem;
+	}
+}
+@media only screen and (max-width: 767px){
+	.single-autoescuela .header_microsite.new:after{
+		top:90%;
+	}
+	.single-autoescuela .header_principal img.logo{
+		left:15px;
+	}
+	.single-autoescuela .header_principal .edit_microsite{
+		right:15px;
+	}
+	.single-autoescuela .cursos_genericos .column .cursos li .icon svg{
+		max-width:2rem;
+		max-height:2rem;
+	}
+	.single-autoescuela .column{
+		margin-bottom:0 !important;
+	}
+	.single-autoescuela .header_microsite .formulario-contacto .wpcf7{
+		padding-left:0;
+	}
+	.planes_microsites .fourth_block .products_block .product .product_details_container {
+		padding-top: 4rem;
+	}
+	.planes_microsites .fifth_block .text {
+		font-size: 18px;
+		line-height: 24px;
+		text-align: center;
+	}
+	.listado_cursos .curso{
+		margin-left:0 !important;
+		margin-right:0 !important;
+		margin-bottom:1rem !important;
+	}
+	.planes_microsites .header_planes .text_block .title {
+		font-size: 34px;
+		line-height: 40px;
+	}
+	.planes_microsites .header_planes {
+		padding: 40px 0 190px 0 !important;
+	}
+	.planes_microsites .first_block .text_block .text {
+		font-size: 27px;
+		line-height: 35px;
+	}
+	.planes_microsites .first_block .text_block {
+		padding: 2.5rem 1.5rem 1.5rem 1.5rem !important;
+	}
+	.planes_microsites .second_block .title, .planes_microsites .third_block .title, .planes_microsites .fourth_block .title, .planes_microsites .fifth_block .title {
+		font-size: 27px;
+		line-height: 35px;
+		text-align: center; 
+		max-width: 100%;
+	}
+	.planes_microsites .fifth_block {
+		margin-bottom: 3em;
+		margin-top: -2em !important;
+	}
+	.planes_microsites .pretitle {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.planes_microsites .second_block .info_blocks, .planes_microsites .third_block .info_blocks {
+		margin-top: 3rem;
+	}
+	.planes_microsites .fourth_block .products_block {
+		margin-top: 0rem;
+	}
+	.planes_microsites .second_block, .planes_microsites .third_block, .planes_microsites .fourth_block, .planes_microsites .fifth_block {
+		margin-top: 3.375rem;
+	}
+	.planes_microsites .third_block .info_blocks .info_block .info_block_text {
+		font-size: 18px;
+	}
+	.planes_microsites .fourth_block .products_block .product.featured, .planes_microsites .fourth_block .products_block .product {
+		margin-top: 50px;
+	}
+}
+@media only screen and (max-width: 500px){
+	.planes_microsites .header_planes {
+		padding: 40px 0 110px 0 !important;
+	}
+	.planes_microsites .first_block .text_block {
+		margin-top: -20px;
+	}
+	.planes_microsites .cta_button.cta_button_2, .planes_microsites .cta_button {
+		font-size: 16px !important;
+	}
+}
+/* END MICROSITE */
+
+/* EDICIÓN MICROSITE */
+
+.single-autoescuela .pum-theme-2834, 
+.single-autoescuela .pum-theme-tema-por-defecto{
+	background-color:rgba( 255, 255, 255, 0.95 );
+}
+.single-autoescuela .pum-container{
+	background:#fff;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding:55px 60px 60px 60px;
+	text-align: center;
+}
+.single-autoescuela .pum-container *{
+	text-align: center;
+}
+.single-autoescuela .pum-container .titulo{
+	color: #333;
+	font-family: "Gordita Medium";
+	font-size: 26px;
+	line-height: 34px;
+}
+.single-autoescuela .pum-container p{
+	font-family: "Gordita Regular";
+	font-size: 16px;
+	line-height: 22px;
+}
+.single-autoescuela .pum-container input{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: rgba(207,216,220,0.29);
+	border: 2px solid #37474F;
+	width:100%;
+	color: #333;
+	font-family: "Gordita Regular";
+	font-size: 12px;
+	line-height: 22px;
+}
+.single-autoescuela .pum-container input::placeholder{
+	color: #333 !important;
+	font-family: Roboto !important;
+	font-size: 15px !important;
+	line-height: 22px !important;
+}
+.single-autoescuela .pum-container input:active,
+.single-autoescuela .pum-container input:focus{
+	background-color: rgba(207,216,220,0.29);
+	border: 2px solid #37474F;
+	color: #333;
+	font-family: "Gordita Regular";
+	font-size: 12px;
+	line-height: 22px
+}
+.single-autoescuela .pum-container table tr:first-child td{
+	background:none;
+}
+.single-autoescuela .pum-container .lwa-username-input,
+.single-autoescuela .pum-container .lwa-password-input{
+	width:100%;
+	padding:0;
+}
+.single-autoescuela .pum-container .lwa-username-input input{
+	margin-bottom:3px;
+	text-align:left;
+}
+.single-autoescuela .pum-container .lwa-password-input input{
+	margin-bottom:0;
+	text-align:left;
+}
+.single-autoescuela .pum-container .lwa-submit-links td{
+	width:50%;	
+}
+.single-autoescuela .pum-container .lwa-submit-links label,
+.single-autoescuela .pum-container .lwa-submit-links a{
+	font-family: "Gordita Regular";
+	font-size: 13px;
+	line-height: 15px;
+}
+.single-autoescuela .pum-container .lwa-submit-button input{
+	background-color: #37474F;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color:#fff;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+.single-autoescuela .pum-container .lwa-submit-button input:hover{
+	background-color:#FF7300;
+}
+.single-autoescuela .pum-container .cta-planes{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color:#fff;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	font-family: "Gordita Regular";
+	font-size: 12px;
+	line-height: 22px;
+	background-color:#FF7300;
+	padding:15px 0;
+	display:block;
+}
+.single-autoescuela .pum-container .cta-planes:hover{
+	background-color:#37474F;
+	text-decoration:none;
+}
+.single-autoescuela .edit_form_container{
+	position:relative;
+	counter-reset: section;
+}
+.single-autoescuela .edit_form_container .numbered{
+	position:relative;
+}
+.single-autoescuela .edit_form_container .numbered::before{
+	counter-increment: section;
+	content: counter(section);
+	position:absolute;
+	top:-23px;
+	left:-23px;
+	background:#37474F;
+	color:#fff;
+	font-family:"Gordita Medium";
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	font-size:18px;
+	line-height:18px;
+	width:45px;
+	height:32px;
+	padding-top:13px;
+	text-align:center;
+}
+.single-autoescuela .edit_form_container button.guardar_cambios{
+	margin:0;
+	position:fixed;
+	right:0;
+	top:40%;
+	z-index:100;
+	color: #fff;
+	padding: 30px 30px 30px 95px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 0;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 0;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 0;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 0;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 0;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	background: url(/wp-content/themes/betheme-child/img/microsites/icono-diskette.png) #263238 no-repeat 30px 50% !important;
+}
+.single-autoescuela .edit_form_container button.guardar_cambios:hover {
+	background-color:#ff6600 !important;
+}
+.edit_form_container .titulo_edicion{
+	color: #263238;
+	font-family: "Gordita Regular";
+	font-size: 25px;
+	line-height: 33px;
+	margin-bottom:2rem;
+}
+.edit_form_container .titulo_edicion.numbered{
+	padding-left:4rem;
+}
+.edit_form_container .titulo_edicion.numbered::before{
+	left:0;
+	top:0;
+}
+.edit_form_container .titulo_edicion.anadidos{
+	background: url(img/microsites/icono-check.png) no-repeat 0 50%;
+	padding-left: 2rem;
+}
+.edit_form_container .titulo_edicion.nuevo{
+	background: url(img/microsites/icono-plus.png) no-repeat 0 50%;
+	padding-left: 2rem;
+}
+.edit_form_container .edit_block{
+	background-color: rgba(207,216,220,0.59);
+	border: 2px solid #37474F;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:1.25rem 2rem;
+	font-family: "Gordita Regular";
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+	display:inline-block;
+	margin:2rem 0;
+}
+.edit_form_container .edit_block .titulo{
+	font-family: "Gordita Regular" !important;
+	margin-bottom:0.5rem !important;
+	font-size: 18px !important;
+	line-height: 20px !important;
+}
+.edit_form_container .edit_block .instrucciones{
+	margin-bottom:1rem;
+	font-size:14px;
+}
+.edit_form_container .edit_block.imagenes_carrusel{
+	padding:1.25rem 5%;
+	width:90%;
+}
+.edit_form_container .edit_block .remove_current{
+	display:inline-block;
+	margin-top:0.5rem;
+}
+.edit_form_container .edit_block .remove_current input[type=checkbox]{
+	float:left;
+	margin-right:0;
+	margin-left:0;
+	width:10%;
+}
+.edit_form_container .edit_block .remove_current label{
+	font-size:14px;
+	font-weight:400;
+	float:left;
+	width:90%;
+}
+.edit_form_container .detalles_autoescuela input{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: rgba(207,216,220,0.29);
+	border: 2px solid #37474F;
+}
+.edit_form_container .header_microsite .edit_block.background_image{
+	position: absolute;
+	top: -2rem;
+	left: 145px;
+	max-width: 20rem;
+}
+.edit_form_container .header_microsite .edit_block input{
+	margin-bottom:0;
+}
+.edit_form_container .edit_block textarea{
+	width:100%;	
+}
+.edit_form_container .logo_principal{
+	margin-bottom:0 !important;
+}
+.edit_form_container .edit_block.titulo,
+.edit_form_container .edit_block.descripcion{
+	margin:2rem 0 !important;
+}
+.edit_form_container .gdrts-inner-wrapper{
+	margin-bottom:0 !important;
+}
+.edit_form_container .edit_block.color{
+	margin-right:1rem;
+}
+.edit_form_container .conoce_autoescuela .edit_block{
+	padding:1.25rem 5%;
+	width:90%;
+}
+.edit_form_container .edit_block.imagenes_carrusel ol{
+	margin-bottom:1rem;
+}
+.edit_form_container .cursos_genericos .titulo_2 .instrucciones{
+	font-family:"Gordita Regular";
+	font-size:14px;
+	line-height:15px;
+}
+.edit_form_container .cursos_genericos .cursos li input{
+	width:10%;
+	float:left;
+	margin-top:7px;
+}
+.edit_form_container .cursos_genericos .cursos li input[type=text]{
+	width:100%;
+}
+.edit_form_container .cursos_genericos .cursos li label{
+	width:85%;
+	float:left;
+}
+.edit_form_container .edit_block.cursos{
+	width:100%;
+}
+.edit_form_container .edit_block.cursos{
+	background:none;
+	border:none;
+}
+.edit_form_container .edit_block.cursos{
+	text-align:left;
+	padding:0;
+}
+.edit_form_container .edit_block.cursos .curso{
+	border-top:1px solid;
+	width:100%;
+}
+.edit_form_container .edit_block.cursos .curso .gutter{
+	padding:30px 80px;
+	overflow:auto;
+}
+.edit_form_container .edit_block.cursos .curso:nth-last-of-type(1){
+	border-bottom:1px solid;
+}
+.edit_form_container .edit_block.cursos .curso .the_input{
+	margin-bottom:20px;
+	font-family: "Gordita Medium";
+	font-size: 18px;
+	line-height: 22px;
+	padding-bottom:5px;
+}
+.edit_form_container .edit_block.cursos .curso .the_input.radios{
+	overflow:auto;
+}
+.edit_form_container .edit_block.cursos .curso .the_input.tipo{
+	display:inline-block;
+}
+.edit_form_container .edit_block.cursos .curso .the_input input,
+.edit_form_container .edit_block.cursos .curso .the_input select{
+	margin-bottom:0;
+}
+.edit_form_container .edit_block.cursos .curso .the_input:nth-last-of-type(1){
+	margin-bottom:0;
+}
+.edit_form_container .edit_block.cursos .curso .the_input:not(.not_full_width) input,
+.edit_form_container .edit_block.cursos .curso .the_input select{
+	width:100%;
+}
+.edit_form_container .edit_block.cursos .curso .the_input input[type=radio]{
+	margin-left:2rem;
+}
+.edit_form_container .edit_block.cursos .curso .the_input input[type=radio]:nth-of-type(1){
+	margin-left:0;
+}
+.edit_form_container .edit_block.cursos .curso .the_input.half_size_left{
+	width:49%;
+	float:left;
+	margin-right:1%;
+}
+.edit_form_container .edit_block.cursos .curso .the_input.half_size_right{
+	width:49%;
+	float:left;
+	margin-left:1%;
+}
+.edit_form_container .edit_block.cursos .curso .the_input .the_subinput{
+	float: left;
+	margin-right: 2rem;
+}
+@media only screen and (max-width: 960px){
+	.edit_microsite a{
+		display:block;
+		-webkit-border-top-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0;
+		-moz-border-radius-topleft: 0;
+		-moz-border-radius-bottomleft: 0;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+	.edit_microsite.editing{
+		display:none;
+	}
+	.single-autoescuela .edit_form_container button.guardar_cambios{
+		top:auto;
+		bottom:0;
+		left:0;
+		-webkit-border-top-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0;
+		-moz-border-radius-topleft: 0;
+		-moz-border-radius-bottomleft: 0;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+		width: 100%;
+		text-align: left;
+	}
+	.single-autoescuela .header_microsite{
+		padding:3rem 2rem 13.4375rem;
+	}
+	.edit_form_container .header_microsite .edit_block.background_image{
+		position:relative;
+		top:auto;
+		left:auto;
+	}
+	.edit_form_container .edit_block.cursos .curso .the_input .the_subinput{
+		float:none;
+	}
+}
+@media only screen and (max-width: 767px){
+	.single-autoescuela .edit_form_container .numbered::before{
+		top:0;
+		left:0;
+	}
+	.single-autoescuela .header_microsite .cabecera_contenido .texto_cabecera .titulo{
+		font-size:2rem;
+		line-height: 2rem;
+	}
+	.single-autoescuela .header_microsite .cabecera_contenido .texto_cabecera .descripcion{
+		font-size: 1.25rem;
+		line-height: 1.5rem;
+	}
+	.microsite_main_cta{
+		padding-left:0;
+		padding-right:0;
+		width:100%;
+	}
+	.microsite_sections .detalles_autoescuela .section_gutter{
+	}
+	.single-autoescuela .conoce_autoescuela .logo img{
+		margin-bottom:20px;
+	}
+	.single-autoescuela .conoce_autoescuela .titulo_descripcion{
+		font-size: 1.25rem;
+		line-height: 1.5rem;
+	}
+	.single-autoescuela .the_cta .textos .titulo_2{
+		font-size: 1.75rem;
+		line-height: 2rem;
+	}
+}
+@media only screen and (max-width: 500px){
+	.edit_form_container .edit_block.cursos .curso .the_input.half_size_left,
+	.edit_form_container .edit_block.cursos .curso .the_input.half_size_right{
+		width:100%;
+		margin-right:0;
+		float:none;
+	}
+	.single-autoescuela .header_microsite .cabecera_contenido .texto_cabecera .titulo{
+		font-size:1.5rem;
+		line-height: 1.5rem;
+	}
+	.microsite_main_cta {
+		font-size: 1.375rem;
+		line-height: 2rem;
+	}
+	.single-autoescuela .gdrts-rating-element {
+		width: 230px !important;
+	}
+	.single-autoescuela .gdrts-with-image.gdrts-image-star svg {
+		float: left;
+		width: 28px;
+		height: 30px;
+	}
+	.single-autoescuela .header_microsite .cabecera_contenido .valoraciones .val .titulo {
+		margin-right: .5rem;
+		font-size: 20px;
+	}
+	.microsite_sections .detalles_autoescuela .horarios_ubicacion {
+		padding-right: 0rem;
+	}
+}
+/* END EDICIÓN MICROSITE */
+
+/****** Style Star Rating Widget *****/
+.rating { 
+	border: none;
+	float: left;
+}
+.rating > input { display: none; }
+.rating > label:before { 
+	margin: 5px;
+	font-size: 1.25em;
+	font-family: FontAwesome;
+	display: inline-block;
+}
+.rating > .half:before { 
+	position: absolute;
+}
+.rating > label { 
+	color: #ddd; 
+	float: right; 
+}
+.rating svg path{
+	fill:#999;
+}
+/* VALORACIONES */
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label svg path, /* show gold star when clicked */
+.rating:not(:checked) > label:hover svg path, /* hover current star */
+.rating:not(:checked) > label:hover ~ label svg path { fill:#ff6600;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover svg path, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover svg path,
+.rating > label:hover ~ input:checked ~ label svg path, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label svg path { fill:#ff6600;  }
+
+.bloque_stars{
+	height:20px;
+	position:relative;
+}
+.bloque_stars .enabled_stars{
+	bottom:0;
+	left:0;
+	position:absolute;
+	right:0;
+	top:0;
+	width:0;
+	overflow:hidden;
+}
+.bloque_stars img,
+.bloque_stars .enabled_stars img{
+	display:block;
+	max-width:none !important;
+	height:100% !important;
+}
+section.valoraciones{
+	position:relative;
+}
+section.valoraciones .valoracion{
+	background:#F6F8F8;
+	margin-bottom:30px;
+	padding:20px 40px;
+}
+section.valoraciones .valoracion .header_valoraciones{
+	overflow:auto;
+}
+section.valoraciones .valoracion .header_valoraciones .nombre_fecha_valoracion{
+	float:left;
+}
+section.valoraciones .valoracion .header_valoraciones .nombre_fecha_valoracion .nombre{
+	font-family:"Exo2 SemiBold";
+}
+section.valoraciones .valoracion .header_valoraciones .valoracion_valoracion{
+	font-family:"Exo2 SemiBold";
+	float:right;
+}
+section.valoraciones .valoracion .header_valoraciones .valoracion_valoracion .numero_valoracion{
+	color:#ff6600;
+}
+section.valoraciones .valoracion .header_valoraciones .valoracion_valoracion .bloque_stars{
+	float:left;
+	margin-right: 10px;
+}
+section.valoraciones .valoracion .valoracion_me_gusta{
+	margin-top:15px;
+}
+section.valoraciones .valoracion .valoracion_me_gusta a{
+	color: #333;
+}
+section.valoraciones .valoracion .valoracion_me_gusta a:hover,
+section.valoraciones .valoracion .valoracion_me_gusta .me_gusta_disabled.voted{
+	color:#e85e02;
+	text-decoration:none;
+}
+section.valoraciones .valoracion .valoracion_me_gusta a:hover svg path,
+section.valoraciones .valoracion .valoracion_me_gusta .me_gusta_disabled.voted svg path{
+	fill:#e85e02 !important;
+}
+section.valoraciones .valoracion .valoracion_me_gusta a svg,
+section.valoraciones .valoracion .valoracion_me_gusta .me_gusta_disabled svg{
+	margin-right:10px;
+}
+#pum-42896{
+	background-color:rgba(0,0,0,0.6);
+}
+#pum-42896 .titulo_2{
+	margin-bottom:2rem;
+}
+#pum-42896 .form_title{
+	text-align:left;
+}
+#pum-42896 .rating{
+	float:none;
+	margin:0 auto;
+	width:190px;
+}
+#pum-42896 fieldset.rating label svg{
+	height:30px;
+	width:30px;
+	margin-left:10px;
+}
+#pum-42896 fieldset.rating label:last-child svg{
+	margin-left:0;
+}
+#pum-42896 .valoracion_seleccionada .numero{
+	color:#ff6600;
+}
+#pum-42896 textarea{
+	width:100%;
+	height:100px;
+}
+#pum-42896 .send_button{
+	width: 200px;
+	height: 50px;
+}
+.single-autoescuela .header_microsite .cabecera_contenido .valoraciones .val .bloque_stars{
+	height:30px;
+}
+.page-template-page-template-autoescuelas-ciudades .nota_autoescuela .bloque_stars,
+.page-template-page-template-cursos-ciudades .nota_autoescuela .bloque_stars,
+.page-template-template-archive-autoescuela .nota_autoescuela .bloque_stars,
+.bkat_search_results .nota_autoescuela .bloque_stars{
+	width:122px;
+	margin: 0 auto;
+}
+.bkat2019v .nota_autoescuela .bloque_stars{
+	width:122px;
+	float:right;
+}
+section.listado_cursos .nota_autoescuela .bloque_stars{
+	width:122px;
+}
+section.valoraciones .mas_valoraciones{
+	font-family:"Exo2 SemiBold";
+	float:right;
+	text-decoration:underline;
+	line-height:30px;
+	font-size:15px;
+}
+section.valoraciones .mas_valoraciones:hover{
+	text-decoration:none;
+}
+section.valoraciones .mas_valoraciones svg *{
+	fill:#f60 !important;
+}
+.flip_horizontal{
+	display:inline-block;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+section.valoraciones .mas_valoraciones .flip_horizontal{
+	margin-left:10px;
+	position:relative;
+	top:5px;
+}
+.boton_escribir_valoracion{
+	position:absolute;
+	right:0;
+	top:20px;
+	background:#FF6600;
+	border:1px solid #FF6600;
+	color:#fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:20px 40px;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+.boton_escribir_valoracion.primera{
+	position: static;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	float: none;
+	width: 250px;
+	text-align: center;
+	margin-bottom: 4rem;
+}
+.boton_escribir_valoracion:hover{
+	text-decoration:none;
+	background:#fff;
+	color:#FF6600;
+}
+.valoraciones .val .sin_valoraciones{
+	display:none;
+}
+.mensaje_valoracion{
+	font-family:"Exo2 SemiBold";
+	clear:both;
+	padding-top:5px;
+}
+.mensaje_valoracion .numero{
+	font-size:18px;
+	color:#F60;
+}
+.mensaje_valoracion .num_valoraciones{
+	font-family:"Exo2 Regular";
+}
+.mensaje_valoracion .num_valoraciones a{
+	text-decoration:underline;
+	color:#333;
+}
+.mensaje_valoracion .num_valoraciones a:hover{
+	text-decoration:none;
+}
+.mensaje_valoracion .sin_valoraciones{
+	font-family:"Exo2 Regular";
+}
+.message_placeholder *{
+	font-size:14px !important;
+	text-align:center;
+	color:#fff;
+}
+.cabecera_contenido .message_placeholder *{
+	text-align:left;
+}
+.cabecera_contenido .message_placeholder{
+	padding-left:135px;
+}
+.message_placeholder.dark *:not(.numero){
+	font-size:14px !important;
+	text-align:center;
+	color:#333;
+}
+.single-autoescuela .header_microsite .mensaje_valoracion .numero{
+	font-size:18px !important;
+	/*color:#fff;*/
+}
+.send_button[disabled="disabled"]{
+	cursor:not-allowed;
+}
+@media only screen and (max-width: 767px){
+	section.valoraciones .valoracion .header_valoraciones .nombre_fecha_valoracion{
+		float:none;
+		text-align:center;
+	}
+	section.valoraciones .valoracion .header_valoraciones .valoracion_valoracion{
+		float:none;
+		margin:0 auto 15px;
+		display:table;
+	}
+	.single-autoescuela .pum-container{
+		width:98% !important;
+	}
+	.rating > label::before {
+		display:none;
+	}
+	.boton_escribir_valoracion{
+		position: static;		
+		display: block;
+		text-align: center;
+		margin: 10px 0;
+	}
+}
+@media only screen and (max-width: 500px){
+	.cabecera_contenido .message_placeholder{
+		padding-left:111px;
+	}
+}
+/* FIN VALORACIONES */
+
+/* CSS versión 2020 */
+.new_2020 .header_microsite{
+	background:url('img/microsites/ImgCabecera.jpg');
+	position:relative;
+	padding-bottom:120px;
+}
+.new_2020 .header_microsite .overlay{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+}
+.new_2020 .header_microsite .contacto_cabecera{
+	margin-top:30px;
+}
+.new_2020 .header_microsite .contacto_cabecera .titulo{
+	font-family: "Gordita Medium";
+	font-size: 1.4375rem;
+	line-height: 1.875rem;
+}
+.new_2020 .header_microsite .contacto_cabecera .elemento{
+	font-family: "Gordita Regular";
+	overflow:auto;
+	margin-bottom:10px;
+	font-size:18px;
+}
+.new_2020 .header_microsite .contacto_cabecera .elemento .icono{
+	float:left;
+	background:#fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	width:40px;
+	height:40px;
+	margin-right:35px;
+	position:relative;
+}
+.new_2020 .header_microsite .contacto_cabecera .elemento .icono svg{
+	height:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);		
+}
+.new_2020 .header_microsite .contacto_cabecera .elemento p{
+	margin-bottom:0;
+	padding-top:7px;
+}
+.new_2020 .microsite_sections{
+	margin-top:0;
+	padding-top:100px;
+}
+.single-autoescuela .new_2020 .titulo_2{
+	font-size:35px;
+	margin-bottom:60px;
+}
+.new_2020 .microsite_sections .cursos_genericos{
+	display:block;
+}
+.new_2020 .microsite_sections .cursos_genericos ul.cursos{
+	display:flex;
+	flex-wrap: wrap;
+	margin-bottom:100px;
+}
+.new_2020 .microsite_sections .cursos_genericos ul.cursos li{
+	float:left;
+	width:31%;
+	margin:0 1% 18px;
+	background:#F6F8F7;
+	position:relative;
+}
+.new_2020 .microsite_sections .cursos_genericos ul.cursos li a{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+.new_2020 .microsite_sections .cursos_genericos ul.cursos li .gutter{
+	padding:18px 0 18px 70px;
+	overflow:auto;
+}
+.new_2020 .microsite_sections .cursos_genericos ul.cursos li .icon{
+	width: 66px;
+	height:66px;
+	border: 2px solid;
+	float: left;
+	margin-right: 5%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border-sizing: border-box;
+	position: relative;
+}
+.new_2020 .microsite_sections .cursos_genericos ul.cursos li .icon svg{
+	max-width: 2rem;
+	max-height: 2rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.new_2020 .microsite_sections .cursos_genericos ul.cursos li.flotas .icon svg .st0{
+	fill:none;
+}
+.new_2020 .microsite_sections .cursos_genericos ul.cursos li .texto{
+	float: left;
+	width: 55%;
+}
+.new_2020 .microsite_sections .cursos_genericos ul.cursos li .texto .titulo{
+	color: #333;
+	font-family: "Gordita Regular";
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 0;
+}
+.new_2020 .microsite_sections .conoce_autoescuela .texto_cabecera .descripcion,
+.new_2020 .microsite_sections .conoce_autoescuela .titulo_descripcion{
+	font-family: "Gordita Medium";
+	font-size:23px;
+}
+.new_2020 .microsite_sections .conoce_autoescuela .texto_descripcion{
+	font-size:23px;
+	line-height:34px;
+}
+.new_2020 .microsite_sections .detalles_autoescuela .titulo{
+	font-size:23px;
+	margin-bottom:23px;
+}
+.new_2020 .microsite_sections .detalles_autoescuela .elemento{
+	font-family: "Gordita Regular";
+	display:flex;
+}
+.new_2020 .microsite_sections .detalles_autoescuela .elemento.tlf_fijo p,
+.new_2020 .microsite_sections .detalles_autoescuela .elemento.mail p{
+	margin:0;
+	margin-top:6px;	
+}
+.new_2020 .microsite_sections .detalles_autoescuela .elemento .texto{
+	padding-top:4px;
+}
+.new_2020 .microsite_sections .detalles_autoescuela div{
+	margin:0;
+}
+.new_2020 .microsite_sections .detalles_autoescuela .telefonos .telefonos_container{
+	padding:0;
+}
+.new_2020 .microsite_sections .detalles_autoescuela .telefonos .telefonos_container .telefonos{
+	margin:0;
+	padding:0;
+}
+.new_2020 .microsite_sections .detalles_autoescuela .horarios_ubicacion{
+	padding-right:50px;
+}
+.new_2020 .microsite_sections .detalles_autoescuela .horarios_ubicacion:nth-of-type(2){
+	padding:0 50px;
+}
+.new_2020 .microsite_sections .detalles_autoescuela .telefonos{
+	padding-left:50px;
+}
+.new_2020 .microsite_sections .detalles_autoescuela .telefonos .telefonos_container ul li{
+	font-family: "Gordita Regular";
+}
+.new_2020 .microsite_sections .detalles_autoescuela .elemento .icono{
+	float:left;
+	margin-right: 23px;
+}
+.new_2020 .microsite_sections .detalles_autoescuela .elemento.ubicacion .icono svg{
+	width:24px;
+	height:32px;
+}
+.new_2020 .microsite_sections .detalles_autoescuela .telefonos .icono svg{
+	width:28px;
+	height:28px;
+}
+.sin_cursos{
+	background:#F6F8F7;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding:35px 0;
+	margin:0 auto 85px;
+	max-width:400px;
+	font-size:18px;
+}
+.sin_cursos .icon{
+	width: 66px;
+	height: 66px;
+	border: 2px solid;
+	float: left;
+	margin-right: 20px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border-sizing: border-box;
+	position: relative;
+}
+.sin_cursos .icon svg{
+	height:20px;
+	width:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.single-autoescuela .edit_form_container .new_2020 .header_microsite.new{
+	background:url('img/microsites/ImgCabecera.jpg');
+}
+.edit_form_container .new_2020 .logo_principal img{
+	position:relative;
+}
+.edit_form_container .new_2020 h1{
+	position:relative;
+}
+.edit_form_container .new_2020 .header_microsite{
+	padding-bottom:23px;
+}
+.edit_form_container .cursos_genericos .column{
+	width:100%;
+}
+@media only screen and (max-width: 960px){
+	.single-autoescuela .new_2020 .header_microsite .informacion-centro-cabecera .logo_principal img{
+		display:block;
+		margin:0 auto;
+	}
+	.new_2020 .microsite_sections{
+		padding-top:65px;
+	}
+	.sin_cursos{
+		margin:0 auto 65px;
+	}
+	.single-autoescuela .titulo_2{
+		line-height:36px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.new_2020 .header_microsite .contacto_cabecera .elemento{
+		font-size:16px;
+		overflow:hidden;
+	}
+	.new_2020 .header_microsite .contacto_cabecera{
+		margin-bottom:30px;
+	}
+	.new_2020 .header_microsite .contacto_cabecera .elemento .icono{
+		margin-right:17px;
+	}
+	.new_2020 .microsite_sections .cursos_genericos ul.cursos{
+		display:block;
+	}
+	.new_2020 .microsite_sections .cursos_genericos ul.cursos li{
+		float:none;
+		width:98%;
+	}
+	.new_2020 .microsite_sections .conoce_autoescuela .texto_cabecera .descripcion,
+	.new_2020 .microsite_sections .conoce_autoescuela .titulo_descripcion{
+		font-size:16px;
+		line-height: 25px;
+		padding:0 20px;
+	}
+	.new_2020 .microsite_sections .conoce_autoescuela .texto_descripcion{
+		font-size:16px;
+		line-height: 25px;
+		padding:0 20px;
+	}
+	.single-autoescuela .new_2020 .titulo_2{
+		font-size:25px;
+		margin-bottom:30px;
+	}
+	.new_2020 .microsite_sections .cursos_genericos ul.cursos{
+		margin-bottom:50px;
+	}
+	.new_2020 .microsite_sections .detalles_autoescuela .section_gutter{
+		padding:30px 40px;
+	}
+	.new_2020 .microsite_sections .detalles_autoescuela .section_gutter .column{
+		margin:0 0 20px 0 !important;
+		padding:0 !important;
+	}
+}

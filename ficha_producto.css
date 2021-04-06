@@ -1,0 +1,423 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* FICHA CURSO */
+.intro-ficha h1.elementor-heading-title {
+    font-family: "Montserrat Medium" !important;
+    font-size: 30px;
+    line-height: 40px !important;
+}
+.intro-ficha hr {
+    background: #882787 !important;
+    border: 0;
+    height: 3px;
+    width: 75px;
+    margin-top: 30px!important;
+    margin-bottom: 15px !important;
+}
+.intro-ficha .elementor-element-populated {
+    box-shadow: 0 2px 40px 0 rgba(0,0,0,.2);
+}
+.columna-intro .titulo {
+    width: 65% !important;
+	margin-bottom: 5px !important;
+}
+.columna-intro .duracion {
+    width: 35% !important;
+}
+.intro-ficha .caja-duracion {
+    border: 1px solid #B5B5B5;
+    padding: 25px 20px 15px 20px;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    float: right;
+}
+.intro-ficha .caja-duracion .title {
+    font-family: "Montserrat Medium";
+    font-size: 20px;
+    line-height: 24px;
+    color: #383838;
+    margin-bottom: 15px;
+	margin-top: 0;
+}
+.intro-ficha .caja-duracion .precio {
+    font-family: "Montserrat Bold";
+    font-size: 40px;
+    color: #882787;
+    margin: 5px 0 0 0;
+}
+.intro-ficha .caja-duracion hr {
+    width: 100%;
+    border: .5px solid #B5B5B5;
+	background: none !important;
+    height: 0;
+    margin: 0 !important;
+}
+.intro-ficha .texto {
+    font-family: "Montserrat Regular";
+    font-size: 16px;
+    line-height: 24px;
+    color: #383838;
+}
+.intro-ficha a.matricula {
+    background: #882787;
+    border: 1px solid #882787 !important;
+    border-radius: 25px;
+    width: max-content;
+    padding: 12px 25px;
+    display: block;
+    color: #fff;
+    font-family: "Montserrat Bold";
+    font-size: 15px;
+	letter-spacing: 2px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.intro-ficha a:hover.matricula {
+    background: #fff;
+    color: #882787;
+}
+.intro-ficha .cta-izq {
+    float: left;
+}
+.intro-ficha .cta-der {
+    float: right;
+	position: relative;
+    top: 15px;
+}
+.intro-ficha a.info {
+    font-family: "Montserrat Bold";
+    font-size: 15px;
+    line-height: 18px;
+    color: #882787;
+	letter-spacing: 2px;
+	border-bottom: 1px solid #fff;
+}
+.intro-ficha a:hover.info {
+	border-bottom: 1px solid #882787;
+}
+.intro-ficha .fa-chevron-right:before {
+    content: "\f054";
+    font-size: 12px;
+}
+.precios-ficha .caja-form {
+    background: rgba(136,39,135, 0.7);
+    padding: 30px 50px 25px 50px;
+    margin-top: 0px;
+}
+.precios-ficha .comprar {
+    margin-left: 40px;
+	background: #464E5D;
+	padding: 50px;
+}
+.precios-ficha .financiar {
+	width: 31% !important;
+	background: #fff;
+    margin-left: 40px;
+	padding: 50px;
+	box-shadow: 0 2px 40px 0 rgba(0,0,0,.2);
+}
+.precios-ficha .comprar .title, .precios-ficha .financiar .title {
+    font-family: "Montserrat Medium";
+    font-size: 18px;
+    line-height: 22px;
+	margin-top: 0;
+}
+.precios-ficha .financiar .title span {
+    color: #882787;
+	display: block;
+}
+.precios-ficha .comprar .price, .precios-ficha .financiar .price {
+    font-family: "Montserrat Bold";
+    font-size: 55px;
+    line-height: 67px;
+}
+.precios-ficha .comprar .tasas, .precios-ficha .financiar .tasas {
+    font-family: "Montserrat Bold";
+    font-size: 14px;
+    line-height: 17px;
+    top: -55px;
+    position: relative;
+}
+.precios-ficha .comprar .text, .precios-ficha .financiar .text {
+    font-family: "Montserrat Regular";
+    font-size: 16px;
+    line-height: 24px;
+	margin-top: -15px;
+	padding: 0 10px;
+}
+.precios-ficha a.cta-comprar {
+    background: #882787;
+    border: 1px solid #882787 !important;
+    border-radius: 25px;
+	margin: 0 auto;
+	margin-top: 35px !important;
+	margin-bottom: -10px;
+    width: max-content;
+    padding: 12px 25px;
+    display: block;
+    color: #fff;
+    font-family: "Montserrat Bold";
+    font-size: 15px;
+	letter-spacing: 2px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.precios-ficha a:hover.cta-comprar {
+    background: #fff;
+    color: #882787;
+    border: 1px solid #464E5D !important;
+}
+.precios-ficha .financiar a:hover.cta-comprar {
+    background: #fff;
+    color: #882787;
+    border: 1px solid #882787 !important;
+}
+.precios-ficha .recomendado {
+    position: absolute;
+    background: #F2F2F2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+	color: #882787;
+    font-family: "Montserrat Regular";
+    font-size: 16px;
+    line-height: 14px;
+	right: -50px;
+    top: -95px;
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+}
+.precios-ficha .fa-check:before {
+    content: "\f00c";
+    font-size: 14px;
+    padding-right: 5px;
+}
+.ul-ficha-curso {
+    font-family: "Montserrat Regular" !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #383838 !important;
+    font-weight: 100;
+}
+.postid-1826 .elementor-column-wrap {
+    background-position-x: -90px !important;
+}
+.margen-info {
+    padding-left: 17px;
+}
+.porque-estudiar.otro-template.info-curso .razones .elementor-text-editor ul {
+    font-family: "Montserrat Bold";
+}
+.porque-estudiar.info-curso .razones .elementor-heading-title {
+    font-size: 22px;
+    line-height: 26px;
+	font-family: "Montserrat Bold";
+}
+.porque-estudiar.otro-template.info-curso .razones .elementor-text-editor ul li::before {
+    top: -1px;
+}
+.caja-descarga {
+    display: inline-block;
+    margin-right: 100px;
+}
+.caja-descarga ul {
+    list-style: none!important;
+    padding-left: 2px;
+    font-family: "Montserrat Regular";
+    font-size: 16px;
+    line-height: 24px;
+    color: #383838;
+}
+.caja-descarga ul li::before {
+    content: "\203A";
+    color: #882787;
+	top: -1px;
+    font-weight: 700;
+    display: inline-block;
+    width: 15px;
+    font-size: 20px !important;
+    position: relative;
+}
+a.cta-descargar {
+    background: #882787;
+    border: 1px solid #882787 !important;
+    border-radius: 25px;
+	margin-top: 15px !important;
+    width: max-content;
+    padding: 12px 25px;
+    display: block;
+    color: #fff;
+    font-family: "Montserrat Bold";
+    font-size: 15px;
+	letter-spacing: 2px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+a:hover.cta-descargar {
+    background: #fff;
+    color: #882787;
+}
+
+/* Sequra */
+div.sequra{
+	border:none;
+	margin-bottom:10px;
+	text-align: center;
+	padding: 0;
+	margin-bottom: 0;
+}
+div.sequra div{
+	margin:0 !important;
+}
+div.sequra .titulo{
+	padding: 1rem 25px;
+	text-align: center;
+	padding: 0;
+}
+div.sequra .titulo img{
+	margin: 0;
+    margin-bottom: 0px;
+	height: 16px !important;
+	margin-bottom: 0.5rem;
+}
+div.sequra .detalles .bloque{
+	float: left;
+	width: 27.3%;
+	height: 35px;
+}
+div.sequra .detalles .bloque.uno{
+	padding: 0;
+    padding-left: 0px;
+	font-size: 11px;
+	font-family: 'Montserrat Regular';
+	line-height: 14px;
+	background: #E8E8E9;
+	border: 1px solid #ACADB4;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	padding-left: 4%;
+	width: 29% !important;
+}
+div.sequra .detalles .bloque.uno .instalment_total-js{
+	font-family:"Montserrat Medium";
+}
+div.sequra .detalles .bloque.dos{
+	background:#333;
+	padding:7.5px 0;
+	width: 36.4%;
+	overflow:hidden;
+	position:relative;
+}
+div.sequra .detalles #sequra_partpayment_teaser .bloque.dos select{
+	width:100% !important;
+	background:#333;
+	color:#fff !important;
+	font-size:1rem;
+	border:none;
+	text-align:center;
+	position: relative;
+	right: -17px;
+	padding-right: 27px;
+}
+div.sequra .detalles #sequra_partpayment_teaser .bloque.dos select{
+	width:100% !important;
+	background:#333;
+	color:#fff !important;
+	font-size:1rem;
+	border:none;
+	text-align:center;
+	position: relative;
+	right: -17px;
+	padding-right: 27px;
+}
+div.sequra .detalles #sequra_partpayment_teaser .bloque.dos select:hover{
+	cursor:pointer;
+}
+div.sequra .detalles #sequra_partpayment_teaser .bloque.dos select option{
+	font-size:1rem !important;
+	color:#000 !important;
+	background:#fff;
+}
+div.sequra .detalles .bloque.dos::after{
+	content:'';
+	background:url(img/arrow_down.jpg) no-repeat 0 0;
+	position:absolute;
+	width:9px;
+	height:11px;
+	top:50%;
+	transform:translateY(-50%);
+	left:90%;
+
+}
+div.sequra .detalles .bloque.tres{
+	padding: 0;
+    padding-right: 0px;
+	line-height: 14px;
+	background: #E8E8E9;
+	border: 1px solid #ACADB4;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-bottomright: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	padding-right: 4%;
+	width: 29% !important;
+	font-family:"Montserrat Regular";
+}
+div.sequra .detalles .bloque.tres.version2{
+	padding: 10px 0 0 0;
+	position:relative;
+	width:31%;
+}
+div.sequra .detalles .bloque.tres.version2 .sequra_more_info{
+	position:absolute;
+	right:0;
+	top:5px;
+}
+div.sequra .detalles #sequra_partpayment_teaser .bloque.tres.version2 .down_payment_total-js{
+	font-size:150%;
+}
+div.sequra .detalles #sequra_partpayment_teaser .bloque.tres.version2 .texto_ahora{
+	float:left;
+	padding-left:10px;
+}
+div.sequra #sequra_teaser_wrapper{
+	padding:0;
+}
+div.sequra #sequra_teaser_wrapper+fieldset{
+	display:none;
+}
+div.sequra #sequra_partpayment_teaser{
+	width: 100%;
+	max-width: 100%;
+}
+div.sequra #sequra_partpayment_teaser fieldset,
+div.sequra #sequra_partpayment_teaser li{
+	border:none !important;
+}
+div.sequra #sequra_partpayment_teaser fieldset, div.sequra #sequra_partpayment_teaser li {
+    border: none !important;
+}
+div.sequra .detalles .bloque.dos::after {
+    content: '';
+    background: url(img/arrow_down.jpg) no-repeat 0 0;
+    position: absolute;
+    width: 9px;
+    height: 11px;
+    top: 50%;
+    transform: translateY(-50%);
+	left:85%;
+}
+.financiar .woocommerce-Price-amount.amount{
+	display:none;
+}
+/* Fin Sequra */

@@ -1,0 +1,1784 @@
+/* Progress bar */
+.steps_container{
+	overflow:visible;
+	margin-bottom:43px;
+}
+.steps_container ul{
+	padding-left:0;
+}
+ul.steps {
+	align-content: center;
+	align-items: center;
+	counter-reset: stepCount;
+	display: flex;
+	height:60px;
+	justify-content: space-around;
+	margin: 0 auto;
+	width: 70%;
+}
+li.step {
+	background: #e85e02;
+	color: white;
+	content: '';
+	display: flex;
+	flex-grow: 1;
+	height: .3em;
+	line-height: 1em;
+	margin: 0;
+	position: relative;
+	text-align: right;
+}
+li.step:nth-of-type(1)::before{
+	background-image:url(img/steps-carrito.png);
+}
+li.step:nth-of-type(2)::before{
+	background-image:url(img/steps-facturacion.png);
+}
+li.step:nth-of-type(3)::before{
+	background-image:url(img/steps-finalizacion.png);
+}
+li.step::before {
+	background-color:#e85e02;
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	border-radius: 50%;
+	content: '';
+	font-family:"AvenirLTStd Black";
+	font-size:30px;
+	height: 50px;
+	left: -25px;
+	line-height: 55px;
+	position: absolute;
+	text-align: center;
+	top: -25px;
+	width: 50px;
+}
+li.step.active {
+	border:#ccc;
+	background-color: #ccc;
+}
+li.step.active ~ li.step {
+	background-color: #ccc;
+}
+li.step.active ~ li.step::before{
+	color:#ccc;
+	background-color:#ccc;
+}
+li.step:last-child {
+	flex-basis: 0;
+	flex-grow: 0;
+	flex-shrink: 1;
+	/* Shorthand: flex: 0 1 0; */
+}
+li.step.active::before {
+	background-color:#e85e02;
+}
+
+ul.steps_titles{
+	list-style:none;
+	position:relative;
+	justify-content: space-between;
+	margin-left:0;
+	padding:0 50px;
+	height:40px;
+}
+ul.steps_titles li.step_text{
+	font-family:"Exo 2";
+	font-weight:700;
+	color:#ccc;
+	font-size:16px;
+	line-height:18px;
+	position:absolute;
+	transform:translateX(-50%);
+}
+ul.steps_titles li.step_text.active{
+	color:#000;
+}
+/* Fin progress bar */
+#campo_id_amp{
+	display:none;
+}
+@media (min-width: 767px) {
+	.show_for_mobile{
+		display:none;
+	}
+}
+/* CABECERA */
+
+#menu-menu_principal li:hover ul.sub-menu{
+	display:block !important;
+}
+
+/*header #Top_bar a.responsive-menu-toggle {
+    position: absolute;
+    right: 150px !important;
+    top: 50% !important;
+	transform:translateY(-50%);
+    margin-top: 0;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    border-radius: 0;
+    z-index: 200;
+}*/
+
+.responsive-menu-toggle{
+	position:relative;
+}
+.responsive-menu-toggle .capa{
+	content:'';
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+#Top_bar .container{
+	height:80px;
+}
+#Top_bar .column.one{
+	position:relative;
+	margin:0 !important;
+}
+#Top_bar .column.one .top_bar_right{
+	position:absolute;
+	top:0;
+	right:0;
+}
+button.hamburger{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	border:none;
+	background-image:none;
+	box-shadow:none;
+}
+button.hamburger:hover::after{
+	width:0 !important;
+}
+
+button.hamburger .hamburger-inner,
+button.hamburger .hamburger-inner::before,
+button.hamburger .hamburger-inner::after{
+	background-color: #e85e02;
+}
+
+button.cursos_submenu{
+	height:100%;
+	margin:0;
+	position:absolute;
+	right:67px;
+	top:0;
+	bottom:0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.single-product .content-grid-product .MainBoxProductP {
+    max-height: 1200px !important;
+}
+button.cursos_submenu i{
+	display:none;
+}
+button.cursos_submenu i.active{
+	display:inline !important;
+}
+
+@media only screen and (min-width: 1240px){
+	.header_placeholder.active{
+		height:80px !important;
+	}
+}
+
+@media only screen and (max-width: 1240px){
+	button.hamburger,
+	button.cursos_submenu{
+		display:block !important;
+	}
+	#Header #Top_bar .logo, .single-product #Top_bar .logo {
+		margin-right:0 !important;
+		margin-left:80px !important;
+	}
+}
+@media only screen and (max-width: 960px){
+	button.cursos_submenu{
+		right:71px;
+	}
+}
+@media only screen and (max-width: 768px){
+	button.cursos_submenu{
+		right:76px;
+	}
+}
+
+.menu_movil{
+	max-height:0;
+	overflow:hidden;
+	-webkit-transition: max-height 0.5s ease-in-out;
+	-moz-transition: max-height 0.5s ease-in-out;
+	-ms-transition: max-height 0.5s ease-in-out;
+	-o-transition: max-height 0.5s ease-in-out;
+	transition: max-height 0.5s ease-in-out;
+	width:100%;
+}
+.menu_movil.active{
+	max-height:1000px;
+}
+.menu_movil ul li a{
+	display: block;
+	border-bottom: 1px solid #e85e02;
+	padding: 15px 40px;
+	font-size: 1.25rem;
+}
+.menu_movil ul li ul li a{
+	padding-left:60px;
+}
+
+.menu_movil ul li .login-icon .login{
+	visibility:visible;
+}
+
+/* Cabecera linea 900/WhatsApp */
+@media (max-width: 767px){
+	/*Para evitar que la barra en google chrome se reduzca*/
+	/*html{
+		overflow: hidden;
+	}*/
+	/*Fin para evitar que la barra en google chrome se reduzca*/
+	body{
+		/*padding-top: 100px !important;*/
+		/*Para evitar que la barra en google chrome se reduzca*/
+		/*height:100%;
+		position:fixed;*/
+		/* prevent overscroll bounce*/
+		/*overflow-y:scroll;
+		-webkit-overflow-scrolling: touch;*/
+		/* iOS velocity scrolling */
+		/*Fin para evitar que la barra en google chrome se reduzca*/
+	}
+	/*body.page-id-8657,*/
+	/*body.page-id-8666,
+	body.page-id-8663,
+	body.page-id-33609,
+	body.page-id-33619,
+	body.page-id-33583,
+	body.page-id-45236,
+	body.page-id-885,
+	body.microsite,
+	body.not_linea_900{
+		padding-top: 0 !important;
+	}*/
+	.cabecera_linea_900{
+		display:flex;
+		font-family: Gordita Medium;
+		font-size:14px;
+		height:33px;
+		background:#e85e02;
+		align-items: center;
+		justify-content: center;
+		border-bottom:1px solid #fff;
+		position:fixed;
+		top:0;
+		left:0;
+		right:0;
+		z-index:10;
+	}
+	body.admin-bar .cabecera_linea_900{
+		top:46px;
+	}
+	.cabecera_linea_900 a{
+		color:#fff;
+	}
+	.cabecera_linea_900 a:hover{
+		color:#fff;
+	}
+	.cabecera_linea_900 .tlf{
+		padding-right:20px;
+		border-right:1px solid #fff;
+		margin-right:20px;
+	}
+	.cabecera_linea_900 .whatsapp svg{
+		height:17px;
+		float:left;
+		margin-right:10px;
+	}
+}
+/* Fin cabecera linea 900/WhatsApp */
+
+
+/* BOTONES EXTRA HOME */
+
+.botones_extra{
+	margin-top:2.8125rem;
+}
+.botones_extra h2{
+	margin-bottom:3.5rem;
+}
+.botones_extra a{
+	background:#fff;
+	display:block;
+	overflow:auto;
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(221,221,221,1);
+	-moz-box-shadow: 0px 0px 30px 0px rgba(221,221,221,1);
+	box-shadow: 0px 0px 30px 0px rgba(221,221,221,1);
+	padding:1.875rem 1.5625rem;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+.botones_extra a:hover{
+	background:#ff6600;
+	text-decoration:none;
+}
+.botones_extra a:hover p,
+.botones_extra a:hover span{
+	color:#fff !important;
+}
+.botones_extra a p{
+	font-family:"Gordita Regular";
+	margin:0;
+	font-size:1rem;
+	white-space:nowrap;
+}
+.botones_extra a p.size-2{
+	font-size:0.75rem;
+}
+.botones_extra a p.titulo_bloque{
+	font-family:"Gordita Medium";
+	margin-bottom:5px;
+	height:40px;
+	margin-bottom:0;
+	line-height: 20px;
+}
+.botones_extra a p.titulo_bloque .fecha{
+	font-family: "Gordita Regular";
+	display: block;
+	clear: both;
+	color: #e85e02;
+	font-size: 13px;
+}
+.botones_extra a
+.botones_extra a p.provincia{
+	font-family:"Gordita Medium";
+}
+.botones_extra a .icon{
+	width: 10%;
+	float: left;
+	margin-top: 3px;
+}
+@media all and (-ms-high-contrast:none) {
+.botones_extra a .icon{
+	width: 10%;
+	float: left;
+	margin-top: 3px;
+	height: 20px;
+}
+}
+.botones_extra a svg{
+	max-width:1rem;
+	color: #e85e02;
+}
+.botones_extra a .content{
+	float:left;
+	width:90%;
+}
+.botones_extra a:hover svg{
+	color:#fff;
+}
+.botones_extra a .titulo_curso_precio{
+	color:#e85e02;
+}
+
+/* STYLES GOOGLE MAPS!! */
+
+.acf-map {
+	width: 100%;
+	height: 468px;
+	border: #ccc solid 1px;
+	margin: 20px 0;
+}
+.acf-map.listado{
+	margin-top:0;
+	height:auto;
+}
+.acf-map.listado:after{
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+
+/* fixes potential theme css conflict */
+.acf-map img {
+   max-width: inherit !important;
+}
+
+/* FIN STYLES GOOGLE MAPS!! */
+
+header #Top_bar{
+	position:static;
+}
+.filtro.home {
+	background-position:50% 100%;
+}
+.filtro.home .form_container{
+	width:39.2%;
+	background:#E85E02;
+	padding:4.375rem 5.4%;
+}
+.filtro.home .titulo_form{
+	color: #fff;
+	font-family: 'Exo 2';
+	font-weight: 900;
+	font-size:2.6rem;
+	line-height: 2.4rem;
+}
+.filtro.home p{
+	color:#fff;
+	line-height:1rem;
+}
+.filtro.home form{
+	margin-top:3rem;
+}
+.filtro.home form .elemento{
+	width:49%;
+	margin-bottom: 0.5rem;
+}
+.filtro.home form #pac-input{
+	margin-bottom:0;
+	background-image: url(img/pin.jpg);
+	background-repeat: no-repeat;
+	background-position: 0.75rem 50%;
+}
+.pac-logo::after {
+	/*background-image:none !important;*/
+}
+.filtro.home form .elemento:nth-of-type(odd){
+	float:left;
+}
+.filtro.home form .elemento:nth-of-type(even){
+	float:right;
+}
+.filtro.home form .elemento:nth-of-type(3n){
+	clear:both;
+}
+.buscador_principal .ui-state-default{
+	background:#efefef;
+	font-size:1rem;
+	color:#333333;
+	border-bottom-right-radius:0;
+	border-bottom-left-radius:0;
+	border-top-right-radius:0;
+	border-top-left-radius:0;
+	border:none;
+}
+.buscador_principal .elemento.fecha.ui-state-default{
+	background:none;
+}
+.filtro.home form .elemento input{
+	padding:0.6em 2.1em 0.45em 2.5rem;
+	background:#efefef;
+	font-size:1rem;
+	color:#333333;
+	width:100%;
+}
+.filtro.home form .elemento span.ui-selectmenu-button{
+	width:100% !important;
+	height:42.2333px !important;
+}
+.elemento.fecha input{
+	height:41.2px !important;
+}
+@-moz-document url-prefix() {
+.elemento.fecha input{
+	height:41.6px !important;
+}
+}
+.ui-selectmenu-button span.ui-selectmenu-text{
+	padding:0.6em 2.1em 0.6em 2.5rem !important;
+}
+.filtro.home form .elemento input#amount{
+	margin-bottom:0;
+}
+.filtro.home form .button{
+	width:100%;
+	background:#fff;
+	color:#333333;
+	font-size:1rem;
+	border-radius:0;
+}
+.filtro.home form .button:active,
+.filtro.home form .button:focus{
+	position:relative;
+	top:1px;
+	left:1px;
+}
+
+.elemento.precio,
+.elemento.fecha{
+	position:relative;
+}
+.elemento.fecha #datepicker,
+.elemento.fecha #datepicker_end{
+	margin-bottom:0;
+}
+
+.elemento.precio .ui-icon-plus,
+.elemento.fecha .ui-icon-plus{
+	position:absolute;
+	right:1rem;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.elemento.precio .slider_container{
+	position:absolute;
+	padding:1rem;
+	width:100%;
+	background:#efefef;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	z-index:10;
+}
+.elemento.precio .ui-slider-handle{
+	background:#FABB6E;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	top:-3px;
+}
+.elemento.precio .ui-slider-handle.ui-state-focus{
+	background:#e85e02;
+}
+.ui-selectmenu-text,
+#amount,
+#datepicker{
+	background-image: url(img/courses-at.png);
+	background-repeat:no-repeat;
+	background-position: 1rem 50%;
+}
+#datepicker_end{
+	background-image:url(img/pin.jpg);
+	background-repeat:no-repeat;
+	background-position: 0.8rem 50%;
+}
+#datepicker[placeholder="Fecha de inicio"],
+#datepicker_end[placeholder="Fecha de fin"]{
+	color:#333 !important;
+	font-size:1rem !important;
+	opacity:1;
+}
+#datepicker,
+#datepicker_end{
+	background-image:url(img/calendar.jpg);
+}
+.woocommerce-content .zona_ubicacion{
+	width: 49%;
+	float: left;
+}
+.woocommerce-content .zona_cursos{
+	width:50%;
+	float:right;
+}
+.woocommerce .woocommerce-content .zona_cursos ul.products{
+	margin-left:0;
+	margin-right:0;
+}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product{
+	float:none;
+	margin:0 !important;
+	width:100% !important;
+}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc,
+.woocommerce-content .zona_cursos ul.products li.product .desc{
+	/*height:auto;
+	display:block;*/
+}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc,
+.woocommerce-content .zona_cursos ul.products li.product .desc,
+.zona_cursos ul.products li.product .desc{
+	position:relative;
+	display:flex;
+	height:auto;
+}
+.post-type-archive-autoescuela .woocommerce-content .zona_cursos ul.products li.product .desc,
+.page-template-template-archive-autoescuela .woocommerce-content .zona_cursos ul.products li.product .desc,
+.zona_cursos ul.products li.product .desc{
+	align-items:center;
+	/*height:175px;*/
+	height:auto;
+	display:flex;
+	flex-direction: row;
+}
+.post-type-archive-autoescuela .woocommerce-content .zona_cursos ul.products li.product .desc img,
+.page-template-template-archive-autoescuela .woocommerce-content .zona_cursos ul.products li.product .desc img,
+.zona_cursos ul.products li.product .desc img{
+	align-self:inherit;
+}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc.fuera_de_fecha{
+	padding-bottom:55px !important;
+}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc .fuera_de_fecha_banner{
+	background:#ff4e02;
+	color:#fff;
+	text-align:center;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	font-family:'Gordita Regular';
+	font-size:1rem;
+	padding: 5px 0;
+}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc .fuera_de_fecha_banner span,
+.woocommerce-content .zona_cursos ul.products li.product .desc .fuera_de_fecha_banner span{
+	font-family:'Gordita Medium';
+}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc img,
+.woocommerce-content .zona_cursos ul.products li.product .desc img{
+	width:auto;
+	float:left;
+	/*align-self:flex-start;*/
+}
+.woocommerce-content .zona_cursos ul.products li.product .desc .img img{
+	float:none;
+}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc .texto,
+.woocommerce-content .zona_cursos ul.products li.product .desc .texto{
+	float:left;
+	min-width:0;
+	margin-left:2rem;
+	max-width:60%;
+}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc .texto .price{
+	position:unset;
+}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .matriculate{
+	background:url(img/matriculate-button.png);
+	height:40px;
+	width:113px;
+	position:absolute;
+	top: -15px;
+	right: 25px;
+	padding:5px;
+	text-align:center;
+	color:#2f464e !important;
+	font-size:1rem;
+}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .tasas{
+	font-size:14px;
+	font-family:'Gordita Regular';
+}
+.woocommerce-page .zona_cursos ul.products li.product .desc{
+	padding: 35px 40px 35px 40px !important;
+}
+.woocommerce-page .zona_cursos
+
+.related.products.single-bkat .products{
+	clear:both;
+}
+.related.products.single-bkat .text-related-products{
+	/*margin-bottom:4rem !important;*/
+}
+.related.products.single-bkat .products .product{
+	float:left;
+	width:27% !important;
+	margin-right:0 1% !important;
+	box-shadow: 0 2px 13px 0 #0c3d5d12, 0 36px 48px -2px #0c3d5d03, 0 8px 58px 0 #0c3d5d05;
+	padding: 1rem 2%;
+	background: #fff;
+	transition: background 0.4s ease-in-out;
+}
+.related.products.single-bkat .products .product:hover{
+	background: #e85e02 !important;
+}
+.related.products.single-bkat .products .product:hover *{
+	color:#fff;
+}
+.related.products.single-bkat .products .product a{
+	padding:0 !important;
+}
+.related.products.single-bkat .products .product .desc .price{
+	position:static;
+	bottom:0;
+}
+
+
+.related.products.single-bkat .products .product a img{
+	width:150px;
+	float:none;
+	margin:0 auto;
+	padding-bottom:1rem;
+}
+
+.woocommerce-page .zona_cursos + .pager_wrapper .pages{
+	float:right;
+	margin-right:0;
+}
+.sticky_map_container{
+	width:49%;
+	max-width:49%;
+	position:fixed;
+	top:0;
+	opacity:0;
+	z-index:-10;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}
+.sticky_map_container.active{
+	opacity:1;
+	z-index:100;
+	margin-top: 150px;
+}
+.woocommerce-page .zona_ubicacion.custom_sticky{
+	position: sticky;
+	top: 0;
+}
+.woocommerce ul.products li.product a p{
+	font-family: "Gordita Regular";
+	font-size: 14px;
+	color: #464e5d;
+}
+.woocommerce ul.products li.product a p.titulo,
+.woocommerce-content ul.products li.product a p.titulo{
+	text-decoration: none;
+	font-family: "Gordita Medium";
+	font-size: 20px;
+	color: #464e5d;
+}
+.woocommerce #ui-datepicker-div{
+	z-index:10 !important;
+}
+/* Listado productos */
+.enlace_con_desplegable{
+	position:relative;
+}
+.enlace_con_desplegable .desp{
+	position:absolute;
+	left:-1px;
+	top:100%;
+	z-index: 5;
+	background: #fff;
+	width: 11rem;
+	max-height:0;
+	overflow:hidden;
+	border-top:1px solid #e85e02;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+.enlace_con_desplegable .desp a{
+	display:block;
+}
+.enlace_con_desplegable:hover .desp{
+	border:1px solid #e85e02;
+	/*display:block !important;*/
+	max-height:200px;
+	padding: 1rem 1.5rem;
+}
+/* Ficha de producto */
+.sections_group.product_bkat{
+	padding-top:0;
+}
+.woocommerce .product .product_wrapper{
+	padding-left:0;
+}
+.sections_group.product_bkat .woocommerce-content{
+	margin:0;
+}
+.sections_group.product_bkat .woocommerce-content .autoescuela_info{
+	margin:0;
+}
+.autoescuela_texto{
+	background:#f6f6f6;
+}
+.woocommerce .product .product_wrapper .autoescuela_info,
+.woocommerce .product.bkat-product .product_wrapper .summary/*,
+.woocommerce .product .product_wrapper .summary*/{
+	margin-top:2rem;
+}
+.bkat-product .breadcrumbs{
+	margin-top:0.5rem;
+}
+
+.woocommerce .product:not(.bkat-product) .product_wrapper{
+	padding-left: 105px;
+	position: relative;
+}
+
+.woocommerce .product .product_wrapper .autoescuela_texto{
+	font-family:"Gordita Regular";
+	padding:3.125rem;
+	color:#464e5d;
+	margin-bottom:12px;
+}
+.woocommerce .product .product_wrapper .autoescuela_texto .imagen{
+	float:left;
+	margin-right:1.875rem;
+}
+.woocommerce .product .product_wrapper .autoescuela_texto .titulos{
+	float:left;
+}
+.woocommerce .product .product_wrapper .autoescuela_texto .titulos .pre_titulo{
+	font-size:14px;
+	margin-bottom:0;
+	line-height:14px;
+	color:#464e5d;
+}
+.woocommerce .product .product_wrapper .autoescuela_texto .titulos .titulo{
+	font-family:"Gordita Medium";
+	font-size:21px;
+	color:#464e5d;
+}
+.woocommerce .product .product_wrapper .autoescuela_texto .descripcion{
+	clear:both;
+	font-size:14px;
+	margin-bottom:20px;
+}
+.woocommerce .product .product_wrapper .autoescuela_texto .detalles span{
+	color:#ff4e00;
+}
+
+.bkat-product form.cart::after{
+	display:none !important;
+}
+.bkat-product .entry-title{
+	color:#464e5d;
+	font-size:25px !important;
+	margin-bottom:0 !important;
+	padding-bottom:0 !important;
+}
+.woocommerce .bkat-product.product div.entry-summary h1.product_title::after{
+	display:none;
+}
+.woocommerce .bkat-product.product div.entry-summary .price{
+	font-size:25px !important;
+	color:#ff6600;
+}
+.woocommerce .bkat-product.product div.entry-summary .descripcion{
+	color:#464e5d;
+	font-size:1rem;
+}
+.woocommerce .bkat-product.product div.entry-summary .detalles{
+	margin-bottom:30px;
+}
+.woocommerce .bkat-product.product div.entry-summary .detalles li{
+	border-bottom:1px solid #ff6600;
+	font-size:1rem;
+	padding: 10px 0;
+}
+.woocommerce .bkat-product.product div.entry-summary .detalles li span{
+	color:#ff6600;
+}
+.woocommerce .bkat-product.product div.entry-summary .formas_de_pago .titulo{
+	text-align:center;
+	color:#464e5d;
+	font-weight:500;
+	font-size:1rem;
+	margin-bottom:25px;
+}
+.woocommerce .bkat-product.product div.entry-summary .formas_de_pago div.reserva,
+.woocommerce .bkat-product.product div.entry-summary .formas_de_pago div.pago_completo,
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra{
+	border:1px solid #000;
+	/*margin-bottom:10px;*/
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra{
+	margin-bottom:10px;
+}
+.woocommerce .bkat-product.product div.entry-summary .tasas{
+	display:block;
+	margin-bottom:10px;
+}
+.woocommerce .bkat-product.product div.entry-summary .formas_de_pago div form.cart{
+	margin-bottom:0 !important;
+}
+.woocommerce .bkat-product.product div.entry-summary .formas_de_pago div a,
+.woocommerce .bkat-product.product div.entry-summary .formas_de_pago div .el_boton{
+	color:#464e5d;
+	display:block;
+	padding:30px 15px 20px 15px;
+	background:transparent;
+	font-size: 0.9rem;
+	font-weight: 600;
+	border-radius: 0px;
+	/*min-height: 229px;*/
+    font-family: "Gordita Regular";
+	/*background:url(img/box_arrow.jpg) no-repeat 90% 50%;*/
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	width:100%;
+	margin:0;
+	border:none;
+	text-align:left;
+}
+.woocommerce .bkat-product.product div.entry-summary .formas_de_pago div a:hover,
+.woocommerce .bkat-product.product div.entry-summary .formas_de_pago div .el_boton:hover{
+	text-decoration:none;
+	background-position:95% 50%;
+}
+.woocommerce .bkat-product.product div.entry-summary .formas_de_pago div a span,
+.woocommerce .bkat-product.product div.entry-summary .formas_de_pago div .el_boton span{
+	color:#ff6600;
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra div{
+	margin:0 !important;
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra .titulo{
+	border-bottom:1px solid #000;
+	padding: 1rem 25px;
+	text-align:left;
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra .titulo img{
+	margin-left: 5.5rem;
+	position: relative;
+	top: 8px;
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra .detalles .bloque{
+	float: left;
+	width: 27.3%;
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra .detalles .bloque.uno{
+	font-size:1rem;
+	color:#464e5d;
+	padding: 20px 0 0 4.5%;
+	font-family:"Gordita Regular";
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra .detalles .bloque.uno .instalment_total-js{
+	font-family:"Gordita Medium";
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra .detalles .bloque.dos{
+	background:#333;
+	padding:7.5px 0;
+	width: 36.4%;
+	overflow:hidden;
+	position:relative;
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra .detalles #sequra_partpayment_teaser .bloque.dos select{
+	width:100% !important;
+	background:#333;
+	color:#fff !important;
+	font-size:1rem;
+	border:none;
+	text-align:center;
+	position: relative;
+	right: -17px;
+	padding-right: 27px;
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra .detalles #sequra_partpayment_teaser .bloque.dos select:hover{
+	cursor:pointer;
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra .detalles #sequra_partpayment_teaser .bloque.dos select option{
+	font-size:1rem !important;
+	color:#000 !important;
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra .detalles .bloque.dos::after{
+	content:'';
+	background:url(img/arrow_down.jpg) no-repeat 0 0;
+	position:absolute;
+	width:9px;
+	height:11px;
+	top:50%;
+	transform:translateY(-50%);
+	left:90%;
+
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra .detalles .bloque.tres{
+	color:#464e5d;
+	text-align:right;
+	padding: 20px 4.5% 0 0;
+	font-weight:1rem;
+	font-family:"Gordita Regular";
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra .detalles .bloque.tres.version2{
+	padding: 10px 0 0 0;
+	position:relative;
+	width:31%;
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra .detalles .bloque.tres.version2 .sequra_more_info{
+	position:absolute;
+	right:0;
+	top:5px;
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra .detalles #sequra_partpayment_teaser .bloque.tres.version2 .down_payment_total-js{
+	font-size:150%;
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra .detalles #sequra_partpayment_teaser .bloque.tres.version2 .texto_ahora{
+	float:left;
+	padding-left:10px;
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra #sequra_teaser_wrapper{
+	padding:0;
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra #sequra_teaser_wrapper+fieldset{
+	display:none;
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra #sequra_partpayment_teaser{
+	width: 100%;
+	max-width: 100%;
+}
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra #sequra_partpayment_teaser fieldset,
+/*.woocommerce .bkat-product.product div.entry-summary .formas_de_pago*/ div.sequra #sequra_partpayment_teaser li{
+	border:none !important;
+}
+.woocommerce .bkat-product.product div.entry-summary .cart .quantity{
+	display:none;
+}
+.woocommerce .bkat-product.product div.entry-summary .cart .single_add_to_cart_button{
+	background:url(img/box_arrow_white.jpg) #fc4d00 no-repeat 90% 50%;
+	font-family:"Gordita Medium";
+	font-size:1.25rem !important;
+	width:100%;
+	border-radius:0;
+	text-transform:lowercase;
+	padding:25px;
+	font-size:1rem;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+.woocommerce .bkat-product .el_boton i{
+	position:absolute;
+	bottom: 10px;
+	right: 10px;
+}
+.woocommerce .bkat-product.product div.entry-summary .cart .single_add_to_cart_button:hover{
+	background-position:95% 50%;
+}
+.woocommerce .bkat-product.product div.entry-summary .cart .single_add_to_cart_button:first-letter{
+	text-transform:uppercase;
+}
+footer#Footer{
+	z-index:0;
+}
+.search-results footer#Footer,
+.page-template-page-template-cursos-ciudades footer#Footer,
+.post-type-archive-autoescuela footer#Footer,
+.page-template-template-archive-autoescuela footer#Footer,
+.page-template-page-template-autoescuelas-ciudades footer#Footer{
+	z-index:150;
+}
+a#scroll-to-top {
+    z-index: 100000;
+}
+.detalles-at .detalle{
+	float:left;
+	width:30%;
+}
+.detalles-at .detalle:nth-of-type(2){
+	width:33%;
+}
+.detalles-at .detalle:nth-of-type(3){
+	width:35%;
+}
+/*.detalles-at .detalle:nth-of-type(4){
+	width:24%;
+}*/
+.detalles-at .detalle .cantidad-detalles-at{
+	/*float:left;
+	display:block;*/
+}
+.detalle4{
+	display:flex;
+}
+
+.single-product .product:not(.bkat-product) input[type="submit"]{
+	background-color:#353535;
+}
+
+/* Pestaña contacto */
+#aviso.telefono{
+	background: #01ea43;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	text-align: center;
+	padding: 10px 100px 10px 10px;
+	position: fixed;
+	right: -100%;
+	top: 40%;
+	z-index: 200;
+}
+#aviso.telefono img{
+	float:left;
+	width: 60px;
+    display: block;
+	margin-top: 2px;
+}
+#aviso.telefono .texto{
+	float:left;
+	margin-left: 10px;
+}
+#aviso.telefono .texto .llama-ahora{
+	line-height:14px;
+}
+#aviso.telefono .texto .el_telefono{
+	border-bottom:1px solid #fff;
+}
+#aviso.telefono .texto p{
+	font-family: "Gordita Regular";
+	color: #fff;
+	margin-bottom:0;
+}
+#aviso.telefono .texto p.escribenos{
+	font-size:18px;
+}
+#aviso.telefono .texto a{
+	display: block;
+    font-size: 18px;
+	color: #fff;
+	text-decoration: none !important;
+}
+#aviso.telefono .texto a.escribenos{
+	font-size:14px;
+}
+#formulario_flotante{
+	position:fixed;
+	display: none !important;
+	top:0;
+	overflow: scroll;
+	bottom:0;
+	right:-150%;
+	width: 35%;
+	background:#fff;
+	padding:6rem 3.5rem 0;
+	z-index:16000010;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(221,221,221,1);
+	-moz-box-shadow: 0px 0px 30px 0px rgba(221,221,221,1);
+	box-shadow: 0px 0px 30px 0px rgba(221,221,221,1);
+}
+#formulario_flotante.active{
+	display: block !important;
+}
+#formulario_flotante .cerrar{
+	display: block;
+	/* text-align: right; */
+	font-size: 1.5rem;
+	color: white;
+}
+#formulario_flotante .wpcf7{
+	margin-top:1rem;
+}
+#formulario_flotante .wpcf7-submit{
+	margin-top:1rem;
+	/*float:right;*/
+}
+
+/* PÁGINAS SEO CIUDADES */
+.page-template-page-template-cursos-ciudades .inner_search_form{
+	padding:3rem 0 0 0;
+}
+.page-template-page-template-cursos-ciudades .inner_search_form .buscador_principal{
+	top: -35px !important;
+}
+.page-template-page-template-cursos-ciudades .title,
+.page-template-page-template-autoescuelas-ciudades .title{
+	text-align:center;
+	margin-bottom:2rem;
+	margin-top: 1.2rem;
+}
+.page-template-page-template-cursos-ciudades .title h1{
+	font-family:'Gordita Medium';
+	font-size:1.5rem;
+	line-height:1.5rem;
+	margin-bottom:0;
+}
+.page-template-page-template-cursos-ciudades .title p span,
+.page-template-page-template-cursos-ciudades .descripcion .title span,
+.page-template-page-template-autoescuelas-ciudades .descripcion .title span{
+	color:#ff4e02;
+}
+.page-template-page-template-cursos-ciudades .descripcion,
+.page-template-page-template-autoescuelas-ciudades .descripcion{
+	position:relative;
+	z-index:200;
+	background:#fafafa;
+	padding:4rem 0;
+}
+.page-template-page-template-cursos-ciudades .descripcion .title{
+	font-family:'Gordita Medium';
+	font-size:1.5rem;
+	line-height:1.5rem;
+}
+.page-template-page-template-cursos-ciudades .descripcion .text{
+	text-align:center;
+}
+
+/* Styles frontend changes 2019 */
+
+.bigitem {
+	flex: 2 0 0;
+}
+.smallitem {
+	flex: 1 0 0;
+}
+
+
+
+
+@media (max-width: 1200px) {
+.sticky_map_container.active{
+	margin-top: 85px;
+}
+}
+
+@media (max-width: 960px) {
+.sticky_map_container.active{
+	margin-top: 0px;
+}
+}
+
+@media (max-width: 767px) {
+	.HeroForm {
+		display: none;
+	}
+	body{
+		overflow-x:hidden !important;
+	}
+	body.modal_active{
+		height:100%;
+		overflow:hidden;
+	}
+	.search-results .desc img {
+    width: 100% !important;
+	}
+	.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc .texto .price {
+    text-align: center;
+	}
+	.search-results span.tasas, .page-template-page-template-cursos-ciudades span.tasas {
+    display: block;
+	text-align: center;
+	}
+	body .woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc img{
+	width:auto !important;
+	}
+	.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc img {
+    width:auto !important;
+    }
+.woocommerce-page .zona_cursos ul.products li.product .desc {
+    padding: 35px 0px 15px 0px !important;
+}
+.woocommerce ul.products li.product a p.titulo {
+    margin-bottom: 10px;
+}
+#aviso.telefono{
+	display:none;
+}
+#formulario_flotante{
+	left:100%;
+	right:-100%;
+	-webkit-box-shadow: none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+}
+#formulario_flotante.active{
+	left:0;
+	right:0;
+}
+#aviso.telefono.mobile{
+	display: block !important;
+	position: fixed;
+	left: 0;
+	right: 0px !important;
+	bottom: 0;
+	top: unset;
+	background: #f3f3f3;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	padding: 1em 2em 1em 2em;
+	border-top: 1px solid #e85e02;
+	cursor: pointer;
+}
+}
+#aviso.telefono.mobile div{
+	/* width:49%;
+	float:left; */
+  cursor: pointer;
+}
+#aviso.telefono.mobile div.tlf, #aviso.telefono.mobile div.texto{
+	-webkit-transition: .2s background linear !important;
+    -moz-transition: .2s background linear !important;
+    transition: .2s background linear !important;
+}
+#aviso.telefono.mobile div.tlf:hover, #aviso.telefono.mobile div.texto:hover{
+	background: #333;
+    color: #fff;
+	text-decoration: none !important;
+}
+#aviso.telefono.mobile div.tlf{
+	border-right:2px solid #fff;
+}
+#aviso.telefono.mobile div.texto{
+	margin-left:0;
+}
+#formulario_flotante{
+	position:absolute;
+}
+#formulario_flotante .IwantD{
+	display:none;	
+}
+.zopim{
+	bottom:18% !important;
+}
+#logo{
+	float:left;
+	margin-right:0 !important;
+}
+#logo img{
+	width:200px !important;
+}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc .texto{
+	max-width:100%;
+}
+
+.related.products.single-bkat .products .product{
+	float:none;
+	width:94% !important;
+	overflow:auto !important;
+}
+}
+
+body.woocommerce-page.product_cat_online #Header {
+    min-height: 250px;
+    background: url('/wp-content/uploads/2017/09/header-product-bg.jpg') no-repeat !important;
+        background-position-y: 0%;
+        background-size: auto auto;
+    background-size: cover !important;
+    background-position-y: center !important;
+    margin-bottom: 30px;
+}
+body.woocommerce-page.product_cat_presenciales #Header {
+    min-height: 250px;
+    background: url('/wp-content/uploads/2017/09/header-cursos-presenciales-bg.jpg') no-repeat !important;
+        background-position-y: 0%;
+        background-size: auto auto;
+    background-size: cover !important;
+    background-position-y: center !important;
+    margin-bottom: 30px;
+}
+
+/* Arreglo acordeones Renovación CAP */
+.accordion .accordion_wrapper .title .icon-plus{
+	display:block !important;
+}
+.accordion .accordion_wrapper .title .icon-minus{
+	display:none !important;
+}
+.accordion.activa .accordion_wrapper .title .icon-plus{
+	display:none !important;
+}
+.accordion.activa .accordion_wrapper .title .icon-minus{
+	display:block !important;
+}
+.accordion .accordion_wrapper .question .answer{
+	display:block !important;
+	padding:0;
+	max-height:0;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.accordion.activa .accordion_wrapper .question .answer{
+	padding:15px 20px 20px 20px;
+	max-height:1000px;
+}
+/* Fin arreglo acordeones Renovación CAP */
+
+/* CLUB AT */
+.club-at-banner{
+	margin-left:0;
+	margin-right:0;
+	width:100% !important;
+}
+.club-at-banner .image_wrapper{
+	max-height:none;
+}
+.offer-container{
+	margin-left:0;
+	margin-right:0;
+}
+.titulo-oferta::first-line{
+	color:#e85e02;
+}
+a.enlace-oferta{
+	padding:0 !important;
+}
+.wpcf7-radio .wpcf7-list-item{
+	text-align:center;
+}
+.wpcf7-radio .wpcf7-list-item.active{
+	background: #373737 !important;
+	color: #fff;
+}
+.wpcf7-radio input{
+	display:none;
+}
+.page-template-page-template-autoescuelas-ciudades .wpcf7-radio input{
+	display:inline-block;
+}
+
+.page-id-2568 .g-recaptcha{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.page-id-2568 .g-recaptcha div:nth-of-type(1){
+	margin:0 auto;
+}
+/* Archive autoescuela */
+.post-type-archive-autoescuela .inner_search_form,
+.page-template-template-archive-autoescuela .inner_search_form {
+	margin-bottom:50px;
+}
+
+@media (max-width: 1330px){
+	.content_bolsa_empleo .cabecera .texto_container .titulo{
+		font-size: 22px;
+    	line-height: 29px;
+	}
+	.content_bolsa_empleo .cabecera .texto_container .subtitulo{
+		font-size: 16px;
+    	line-height: 20px;
+	}
+}
+
+@media (max-width: 959px){
+	.page-id-2263 .menu-ofertas-club a:not(.menu2-ofertas-club),
+	.page-id-2263.logged-in a.menu1-ofertas-club.no-logueado,
+	.page-id-2263.logged-in a.menu3-ofertas-club.no-logueado,
+	.content_bolsa_empleo .menu-ofertas-club a:not(.menu2-ofertas-club),
+	.content_bolsa_empleo.logged-in a.menu1-ofertas-club.no-logueado,
+	.content_bolsa_empleo.logged-in a.menu3-ofertas-club.no-logueado{
+		display:none !important;
+	}
+	.page-id-2263 .menu-ofertas-club a.no-logueado.movil,
+	.page-id-2263.logged-in .menu-ofertas-club .logueado.movil,
+	.content_bolsa_empleo .menu-ofertas-club a.no-logueado.movil,
+	.content_bolsa_empleo.logged-in .menu-ofertas-club .logueado.movil{
+		display:block !important;
+	}
+	.page-template-page-template-cursos-ciudades .inner_search_form .buscador_principal {
+    	top: -30px !important;
+	}
+	.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc img{
+	width:10%;
+	}
+	.search-results .desc img {
+    width: 10% !important;
+	}
+}
+@media (max-width: 959px) and (min-width: 768px){
+	.desc .texto {
+		width: 120px !important;
+		min-width: 120px !important;
+	}
+	.woocommerce-content ul.products li.product a p.titulo {
+		font-size: 14px !important;
+	}
+}
+@media (max-width: 767px){
+	.telefono {
+		margin-right: 0 !important;
+	}
+	.single-oferta .footer-movil {
+		margin-bottom: 60px;
+	}
+	.page-id-2568 .centrar-politicas, .page-id-2568 .proteccion-datos2 {
+		width: 100%;
+	}
+	.post-type-archive-autoescuela .products.grid li:first-child,
+	.page-template-template-archive-autoescuela .products.grid li:first-child{
+		margin-top: 60px;
+	}
+	.post-type-archive-autoescuela .products.grid li:hover, .post-type-archive .products.grid li:hover,
+	.page-template-template-archive-autoescuela .products.grid li:hover, .post-type-archive .products.grid li:hover {
+		background: #e85e02 !important;
+	}
+	.elegir-curso h4, .section-related-adjustment.simple h4, .title-tranp-sanitario {
+		margin-bottom: 35px;
+		text-align: center;
+	}
+	.content_bolsa_empleo .cabecera .texto {
+		top: 23px;
+		width:80%;
+	}
+	.content_bolsa_empleo .cabecera .texto_container{
+		padding-left:0;
+		margin:0 auto;
+	}
+@media (max-width: 570px){
+	#home2019 .buscador_principal {
+		padding: 0px 25px;
+	}
+	#home2019 #boton_buscar {
+		margin-bottom: 0px;
+	}
+	.content_bolsa_empleo .cabecera .texto {
+		top: 10px;
+	}
+	.content_bolsa_empleo .cabecera .texto_container .titulo{
+		font-size: 16px;
+    	line-height: 20px;
+	}
+	.content_bolsa_empleo .cabecera .texto_container .subtitulo{
+		font-size: 12px;
+    	line-height: 15px;
+	}
+	.content_bolsa_empleo .bloque_contacto .bloque_izquierda,
+	.content_bolsa_empleo .bloque_contacto .bloque_derecha{
+		width:100%;
+		float:none;
+		padding-left:0;
+	}
+}
+@media (max-width: 450px){
+	#Top_bar .logo #logo {
+		margin: 17px 30px;
+	}
+	#logo img {
+		width: 170px !important;
+	}
+}
+@media (max-width: 399px){
+	#Top_bar .logo #logo {
+		margin: 11px 30px;
+	}
+	button.cursos_submenu {
+		padding: 11px 15px;
+	}
+}
+@media (max-width: 365px){
+	button.cursos_submenu {
+		padding: 11px 6px;
+	}
+}
+#boton_buscar {
+    padding: 0;
+}
+.page-id-2263 .icon-clic-loguearte-at, .page-id-2263 #menu-item-731:after,
+.content_bolsa_empleo .icon-clic-loguearte-at, .content_bolsa_empleo #menu-item-731:after {
+    top: 110px !important;
+}
+.page-id-2263 .tp-parallax-wrap,
+.content_bolsa_empleo .tp-parallax-wrap{
+    left: 0px !important;
+}
+.banner_offers, .offer_header {
+    background-repeat: repeat !important;
+	padding-top: 68px !important;
+}
+.page-id-2568 .select-club {
+    margin-top: 10px !important;
+    margin-left: -40px !important;
+}
+.page-id-2568 .centrar-politicas {
+    margin-bottom: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.page-id-2568 .proteccion-datos2 {
+    margin-left: 25px;
+}
+.post-type-archive-autoescuela a:hover.desc,
+.page-template-template-archive-autoescuela a:hover.desc {
+    text-decoration: none;
+}
+.single-product #Top_bar .logo {
+    margin: 0 30px 0 0px;
+    height: 80px;
+   /*margin-right: 0 !important;
+    margin-left: 80px !important;*/
+}
+.elegir-curso h4, .section-related-adjustment.simple h4, .title-tranp-sanitario {
+    font-size: 21px !important;
+    line-height: 25px !important;
+    font-weight: 500;
+    letter-spacing: 0px;
+    margin-bottom: 30px;
+}
+a.boton-centros {
+    color: #fff !important;
+    background: #E85E02;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    padding: 15px 40px;
+	position: relative;
+    top: 10px;
+}
+a:hover.boton-centros {
+    color: #fff !important;
+    background: #333;
+	text-decoration: none !important;
+}
+
+/****** Style Star Rating Widget *****/
+.rating { 
+	border: none;
+}
+.rating > input { display: none; } 
+.rating > label:before { 
+	margin: 5px;
+	font-size: 1.25em;
+	font-family: FontAwesome;
+	display: inline-block;
+	content: "\f005";
+}
+.rating > .half:before { 
+	content: "\f089";
+	position: absolute;
+}
+.rating > label { 
+	color: #ddd; 
+	float: right; 
+}
+
+/* VALORACIONES */
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label svg path, /* show gold star when clicked */
+.rating:not(:checked) > label:hover svg path, /* hover current star */
+.rating:not(:checked) > label:hover ~ label svg path { fill:#ff6600;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover svg path, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover svg path,
+.rating > label:hover ~ input:checked ~ label svg path, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label svg path { fill:#ff6600;  }
+
+.bloque_stars{
+	height:20px;
+	position:relative;
+}
+.bloque_stars .enabled_stars{
+	bottom:0;
+	left:0;
+	position:absolute;
+	right:0;
+	top:0;
+	width:0;
+	overflow:hidden;
+}
+.bloque_stars img,
+.bloque_stars .enabled_stars img{
+	display:block;
+	max-width:none !important;
+	height:100% !important;
+}
+
+section.valoraciones .valoracion{
+	background:#F6F8F8;
+	margin-bottom:30px;
+	padding:20px 40px;
+}
+section.valoraciones .valoracion .header_valoraciones{
+	overflow:auto;
+}
+section.valoraciones .valoracion .header_valoraciones .nombre_fecha_valoracion{
+	float:left;
+}
+section.valoraciones .valoracion .header_valoraciones .nombre_fecha_valoracion .nombre{
+	font-family:"Exo2 SemiBold";
+}
+section.valoraciones .valoracion .header_valoraciones .valoracion_valoracion{
+	font-family:"Exo2 SemiBold";
+	float:right;
+}
+section.valoraciones .valoracion .header_valoraciones .valoracion_valoracion .numero_valoracion{
+	color:#ff6600;
+}
+section.valoraciones .valoracion .header_valoraciones .valoracion_valoracion .bloque_stars{
+	float:left;
+	margin-right: 10px;
+}
+section.valoraciones .valoracion .valoracion_me_gusta{
+	margin-top:15px;
+}
+section.valoraciones .valoracion .valoracion_me_gusta a{
+	color: #333;
+}
+section.valoraciones .valoracion .valoracion_me_gusta a:hover,
+section.valoraciones .valoracion .valoracion_me_gusta .me_gusta_disabled.voted{
+	color:#e85e02;
+	text-decoration:none;
+}
+section.valoraciones .valoracion .valoracion_me_gusta a:hover svg path,
+section.valoraciones .valoracion .valoracion_me_gusta .me_gusta_disabled.voted svg path{
+	fill:#e85e02 !important;
+}
+section.valoraciones .valoracion .valoracion_me_gusta a svg,
+section.valoraciones .valoracion .valoracion_me_gusta .me_gusta_disabled svg{
+	margin-right:10px;
+}
+#pum-47036{
+	background-color:rgba(0,0,0,0.6);
+}
+#pum-47036 .titulo_2{
+	margin-bottom:2rem;
+}
+#pum-47036 .form_title{
+	text-align:left;
+}
+#pum-47036 .rating{
+	float:none;
+	margin:0 auto;
+	width:190px;
+}
+#pum-47036 fieldset.rating label svg{
+	height:30px;
+	width:30px;
+	margin-left:10px;
+}
+#pum-47036 fieldset.rating label:last-child svg{
+	margin-left:0;
+}
+#pum-47036 .valoracion_seleccionada .numero{
+	color:#ff6600;
+}
+#pum-47036 textarea{
+	width:100%;
+	height:100px;
+}
+#pum-47036 .send_button{
+	width: 200px;
+	height: 50px;
+}
+.single-autoescuela .header_microsite .cabecera_contenido .valoraciones .val .bloque_stars{
+	height:30px;
+}
+.page-template-page-template-autoescuelas-ciudades .nota_autoescuela .bloque_stars,
+.page-template-page-template-cursos-ciudades .nota_autoescuela .bloque_stars,
+.page-template-template-archive-autoescuela .nota_autoescuela .bloque_stars,
+.bkat_search_results .nota_autoescuela .bloque_stars{
+	width:122px;
+	margin: 0 auto;
+}
+.bkat2019v .nota_autoescuela .bloque_stars{
+	width:122px;
+	float:right;
+}
+/* FIN VALORACIONES */
+
