@@ -707,56 +707,14 @@ $centro_mas_cercano=get_permalink($centro_mas_cercano->ID); ?>
                     <section class="section mcb-section fourth-section">
                     	<div class="main_title"><?php if(!is_page(88131)){ ?><h3 class="title">Infórmate de nuestros cursos bonificados</h3><?php } ?></div>
                     	<div class="section_wrapper mcb-section-inner">
-                            <p class="text_landing_course_type">Todos los cursos de Academia del Transportista pueden ser gratuitos o bonificables. A continuación te ofrecemos la información necesaria para optar a estas ventajas:</p>
+                        <p class="text_landing_course_type" style="text-align:center">Todos los cursos de Academia del Transportista pueden ser gratuitos, bonificables o subvencionados. Desgraciadamente, estas bonificaciones dependen de las diferentes administraciones y actualmente no hay convocatorias de subvenciones o bonificaciones de este curso. Tampoco se esperan en los próximos meses, pero no dejes de visitarnos para comprobar si esta situación ha cambiado. </p><br>
                             <div class="wrap mcb-wrap one slide-cap valign-top clearfix">
                             	<div class="mcb-wrap-inner">
                                     <div class="column mcb-column one-second column_accordion">
-                                    	<div class="accordion">
-                                        	<div class="mfn-acc accordion_wrapper">
-                                            	<div class="question cap-gratis">
-	                                                <h2 class="title"><?php the_field('titulo_formulario_subvencion_gratis'); ?></h2>
-    	                                            <div class="answer">
-														<div class="caja-form-ciudad"><?php
-															/*if(is_page(47343))
-															{ ?>
-																<p class="titulo-form-ciudad">Ahora tú eliges el horario. Indícanos tus datos para informarte de todo:</p><?php													
-															}
-															else
-															{ ?>
-																<p class="titulo-form-ciudad">Tenemos cursos de mañana, tarde noche y fin de semana cerca de ti</p>
-																<p class="titulo-form-ciudad-trans">¿Te interesa este curso? Facilítanos tus datos de contacto</p><?php
-															}*/
-			                                        		/*echo do_shortcode('[contact-form-7 id="7257" title="Formulario ciudad renovación CAP"]');*/
-															echo do_shortcode('[contact-form-7 id="9042" title="Formulario ciudad renovación CAP GENÉRICO"]'); ?>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    	
                                     </div>
                                     <div class="column mcb-column one-second column_accordion">
-                                    	<div class="accordion">
-                                        	<div class="mfn-acc accordion_wrapper">
-                                            	<div class="question cap-subvencionado">
-	                                                <h2 class="title"><?php the_field('titulo_formulario_subvencionado'); ?></h2>
-    	                                            <div class="answer">
-														<div class="caja-form-ciudad"><?php
-															/*if(is_page(47343))
-															{ ?>
-																<p class="titulo-form-ciudad">Ahora tú eliges el horario. Indícanos tus datos para informarte de todo:</p><?php													
-															}
-															else
-															{ ?>
-																<p class="titulo-form-ciudad">Tenemos cursos de mañana, tarde noche y fin de semana cerca de ti</p>
-																<p class="titulo-form-ciudad-trans">¿Te interesa este curso? Facilítanos tus datos de contacto</p><?php
-															}*/
-			                                        		/*echo do_shortcode('[contact-form-7 id="7257" title="Formulario ciudad renovación CAP"]');*/
-															echo do_shortcode('[contact-form-7 id="9042" title="Formulario ciudad renovación CAP GENÉRICO"]'); ?>
-                                                        </div>
-													</div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    	
                                     </div>
                                 </div>
                             </div>
