@@ -1,0 +1,447 @@
+/*! CSS Used from: Embedded */
+.gm-style .gm-style-mtc label{font-weight:400;}
+.gm-style .gm-style-mtc ul,.gm-style .gm-style-mtc li{box-sizing:border-box;}
+/*! CSS Used from: Embedded */
+.gm-control-active>img{box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%);}
+.gm-control-active>img:nth-child(1){display:block;}
+.gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1){display:none;}
+.gm-control-active:hover>img:nth-child(2),.gm-control-active:active>img:nth-child(3){display:block;}
+/*! CSS Used from: Embedded */
+.gm-ui-hover-effect{opacity:.6;}
+.gm-ui-hover-effect:hover{opacity:1;}
+/*! CSS Used from: Embedded */
+.gm-style .gm-style-cc span,.gm-style .gm-style-cc a{font-size:10px;box-sizing:border-box;}
+/*! CSS Used from: Embedded */
+@media print{
+.gm-style .gmnoprint,.gmnoprint{display:none;}
+}
+@media screen{
+.gm-style .gmnoscreen,.gmnoscreen{display:none;}
+}
+/*! CSS Used from: Embedded */
+.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center;}
+.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);}
+/*! CSS Used from: Embedded */
+.gm-style img{max-width:none;}
+.gm-style{font:400 11px Roboto, Arial, sans-serif;text-decoration:none;}
+/*! CSS Used from: https://www.academiadeltransportista.com/wp-content/cache/min/1/8bccc5b2fa5f3e3a190a7d03e518d8d6.css ; media=all */
+@media all{
+.wpcf7 .screen-reader-response{position:absolute;overflow:hidden;clip:rect(1px,1px,1px,1px);height:1px;width:1px;margin:0;padding:0;border:0;}
+.wpcf7 form .wpcf7-response-output{margin:2em .5em 1em;padding:.2em 1em;border:2px solid #00a0d2;}
+.wpcf7 form.init .wpcf7-response-output{display:none;}
+.wpcf7-form-control-wrap{position:relative;}
+span.wpcf7-list-item{display:inline-block;margin:0 0 0 1em;}
+div.wpcf7 .ajax-loader{visibility:hidden;display:inline-block;background-image:url(https://www.academiadeltransportista.com/wp-content/plugins/contact-form-7/assets/ajax-loader.gif);width:16px;height:16px;border:none;padding:0;margin:0 0 0 4px;vertical-align:middle;}
+div.wpcf7 .wpcf7-submit:disabled{cursor:not-allowed;}
+.wpcf7 input[type="email"],.wpcf7 input[type="tel"]{direction:ltr;}
+p{margin:0 0 15px;color:#333;}
+#Content{background-color:#fff!important;}
+:focus{outline:0!important;}
+.woocommerce ul.products li.product:nth-child(3n+1){clear:none!important;}
+.woocommerce ul.products{margin-left:-15px;margin-right:-17px;}
+.woocommerce ul.products li.product .desc{background:#fff;padding:35px 40px 75px 40px!important;height:185px;transition:0.4s ease-in-out;}
+.woocommerce ul.products li.product a{text-decoration:none;font-family:"Gordita Medium";font-size:20px;color:#464e5d;}
+.zona_ubicacion .mapa{width:100%;}
+.zona_cursos .desc{display:-webkit-box;margin-bottom:30px;}
+.bkat-item .texto p span:not(.dia){color:#e85e02;}
+.desc p.titulo{margin-bottom:5px;}
+.bkat-item .desc p{margin-bottom:0;}
+.zona_cursos{margin-right:-25px;}
+.zona_cursos ul.products li.product .desc{padding:35px 40px 35px 40px!important;}
+.accordion{background-color:#333;color:#fff;font-weight:400;line-height:inherit;font-size:1rem;cursor:pointer;padding:10px 22px!important;width:100%;margin-bottom:0;text-align:center;border-radius:0;outline:none;transition:0.4s;}
+.accordion:hover{background-color:#e85e02;}
+.panel{overflow:hidden;transition:max-height 0.4s ease-out;}
+.accordion:after{content:url(https://www.academiadeltransportista.com/wp-content/uploads/2018/07/icon-arrow-down.png);width:auto!important;background:transparent;right:0em;left:auto;margin-top:-22px;position:absolute;top:50%;transform:scale(.4);}
+.politicas{font-family:"Gordita Regular";color:#464e5d;font-size:13px;text-align:justify;bottom:2px;position:relative;}
+.description{font-family:"Gordita Regular";font-size:15px;line-height:24px;width:60%!important;}
+form .telefono{margin-right:6px;}
+span.wpcf7-form-control-wrap .wpcf7-text{background-color:rgba(255,255,255,1);border-color:#333;font-family:"Exo2 ExtraBold"!important;font-size:16px;color:#333;padding:20px;}
+::-webkit-input-placeholder{font-family:"Exo2 ExtraBold"!important;font-size:16px!important;color:#333!important;}
+input:focus::-webkit-input-placeholder{color:#e85e02!important;}
+::-moz-placeholder{font-family:"Exo2 ExtraBold"!important;font-size:16px!important;color:#333!important;}
+input:focus::-moz-placeholder{color:#e85e02!important;}
+:-ms-input-placeholder{font-family:"Exo2 ExtraBold"!important;font-size:16px!important;color:#333!important;}
+input:focus:-ms-input-placeholder{color:#e85e02!important;}
+:-moz-placeholder{font-family:"Exo2 ExtraBold"!important;font-size:16px!important;color:#333!important;}
+input:focus:-moz-placeholder{color:#e85e02!important;}
+.wpcf7-form-control-wrap input[type="email"]:focus,.wpcf7-form-control-wrap input[type="tel"]:focus,.wpcf7-form-control-wrap input[type="text"]:focus{background-color:transparent!important;border-color:#e85e02!important;}
+.wpcf7-form-control-wrap.acceptance-188{width:2%;margin-left:-4px;margin-right:10px;}
+span.wpcf7-list-item{display:inline-block!important;margin:0!important;}
+.politicas{font-family:"Gordita Regular";color:#464e5d;font-size:12px;bottom:2px;position:relative;}
+.submit-ciudad{width:30%;}
+.centrar-politicas{margin-bottom:5px;}
+.boton-ciudad:disabled{background:#FF7300!important;cursor:not-allowed;border-radius:0px!important;-webkit-appearance:none;}
+.boton-ciudad{background:#e85e02;border-radius:0px!important;font-family:"Gordita Regular"!important;font-size:22px;line-height:26px;padding:20px 0 20px 0px!important;width:100%;-webkit-transition:.2s background linear!important;-moz-transition:.2s background linear!important;transition:.2s background linear!important;-webkit-appearance:none;}
+.woocommerce-page ul.products li.product a{margin-left:0;}
+.woocommerce-page ul.products li.product .desc{background:#fff;padding:35px 40px 75px 40px!important;height:185px;transition:0.4s ease-in-out;}
+.woocommerce-content ul.products li.product .desc{background:#fff;padding:35px 40px 35px 40px!important;height:185px;border:2px solid rgba(207,216,220,.91);-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;transition:0.4s ease-in-out;}
+.woocommerce-content ul.products li.product .desc .image_block{width:40%;}
+.woocommerce-content ul.products li.product .desc .image_block .img{text-align:center;}
+.woocommerce-content ul.products li.product .desc .image_block img{margin-bottom:10px;}
+.woocommerce-content ul.products li.product .desc .image_block .nota_autoescuela{clear:both;}
+.woocommerce-content ul.products li.product .desc .image_block .nota_autoescuela .sin_valoraciones,.woocommerce-content ul.products li.product .desc .image_block .nota_autoescuela .mensaje_valoracion *{line-height:15px;margin-bottom:10px;font-size:14px;font-weight:700;text-align:center;}
+.woocommerce-content ul.products li.product .desc:hover .image_block .nota_autoescuela .sin_valoraciones{text-decoration:none!important;}
+.woocommerce-content ul.products li.product .desc .texto{width:60%;}
+a.boton-renovacion-cap{background:#e85e02;color:#fff;border-radius:25px;cursor:pointer;top:50px!important;position:relative;font-size:16px;padding:20px 50px 20px 50px;-webkit-transition:.2s background linear!important;-moz-transition:.2s background linear!important;transition:.2s background linear!important;}
+a:hover.boton-renovacion-cap{background:#333;color:#fff;text-decoration:none;}
+@media (max-width:959px){
+.caja-form-ciudad .submit-ciudad{width:100%!important;position:relative!important;top:0!important;right:0!important;margin-top:8px!important;}
+.camion-ciudad{margin-left:-125px!important;}
+.page-template-page-template-autoescuelas-ciudades .intro-curso-ciudad .title{margin-bottom:-30px!important;}
+.woocommerce-content .form-curso-ciudad{ margin-bottom:50px !important;}
+.texto-cta-ciudad{font-size:15px!important;}
+.fondo-curso-ciudad .circulo{display:none;}
+.page-template-page-template-autoescuelas-ciudades .intro-curso-ciudad .title{margin-bottom:-65px!important;}
+}
+@media (max-width:767px){
+.page-template-page-template-autoescuelas-ciudades button.accordion{display:block!important;margin-bottom:30px!important;}
+.texto-cta-ciudad,.camion-ciudad{display:none;}
+.texto-ciudad{padding:15px 0px!important;font-size:19px!important;line-height:25px!important;}
+.intro-curso-ciudad{width:100%!important;padding-top:15px!important;}
+.caja-form-ciudad{width:auto!important;float:none!important;}
+.form-curso-ciudad{width:100%!important;right:0!important;padding-top:65px!important;margin-bottom:200px!important;}
+.title-ciudad{display:inline!important;}
+.contador-ciudades{margin-bottom:40px!important;}
+.fondo-curso-ciudad .zona_ubicacion{margin-bottom:25px!important;}
+.page-template-page-template-autoescuelas-ciudades .fondo-curso-ciudad .descripcion{margin-top:-35px!important;}
+}
+@media (max-width:1239px){
+.woocommerce ul.products li.product .desc{padding:35px 40px 95px 40px!important;}
+}
+@media (max-width:767px){
+.acf-map{height:400px!important;}
+button.accordion{display:block!important;}
+.mapa.panel{max-height:0;}
+}
+@media all and (max-width:1239px){
+.woocommerce-page ul.products li.product .desc{height:210px;}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc .texto{margin-left:0rem!important;}
+.zona_ubicacion .mapa{width:460px!important;height:468px!important;}
+.zona_cursos ul.products li.product .desc{padding:30px!important;}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc img{margin-bottom:18px!important;}
+.desc .texto{padding-left:20px;float:left!important;width:210px!important;min-width:210px!important;}
+.zona_cursos{margin-right:-15px;}
+.acf-map{height:484px!important;}
+.submit-ciudad{width:22%;}
+}
+@media (max-width:959px){
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc .texto{margin-left:1rem!important;}
+.description{width:50%!important;}
+.woocommerce-page ul.products li.product .desc{height:185px;}
+.zona_ubicacion .mapa{width:340px!important;height:362px!important;}
+.zona_cursos .desc{display:block;margin-bottom:22px;}
+.desc .texto{padding-left:0;width:265px!important;min-width:265px!important;}
+.submit-ciudad{width:43%;position:absolute;right:6px;top:59%;}
+.wpcf7-form-control-wrap.acceptance-188{margin-right:13px;}
+}
+@media (max-width:767px){
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc .texto{margin-left:1rem!important;}
+.page-template-page-template-autoescuelas-ciudades .descripcion{padding:1rem 0 1.8rem 0!important;text-align:center!important;}
+.woocommerce-page ul.products li.product .desc{height:auto;}
+.woocommerce-page .zona_cursos ul.products li.product .desc{padding:35px 0 15px 0px!important;}
+button:after,input[type="submit"]:after,input[type="button"]:after{content:"";position:absolute;left:0;top:0;height:100%;width:0;z-index:1;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s;background:rgba(0,0,0,.05);}
+button:hover:after,input[type="submit"]:hover:after,input[type="button"]:hover:after{width:100%;}
+.zona_ubicacion,.zona_ubicacion .mapa{width:100%!important;}
+.zona_ubicacion .mapa{height:100%!important;}
+.zona_cursos ul.products li.product .desc{padding:20px!important;}
+.zona_cursos .desc{margin-bottom:15px;}
+.zona_cursos ul.products li.product .desc{box-shadow:none;}
+.zona_cursos li.isotope-item:hover .desc{background:transparent!important;}
+.zona_cursos li.isotope-item:hover .desc a,.zona_cursos li.isotope-item:hover .desc p{color:#464e5d!important;}
+.zona_cursos li.isotope-item:hover .desc span{color:#e85e02!important;}
+.zona_cursos ul.products li.product .desc{padding:0px!important;}
+.desc p.titulo,.desc p.ubicacion,.desc p.horario{text-align:center;}
+.desc .texto{padding-left:0;width:100%!important;min-width:auto!important;}
+body .section_wrapper{padding-left:15px!important;padding-right:15px!important;}
+a.boton-renovacion-cap{top:25px!important;}
+.woocommerce-content .zona_cursos{width:100%!important;float:none!important;margin-bottom:90px!important;margin-top:50px;}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc img{width:auto;float:none!important;text-align:center!important;display:block!important;margin:0 auto!important;margin-bottom:15px!important;}
+.submit-ciudad{width:50%;position:relative;right:0;margin-top:10px;}
+.wpcf7-form-control-wrap.acceptance-188{margin-right:8px;}
+}
+@media (max-width:600px){
+.submit-ciudad{width:100%;}
+}
+@media (max-width:450px){
+.wpcf7-form-control-wrap.acceptance-188{margin-right:15px;}
+.form-curso-ciudad{margin-bottom:100px!important;}
+.fondo-curso-ciudad a.boton-renovacion-cap{display:block!important;}
+.cta-ciudad{margin-bottom:50px!important;}
+}
+@media (max-width:400px){
+a.boton-renovacion-cap{padding:18px 20px 20px 20px;}
+}
+@media (max-width:390px){
+.form-curso-ciudad{margin-bottom:40px!important;}
+}
+.nota_autoescuela{overflow:auto;margin-bottom:25px;}
+.nota_autoescuela{margin-bottom:15px;}
+.MinText{font-size:.7em;line-height:1.4em;text-align:justify;}
+span.wpcf7-form-control-wrap .wpcf7-text{font-family:'Gordita Regular'!important;padding:.5em .5em .5em 1em!important;border:1px solid gray!important;border-radius:3px!important;margin-bottom:0.2em!important;}
+::-webkit-input-placeholder{font-family:"Gordita Regular"!important;font-size:16px!important;color:#333!important;}
+::-webkit-scrollbar{background-color:#f60;}
+::-webkit-scrollbar-track{background-color:#CCC;}
+::-webkit-scrollbar-thumb{background-color:#f60;}
+.ShowRgpd{background-color:transparent!important;width:100%;color:#e85e02!important;padding:.4em 0em!important;background-image:none!important;border-radius:0em!important;box-shadow:0 0 0px!important;margin-bottom:0.5em!important;font-size:1.1em;text-align:left;}
+.HideRGPD{background-color:transparent!important;width:100%;color:#e85e02!important;padding:.4em 0em!important;background-image:none!important;border-radius:0.2em!important;box-shadow:0 0 0;margin-bottom:0.5em!important;font-size:1.1em;text-align:left;border:1px solid #e85e02!important;padding:.5em 1em .5em 1.5em!important;transition:0.3s ease-in-out;}
+.HideRGPD:hover{background-color:#e85e02;color:#fff;}
+.WithoutSpaced{margin:0;}
+.intro-curso-ciudad{width:49%;float:left;padding-top:70px;}
+.form-curso-ciudad .ajax-loader{display:block!important;}
+.form-curso-ciudad{width:49%;float:left;padding-top:50px;right:-24px;position:relative;}
+.page-template-page-template-autoescuelas-ciudades .intro-curso-ciudad .title{text-align:left;margin-bottom:-130px;margin-top:0;}
+.title-ciudad{display:block;margin-top:8px;}
+.page-template-page-template-autoescuelas-ciudades .intro-curso-ciudad .title h1{font-family:'Gordita Medium';font-size:2.2rem;line-height:2.2rem;margin-bottom:0;color:#fff;}
+.texto-ciudad{padding:30px 0 15px 0;color:#fff;font-family:"Gordita Regular";font-size:22px;line-height:30px;}
+.texto-cta-ciudad{font-weight:600;color:#fff;font-family:"Gordita Regular";font-size:16px;}
+.flecha-ciudad{top:18px;position:relative;left:9px;width:46px;-webkit-animation:move-left-to-right 1.2s infinite alternate ease-in-out;}
+.contador-ciudades{text-align:center;font-size:18px;line-height:22px;position:relative;margin-bottom:70px;top:0;clear:both;}
+.contador-ciudades span{color:#e85e02;}
+.titulo-form-ciudad{font-family:"Exo2 SemiBold";font-size:26px;line-height:30px;color:#333;text-align:center;padding:20px 0;}
+.politicas-ciudad-cursos{font-size:10px;line-height:12px;font-family:"Gordita Regular";color:#464e5d;}
+.caja-form-ciudad{background:#fff;padding:30px 40px;width:65%;float:right;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.form-curso-ciudad form .telefono{margin-right:0;}
+.caja-form-ciudad .submit-ciudad{width:100%;margin-top:8px;-webkit-appearance:none;}
+.caja-form-ciudad .boton-ciudad{background:#333;border-radius:0;width:100%;padding:15px 0;font-size:16px;-webkit-transition:.2s background linear!important;-moz-transition:.2s background linear!important;transition:.2s background linear!important;-webkit-appearance:none!important;}
+.caja-form-ciudad .boton-ciudad:hover{background:#e85e02;}
+.caja-form-ciudad .politicas{font-family:"Gordita Regular";color:#464e5d;font-size:12px;bottom:2px;right:-2px;position:relative;}
+.camion-ciudad{width:500px;margin-top:70px;margin-left:-180px;}
+.fondo-curso-ciudad{background:url(https://www.academiadeltransportista.com/wp-content/uploads/2019/05/landing-SEO-ok.jpg);background-repeat:no-repeat;}
+.fondo-curso-ciudad.autoescuelas-ciudad{background:url(https://www.academiadeltransportista.com/wp-content/themes/betheme-child/img/landing-SEO-ok-green.jpg);background-repeat:no-repeat;}
+.page-template-page-template-autoescuelas-ciudades .fondo-curso-ciudad .descripcion .title{font-family:'Gordita Medium';font-size:2.2rem;line-height:2.2rem;}
+.page-template-page-template-autoescuelas-ciudades .fondo-curso-ciudad .descripcion{text-align:center;}
+.fondo-curso-ciudad a.boton-renovacion-cap{background:#e85e02;color:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;cursor:pointer;position:relative;font-size:16px;padding:20px 50px 20px 50px;-webkit-transition:.2s background linear;-moz-transition:.2s background linear;transition:.2s background linear;}
+.fondo-curso-ciudad a:hover.boton-renovacion-cap{background:#333;color:#fff;text-decoration:none;}
+.cta-ciudad{margin-bottom:80px;}
+.fondo-curso-ciudad .circulo{right:0;position:absolute;width:240px;margin-right:-520px;margin-top:40%;}
+@media (max-width:960px){
+.page-template-page-template-autoescuelas-ciudades .zona_cursos ul.products li.product .desc{flex-direction:column!important;}
+.page-template-page-template-autoescuelas-ciudades .zona_cursos ul.products li.product .desc .image_block{width:100%!important;order:2;margin-top:15px;}
+.page-template-page-template-autoescuelas-ciudades .zona_cursos ul.products li.product .desc .texto{width:100%!important;max-width:100%!important;float:none!important;margin-top:15px;order:1;}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc img{width:auto!important;}
+}
+.cta_button{border-radius:4px;background-color:#F60;border:1px solid #f60;text-align:center;height:45px;position:relative;display:block;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;}
+.cta_button span{color:#FFF;font-family:"Gordita Regular";font-size:16px;line-height:22px;margin:0;position:absolute;top:50%;transform:translateY(-50%);display:block;text-align:center;width:100%;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;}
+.cta_button:hover{background-color:#fff;}
+.cta_button:hover span{color:#F60!important;}
+.page-template-page-template-autoescuelas-ciudades .desc .icono_pulgar{position:absolute;top:-12px;left:15px;}
+.page-template-page-template-autoescuelas-ciudades .desc .icono_pulgar .description{position:absolute;top:6px;left:90%;background-color:#FFF;box-shadow:0 2px 12px 0 rgba(0,0,0,.1);color:#333;font-family:"Gordita Regular";font-size:11px;line-height:16px;text-align:center;height:43px;width:175px!important;padding-top:5px;z-index:-20;opacity:0;filter:alpha(opacity=0);-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;}
+.page-template-page-template-autoescuelas-ciudades .desc .icono_pulgar:hover .description{z-index:20;opacity:1;filter:alpha(opacity=100);}
+.page-template-page-template-autoescuelas-ciudades .zona_cursos .desc .icono_pulgar.autoescuela_oro .description span{color:#FFA800!important;}
+.page-template-page-template-autoescuelas-ciudades .zona_cursos .desc .icono_pulgar.autoescuela_plata .description span{color:#62727B!important;}
+@media (max-width:768px){
+.woocommerce-content ul.products li.product .desc .image_block .nota_autoescuela .sin_valoraciones{text-align:center;}
+.woocommerce-page .zona_cursos ul.products li.product.isotope-item .desc{padding:10px 2%!important;}
+.page-template-page-template-autoescuelas-ciudades .zona_cursos ul.products li.product .desc .texto{width:93%!important;}
+}
+.bloque_stars{height:20px;position:relative;}
+.bloque_stars .enabled_stars{bottom:0;left:0;position:absolute;right:0;top:0;width:0;overflow:hidden;}
+.bloque_stars img,.bloque_stars .enabled_stars img{display:block;max-width:none!important;height:100%!important;}
+.page-template-page-template-autoescuelas-ciudades .nota_autoescuela .bloque_stars{width:122px;margin:0 auto;}
+.mensaje_valoracion{font-family:"Exo2 SemiBold";clear:both;padding-top:5px;}
+.con_valoraciones{font-size:14px!important;}
+.mensaje_valoracion .numero{font-size:18px!important;color:#F60;}
+.mensaje_valoracion .num_valoraciones{font-family:"Exo2 Regular";font-weight:normal!important;}
+.mensaje_valoracion .sin_valoraciones{font-family:"Exo2 Regular"!important;font-weight:normal!important;}
+div.wpcf7 .wpcf7-submit:disabled,div.wpcf7 .wpcf7-submit:disabled:hover{cursor:not-allowed;}
+.page-template-page-template-autoescuelas-ciudades .boton-ciudad:disabled,.page-template-page-template-autoescuelas-ciudades .fondo-curso-ciudad a.boton-renovacion-cap{background:#3DD05D!important;}
+.page-template-page-template-autoescuelas-ciudades .fondo-curso-ciudad a.boton-renovacion-cap:hover{background:#333!important;color:#fff;text-decoration:none;}
+.page-template-page-template-autoescuelas-ciudades .caja-form-ciudad a,.page-template-page-template-autoescuelas-ciudades .caja-form-ciudad .ShowRgpd,.page-template-page-template-autoescuelas-ciudades .contador-ciudades span,.page-template-page-template-autoescuelas-ciudades .bkat-item .texto p span,.page-template-page-template-autoescuelas-ciudades .descripcion .title span{color:#3DD05D!important;}
+.page-template-page-template-autoescuelas-ciudades .cta_button{background-color:#3DD05D;border:1px solid #3DD05D;}
+.page-template-page-template-autoescuelas-ciudades .cta_button:hover{background-color:#fff;}
+.page-template-page-template-autoescuelas-ciudades .cta_button:hover span{color:#3DD05D!important;}
+.centrar-politicas{margin-top:25px!important;line-height:13px!important;}
+div,span,iframe,h1,h2,p,a,img,strong,ul,li,form,label{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+ul{list-style:none;}
+h1,h2{margin-bottom:15px;}
+p{margin:0 0 15px;}
+strong{font-weight:700;}
+a,a:visited,a:focus{text-decoration:none;outline:0;}
+a:hover{text-decoration:underline;}
+p a,p a:visited{line-height:inherit;}
+#Content img{max-width:100%;height:auto;}
+iframe{max-width:100%;}
+button,input[type="submit"],input[type="button"]{display:inline-block;padding:11px 20px;margin-bottom:15px;cursor:pointer;margin-right:7px;border:0;border-radius:5px;position:relative;overflow:hidden;-webkit-box-shadow:inset 0 0 0 1px rgba(0,0,0,.03);box-shadow:inset 0 0 0 1px rgba(0,0,0,.03);background-image:url(https://www.academiadeltransportista.com/wp-content/themes/betheme/images/box_shadow_button.png);background-repeat:repeat-x;}
+@media only screen and (min-width:768px){
+button:after,input[type="submit"]:after,input[type="button"]:after{content:"";position:absolute;left:0;top:0;height:100%;width:0;z-index:1;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s;background:rgba(0,0,0,.05);}
+button:hover:after,input[type="submit"]:hover:after,input[type="button"]:hover:after{width:100%;}
+}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+.wpcf7::after{clear:both;content:"";display:block;}
+span.wpcf7-form-control-wrap{width:100%;position:relative!important;display:inline-block;margin-bottom:3px;}
+span.wpcf7-form-control-wrap .wpcf7-text{width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-bottom:0;}
+.wpcf7-submit{margin-bottom:0!important;}
+button::-moz-focus-inner{padding:0;border:0;}
+#Content{width:100%;padding-top:30px;}
+.section{position:relative;}
+.section_wrapper{max-width:1220px;margin:0 auto;position:relative;}
+.section_wrapper:after{clear:both;content:" ";display:block;height:0;visibility:hidden;}
+.column{float:left;margin:0 1% 40px;}
+.one.column{width:98%;}
+.clearfix:before,.clearfix:after{content:'\0020';display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
+form{margin-bottom:0;}
+label{display:block;margin-bottom:5px;font-weight:700;}
+input[type="checkbox"]{display:inline;}
+input[type="email"],input[type="tel"],input[type="text"]{padding:10px;outline:none;margin:0;width:230px;max-width:100%;display:block;margin-bottom:20px;font-size:13px;border-width:1px;border-style:solid;border-radius:0;box-sizing:border-box;-webkit-appearance:none;}
+ul{list-style:none outside;}
+.isotope-item{z-index:2;}
+::-moz-selection{color:#fff;}
+::selection{color:#fff;}
+input[type="email"],input[type="tel"],input[type="text"]{border-color:rgba(0,0,0,.08);}
+input[type="email"],input[type="tel"],input[type="text"]{background-color:#fff;color:#626262;-webkit-box-shadow:inset 0 0 2px 2px rgba(0,0,0,.02);box-shadow:inset 0 0 2px 2px rgba(0,0,0,.02);}
+input[type="email"]:focus,input[type="tel"]:focus,input[type="text"]:focus{background-color:#E9F5FC!important;border-color:#d5e5ee;color:#1982C2;}
+@media only screen and (min-width:960px) and (max-width:1239px){
+.section_wrapper{max-width:940px;}
+}
+@media only screen and (min-width:768px) and (max-width:959px){
+.section_wrapper{max-width:708px;}
+}
+@media only screen and (max-width:767px){
+.section_wrapper .column,.sections_group{margin:0;width:100%!important;clear:both;}
+.section_wrapper{max-width:700px!important;padding-left:33px!important;padding-right:33px!important;}
+.section_wrapper .column{margin:0 0 20px;height:auto!important;}
+.section{background-attachment:scroll!important;height:auto!important;}
+}
+.woocommerce ul.products li.product{width:31.3%!important;margin:0 1% 20px!important;clear:none;}
+.woocommerce ul.products li.product:nth-child(3n+1){clear:both;}
+.woocommerce ul.products li.product .desc{background:#fff;padding:15px 20px;}
+@media only screen and (min-width:768px) and (max-width:959px){
+.woocommerce ul.products li.product{width:48%!important;margin:0 1% 20px!important;}
+.woocommerce ul.products li.product{clear:none!important;}
+.woocommerce ul.products li.product:nth-child(2n+1){clear:both!important;}
+}
+@media only screen and (max-width:767px){
+.woocommerce ul.products li.product{width:48%!important;margin:0 1% 20px!important;}
+.woocommerce ul.products li.product{clear:none!important;}
+.woocommerce ul.products li.product:nth-child(2n+1){clear:both!important;}
+}
+@media only screen and (max-width:479px){
+.woocommerce ul.products li.product{width:100%!important;margin:0 0 20px!important;}
+}
+.acf-map{width:100%;height:468px;border:#ccc solid 1px;margin:20px 0;}
+.acf-map.listado{margin-top:0;height:auto;}
+.acf-map.listado:after{content:"";display:block;padding-bottom:100%;}
+.acf-map img{max-width:inherit!important;}
+.woocommerce-content .zona_ubicacion{width:49%;float:left;}
+.woocommerce-content .zona_cursos{width:50%;float:right;}
+.woocommerce .woocommerce-content .zona_cursos ul.products{margin-left:0;margin-right:0;}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product{float:none;margin:0!important;width:100%!important;}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc,.woocommerce-content .zona_cursos ul.products li.product .desc,.zona_cursos ul.products li.product .desc{position:relative;display:flex;}
+.zona_cursos ul.products li.product .desc{align-items:center;height:auto;display:flex;flex-direction:row;}
+.zona_cursos ul.products li.product .desc img{align-self:inherit;}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc img,.woocommerce-content .zona_cursos ul.products li.product .desc img{width:auto;float:left;}
+.woocommerce-content .zona_cursos ul.products li.product .desc .img img{float:none;}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc .texto,.woocommerce-content .zona_cursos ul.products li.product .desc .texto{float:left;min-width:0;margin-left:2rem;max-width:60%;}
+.woocommerce-page .zona_cursos ul.products li.product .desc{padding:35px 40px 35px 40px!important;}
+.page-template-page-template-autoescuelas-ciudades .title{text-align:center;margin-bottom:2rem;margin-top:1.2rem;}
+.page-template-page-template-autoescuelas-ciudades .descripcion .title span{color:#ff4e02;}
+.page-template-page-template-autoescuelas-ciudades .descripcion{position:relative;z-index:200;background:#fafafa;padding:4rem 0;}
+@media (max-width:767px){
+body .woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc img{width:auto!important;}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc img{width:auto!important;}
+.woocommerce-page .zona_cursos ul.products li.product .desc{padding:35px 0 15px 0px!important;}
+}
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc .texto{max-width:100%;}
+@media (max-width:959px){
+.woocommerce .woocommerce-content .zona_cursos ul.products li.product .desc img{width:10%;}
+}
+@media (max-width:959px) and (min-width:768px){
+.desc .texto{width:120px!important;min-width:120px!important;}
+}
+@media (max-width:767px){
+.telefono{margin-right:0!important;}
+.bloque_stars{height:20px;position:relative;}
+.bloque_stars .enabled_stars{bottom:0;left:0;position:absolute;right:0;top:0;width:0;overflow:hidden;}
+.bloque_stars img,.bloque_stars .enabled_stars img{display:block;max-width:none!important;height:100%!important;}
+.page-template-page-template-autoescuelas-ciudades .nota_autoescuela .bloque_stars{width:122px;margin:0 auto;}
+}
+}
+/*! CSS Used from: Embedded */
+a{color:#e85e02;}
+a:hover{color:#e85e02;}
+*::-moz-selection{background-color:#e85e02;}
+*::selection{background-color:#e85e02;}
+h1{color:#161922;}
+h2{color:#161922;}
+button,input[type="submit"],input[type="button"]{background-color:#e85e02;color:#fff;}
+input[type="email"],input[type="tel"],input[type="text"]{color:#626262;background-color:rgba(255, 255, 255, 1);border-color:#EBEBEB;}
+input[type="email"]:focus,input[type="tel"]:focus,input[type="text"]:focus{color:#e85e02;background-color:rgba(233, 245, 252, 1)!important;border-color:#d5e5ee;}
+#Content{background-color:#FCFCFC;}
+button,input[type="submit"],input[type="button"],input[type="text"],input[type="tel"],input[type="email"]{font-family:"Exo 2", Arial, Tahoma, sans-serif;}
+h1,h2{font-family:"Exo 2", Arial, Tahoma, sans-serif;}
+h1{font-size:48px;line-height:50px;font-weight:400;letter-spacing:0px;}
+h2{font-size:30px;line-height:34px;font-weight:300;letter-spacing:0px;}
+@media only screen and (min-width: 768px) and (max-width: 959px){
+h1{font-size:41px;line-height:43px;}
+h2{font-size:26px;line-height:29px;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+h1{font-size:36px;line-height:38px;}
+h2{font-size:23px;line-height:26px;}
+}
+@media only screen and (max-width: 479px){
+h1{font-size:29px;line-height:30px;}
+h2{font-size:18px;line-height:20px;}
+}
+@media only screen and (min-width:1240px){
+.section_wrapper{max-width:1220px;}
+}
+@media only screen and (max-width: 767px){
+.section_wrapper{max-width:700px!important;}
+}
+/*! CSS Used from: Embedded */
+#Content{padding-top:0px;}
+/*! CSS Used keyframes */
+@keyframes move-left-to-right{0%{transform:translateX (0%);}50%{transform:translateX(15%);}100%{transform:translateX(0%);}}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:"Gordita Medium";src:url(https://www.academiadeltransportista.com/wp-content/themes/betheme-child/fonts/Gordita-Medium.otf);font-display:swap;}
+@font-face{font-family:"Gordita Regular";src:url(https://www.academiadeltransportista.com/wp-content/themes/betheme-child/fonts/Gordita-Regular.otf);font-display:swap;}
+@font-face{font-family:"Exo2 ExtraBold";src:url(https://www.academiadeltransportista.com/wp-content/themes/betheme-child/fonts/Exo2-ExtraBold.otf);font-display:swap;}
+@font-face{font-family:"Exo2 SemiBold";src:url(https://www.academiadeltransportista.com/wp-content/themes/betheme-child/fonts/Exo2-SemiBold.otf);font-display:swap;}
+@font-face{font-family:"Exo2 Regular";src:url(https://www.academiadeltransportista.com/wp-content/themes/betheme-child/fonts/Exo2-Regular.otf);font-display:swap;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/exo2/v9/7cHmv4okm5zmbtYlK-4E4Q.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/exo2/v9/7cHmv4okm5zmbtYsK-4E4Q.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/exo2/v9/7cHmv4okm5zmbtYnK-4E4Q.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/exo2/v9/7cHmv4okm5zmbtYmK-4E4Q.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/exo2/v9/7cHmv4okm5zmbtYoK-4.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/exo2/v9/7cHmv4okm5zmbtYlK-4E4Q.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/exo2/v9/7cHmv4okm5zmbtYsK-4E4Q.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/exo2/v9/7cHmv4okm5zmbtYnK-4E4Q.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/exo2/v9/7cHmv4okm5zmbtYmK-4E4Q.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/exo2/v9/7cHmv4okm5zmbtYoK-4.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/exo2/v9/7cHmv4okm5zmbtYlK-4E4Q.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/exo2/v9/7cHmv4okm5zmbtYsK-4E4Q.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/exo2/v9/7cHmv4okm5zmbtYnK-4E4Q.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/exo2/v9/7cHmv4okm5zmbtYmK-4E4Q.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/exo2/v9/7cHmv4okm5zmbtYoK-4.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}

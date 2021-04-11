@@ -531,9 +531,43 @@ get_header(); ?>
                         <div itemscope itemtype="http://schema.org/Brand">
                             <meta itemprop="name" content="Curso renovación CAP <?php echo $municipio_elegido['label']; ?>">
                             <meta itemprop="description" content="<?php echo $content; ?>">
-                        </div>   
-                    
-                    <?php
+                        </div><?php
+				}
+				if($tipo_curso[0]==29)
+				{ ?>
+                	<div class="descripcion">
+						<div class="section_wrapper clearfix" ><?php
+							$ciudades_cercanas=get_ciudades_cercanas_autoescuelas_ciudad($provincia_elegida,$municipio_elegido);
+							if(!$ciudades_cercanas)
+							{
+								$ciudades_cercanas=cachear_ciudades_cercanas_autoescuelas_ciudad($provincia_elegida,$municipio_elegido,$tipo_curso[0]);
+							}
+							else
+							{
+								$ciudades_cercanas=json_decode($ciudades_cercanas[0]->ciudades_renovacion_cap_cercanas,true);
+							}
+							if($ciudades_cercanas)
+							{ ?>
+								<div class="ciudades_cercanas">
+									<p class="title">Ciudades cerca de <span><?php echo $municipio_elegido['label']; ?></span></p>
+									<ul><?php
+										foreach($ciudades_cercanas as $id_post => $distancia)
+										{ 
+											$ciudad_actual=get_posts(array(
+												'post_type' => 'page',
+												'include' => array($id_post)
+											));
+											if($ciudad_actual)
+											{
+												$ciudad_actual=$ciudad_actual[0]; ?>
+												<li class="ciudad"><a href="<?php echo get_permalink($ciudad_actual->ID); ?>"><span class="nombre"><?php echo $ciudad_actual->post_title; ?></span> <span class="distancia"><?php echo $distancia.' km' ?></span></a></li><?php
+											}
+										} ?>
+									</ul>
+								</div><?php
+							} ?>
+                        </div>
+                    </div><?php
 				} ?>
             </div>
         </div>

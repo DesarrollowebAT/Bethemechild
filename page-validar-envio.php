@@ -47,14 +47,11 @@ elseif($_GET['envio'] != '')
 						elseif($result['revisado']=='no')
 						{
 							/* MIRAMOS SI EL ENVÍO FUE POR MAIL O POR WHATSAPP Y LO ENVIAMOS POR EL MISMO CANAL */
-							if($result['enviado-por-email'] == 'no')
-							{
-								if(function_exists('send_whatsapp'))
-								{
-									$message=send_whatsapp('segundo',$result['ID'],$result);
-									global $wpdb;
-									$wpdb->update($wpdb->prefix.'envios_distribucion_leads',array('MessageSid' => $message->sid),array('ID' => $envio_id));
-								}
+							if($result['enviado-por-email'] == 'no' && function_exists('send_whatsapp'))
+							{								
+								$message=send_whatsapp('segundo',$result['ID'],$result);
+								global $wpdb;
+								$wpdb->update($wpdb->prefix.'envios_distribucion_leads',array('MessageSid' => $message->sid),array('ID' => $envio_id));
 							}
 							else
 							{
@@ -131,6 +128,7 @@ Un saludo");
 							}
 							
 							$wpdb->update($wpdb->prefix.'envios_distribucion_leads',array('revisado'=>'si'),array('ID' => $result['ID']));
+							$wpdb->update($wpdb->prefix.'envios_distribucion_leads',array('notas'=>'El centro se hace cargo. Enviado a facturación.'),array('ID' => $result['ID']));
 							if($result['enviado-por-email'] == 'no')
 							{
 								echo 'Gracias por confirmar la gestión del cliente. En breve el centro recibirá un mensaje de WhatsApp al número de teléfono registrado con los datos del cliente interesado.';

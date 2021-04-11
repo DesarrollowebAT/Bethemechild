@@ -177,7 +177,11 @@ elseif($_GET['edit']!='true' && $_GET['v']!='y')
 													if(get_field('telefono_movil') != '')
 													{ ?>
 														<li class="elemento"><div class="icono movil" style="background-color:<?php echo $color_microsite; ?>;"><?php echo file_get_contents(get_stylesheet_directory().'/img/microsites/icono-movil.svg'); ?></div><?php the_field('telefono_movil'); ?></li><?php
-													} ?>
+													}
+                                                if(get_field('Whatsapptelf') != '')
+                                                { ?>
+                                                <li class="elemento"><div class="icono movil" style="background-color:<?php echo $color_microsite; ?>;"><?php echo file_get_contents(get_stylesheet_directory().'/img/microsites/icono-movil.svg'); ?></div><?php the_field('Whatsapptelf'); ?></li><?php
+                                            } ?>
 												</ul><?php
 											}
 											if(get_field('e-mail') != '')
@@ -659,6 +663,7 @@ elseif($_GET['edit']!='true' && $_GET['v']!='y')
 	  </div>
 	<?php if(get_field('telefono_fijo') != ''){ ?> <meta itemprop="telephone" content="<?php echo get_field('telefono_fijo')?>"> <?php } ?>
 	<?php if(get_field('e-mail') != ''){ ?> <meta itemprop="email" content="<?php echo get_field('e-mail')?>"> <?php } ?>
+    <?php if(get_field('Whatsapptelf') != ''){ ?> <meta itemprop="telephone" content="<?php echo get_field('Whatsapptelf')?>"> <?php } ?>
 	
 	  <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 		<?php if($logo != ''){ ?> <meta itemprop="url" content="<?php echo $logo; ?>">

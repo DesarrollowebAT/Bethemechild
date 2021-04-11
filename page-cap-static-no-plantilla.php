@@ -273,7 +273,34 @@ $centro_mas_cercano=get_permalink($centro_mas_cercano->ID); ?>
                                 </div><?php
 							}
 						} ?>
-                    </section>
+                    </section><?php 
+                    if(is_page(885))
+					{ ?>
+	                    <section class="section mcb-section second-section ciudades">
+    	                	<div class="section_wrapper mcb-section-inner"><?php
+								$ciudades=get_field('ciudades');
+								if($ciudades)
+								{ ?>
+                                	<h3 class="main_title">Encuentra cursos de <span>renovacion CAP</span> en tu ciudad</h3>
+                                	<div class="the_slider"><?php
+										foreach($ciudades as $ciudad)
+										{ 
+											$imagen=get_the_post_thumbnail_url($ciudad->ID,'full');
+											if($imagen == '')
+											{
+												$imagen='https://www.academiadeltransportista.com/wp-content/uploads/2020/03/slide-ADR-academiadeltransportista.jpg';
+											} ?>
+											<div class="the_slide">
+                                            	<div style="background:url(<?php echo $imagen; ?>) no-repeat 50% 50%;">
+                                                	<a href="<?php echo get_permalink($ciudad->ID); ?>" class="slide"><span><?php echo $ciudad->post_title; ?></span></a>
+                                                </div>
+											</div><?php
+										} ?>
+                                    </div><?php
+								} ?>
+            	            </div>
+                	    </section><?php
+					} ?>
                     
                     
                     <?php

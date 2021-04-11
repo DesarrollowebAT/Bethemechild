@@ -1729,6 +1729,7 @@ body.single-autoescuela{
 }
 .edit_form_container .header_microsite .edit_block input{
 	margin-bottom:0;
+	margin-left:50px;
 }
 .edit_form_container .edit_block textarea{
 	width:100%;	
@@ -2508,3 +2509,8 @@ section.valoraciones .mas_valoraciones .flip_horizontal{
 		padding:0 !important;
 	}
 }
+
+@media screen and (max-width: 480px) {
+	.edit_form_container .header_microsite .edit_block input{
+		margin-left:0;
+	}

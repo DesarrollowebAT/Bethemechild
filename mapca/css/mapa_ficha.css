@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+#n1, #n2{
+width: 50%;
+font-size: 20px;
+text-align:center;
+color:#FFF;
+ weight: bold;
+background-color: #e85e02;
+}
+
+#t1{
+font-size:13px !important;
+text-align:center;
+color:#000;!important;
+ weight: bold;
+}
+
+#t2{
+font-size:13px !important;
+color:#FFF;
+weight: bold;
+font-family: "Gordita Medium" !important;
+}
+
+#nota1,#nota1>p {
+font-size:15px !important;
+text-align:center;
+color: #FFF;
+font-family: "Gordita Medium" !important;
+display: block;
+margin-left: 0px;
+margin-right: 0px;
+width: 100%;
+}
+.dot {
+   margin-left:3px;
+   margin-right:3px;
+}
+
+.info{
+  background-color: #FF7E1F;
+}
+
+#ct1{
+  background-color: #F8841D; 
+}
+
+
+#ct2{
+  background-color: #EF711D; 
+}
+
+#titlecp{
+font-size:12px !important;
+text-align:center;
+weight: 200;
+padding-bottom:0px;
+margin:0px;
+margin-top: 20px;
+margin-bottom: -10px;
+}
+
+#titlecpa{
+color:#036;
+font-size:15px;
+font-weight: 300 !important;
+}
+
+#r{
+  border-collapse: separate;
+  border-radius: 1.05em;
+  overflow: hidden;
+  border-bottom: 2px solid white; 
+}
+#fichafront{
+  background-color: #FFF; 
+  width: 100%;
+  display:block;
+  margin-top:10px;
+ 
+
+}
+#info_fomento{
+width: 23px;
+}
+
+#centroexamen{
+  display:block;
+  background-color: #FFF; 
+  width: 100%;
+}
+.imageresponsive{
+  width:100%; height:auto; display:block;
+}
+
+.card-body {
+    padding: 0rem !important;
+	
+}
+

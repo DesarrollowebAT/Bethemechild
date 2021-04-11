@@ -65,6 +65,12 @@ function carga_estilos()
 	{
 		echo '<style>'.minify_css(file_get_contents(get_stylesheet_directory().'/assets/css/style_GENERAL.css')).'</style>';
 	}
+	/* Si es la página de Renovación CAP, añadimos los css del slick slider */
+	if(is_page(885))
+	{
+		echo '<style>'.minify_css(file_get_contents(get_stylesheet_directory().'/assets/css/slick.css')).'</style>';
+		echo '<style>'.minify_css(file_get_contents(get_stylesheet_directory().'/assets/css/slick-theme.css')).'</style>';
+	}
 }
 
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
@@ -73,6 +79,12 @@ function my_theme_enqueue_styles() {
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'light-youtube-embeds', get_stylesheet_directory_uri() . '/assets/light-youtube-embeds/light-youtube-embeds.css' );
 	wp_enqueue_script('light-youtube-embeds-js', get_stylesheet_directory_uri() . '/assets/light-youtube-embeds/light-youtube-embeds.js',array(),false,true);
+	
+	/* Si es la página de Renovación CAP, añadimos el js del slick slider */
+	if(is_page(885))
+	{
+		wp_enqueue_script('slick', get_stylesheet_directory_uri() . '/js/slick.min.js',array(),false,true);
+	}
 
 	wp_enqueue_style( 'hamburgers', get_stylesheet_directory_uri() . '/assets/css/hamburgers.css' );
 	wp_enqueue_style( 'animate.min', get_stylesheet_directory_uri() . '/assets/css/animate.min.css' );
@@ -131,6 +143,7 @@ function my_theme_enqueue_styles() {
 	/* Fin scripts wannme */
 	
 	/*wp_enqueue_script( 'recaptcha-api', 'https://www.google.com/recaptcha/api.js', false, THEME_VERSION, true );*/
+	
 }
 
 function the_login_redirect($redirect_to) {
@@ -554,4 +567,6 @@ function mfn_get_attachment_id_url( $image_url ){
 	return 893;
 }
 /* Fin overrides */
+
+
 ?>
