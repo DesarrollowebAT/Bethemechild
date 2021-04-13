@@ -131,7 +131,7 @@ p{margin:0 0 15px;color:#333;}
 .footer1 ul.social li .boton_test{margin-left:20px;color:#fff!important;background:#E85E02;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out;padding:10px 15px;margin-bottom:0;}
 .footer1 ul.social li .boton_test:hover{background:#333;text-decoration:none;}
 .footer-movil{display:none;}
-.footer1{display:flex;}
+.footer1{display:flex;order:2;}
 .titulo-footer{color:#e85e02;font-family:"Gordita Medium";padding-top:80px;width:240px;}
 .home .menu-footer{padding-top:80px;margin-left:54px;}
 .menu-footer{padding-top:80px;margin-left:234px;}
