@@ -292,7 +292,7 @@ $centro_mas_cercano=get_permalink($centro_mas_cercano->ID); ?>
 											} ?>
 											<div class="the_slide">
                                             	<div style="background:url(<?php echo $imagen; ?>) no-repeat 50% 50%;">
-                                                	<a href="<?php echo get_permalink($ciudad->ID); ?>" class="slide"><span><?php echo $ciudad->post_title; ?></span></a>
+                                                	<a href="<?php echo get_permalink($ciudad->ID); ?>" class="slide" title="Curso renovaci&oacute;n CAP en <?php echo $ciudad->post_title; ?>"><span>Renovaci&oacute;n CAP <?php echo $ciudad->post_title; ?></span></a>
                                                 </div>
 											</div><?php
 										} ?>

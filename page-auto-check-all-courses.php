@@ -22,6 +22,32 @@ get_header();
 				$autoescuelas=get_posts(array(
 					'post_type' => 'autoescuela',
 					'numberposts' => -1,
+					'meta_query'	=> array(
+						array(
+							'key'	 	=> 'Whatsapptelf',
+							'value'	  	=> '',
+							'compare' 	=> '!=',
+						)
+					)
+				));
+				
+				if($autoescuelas)
+				{ 
+					$i=1; ?>
+                	<ul><?php
+						foreach($autoescuelas as $autoescuela)
+						{ ?>
+                        	<li><?php echo $i.' - '; echo get_field('Whatsapptelf',$autoescuela->ID); ?></li><?php
+							$i++;							
+						} ?>
+                    </ul><?php
+				}
+				
+				die;
+				
+				/*$autoescuelas=get_posts(array(
+					'post_type' => 'autoescuela',
+					'numberposts' => -1,
 					'order' => 'ASC'
 				));
 				foreach($autoescuelas as $autoescuela)
@@ -37,12 +63,12 @@ get_header();
 						}
 						elseif($fijo != '')
 						{
-							/*echo $autoescuela->post_title.'='.get_permalink($autoescuela).'='.$fijo.'<br />';*/
+							//echo $autoescuela->post_title.'='.get_permalink($autoescuela).'='.$fijo.'<br />';
 						}
 					}
-				}
+				}*/
 				
-				die;
+				
 					/*$cursos_seleccionados_autoescuela=array('curso-obtencion-camion-c','curso-obtencion-carnet-trailer-c-e','curso-obtencion-carnet-autobus-d','curso-obtencion-carnet-remolque-b-e','curso-obtencion-carnet-coche-b','curso-obtencion-carnet-moto-a');
 					$cursos_seleccionados_transporte=array('curso-renovacion-del-cap','curso-obtencion-cap-inicial','curso-obtencion-mercancias-peligrosas','curso-renovacion-adr','curso-obtencion-titulo-de-transportista','curso-consejero-de-seguridad-adr');
 					$cursos_seleccionados_mas=array('curso-de-carretillas-elevadoras','curso-grua-camion-pluma','une-12195-sujecion-de-cargas-y-estiba','curso-tacografo-digital','cursos-de-logistica','curso-de-seguridad-vial-laboral');*/

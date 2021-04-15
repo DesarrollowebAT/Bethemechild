@@ -24,41 +24,63 @@ if( $back_to_top_class == 'hide' ){
 
 <?php do_action( 'mfn_hook_content_after' ); ?>
 
-
 <!-- #Footer -->
 <footer id="Footer" class="clearfix">
 	<div class="footer">
-            <div class="container">
-                <div class="flex" style="flex-direction: column; display: flex;">
-                    <div class="footer1">
-                        <p class="titulo-footer">ACADEMIA DEL TRANSPORTISTA</p>
-                        <p class="menu-footer"><a class="enlace-footer" href="https://www.academiadeltransportista.com/curso-renovacion-cap/">Renovación Cap</a> /  <!-- <a class="enlace-footer" href="https://www.academiadeltransportista.com/carnet-c/">Carnet C</a> / --> <a class="enlace-footer" href="https://www.academiadeltransportista.com/transporte-sanitario/">Transporte Sanitario</a> / <a class="enlace-footer" href="<?php echo get_permalink(88131); ?>">Profesor CAP</a> / <?php /* <a class="enlace-footer" href="https://www.academiadeltransportista.com/sala-de-prensa/">Sala de Prensa</a>*/ ?> <a class="enlace-footer" href="https://www.academiadeltransportista.com/informacion-legal/">Información Legal</a>  <ul class="social"><li class="facebook"><a target="_blank" href="https://www.facebook.com/atacademiadeltransportista" title="Facebook"><i class="icon-facebook"></i></a></li><li class="twitter"><a target="_blank" href="https://twitter.com/ATransportista" title="Twitter"><i class="icon-twitter"></i></a></li><li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCm3_3hZzE9msh6PUo6sB-Kw" title="YouTube"><i class="icon-youtube"></i></a></li><li class="linkedin"><a target="_blank" href="https://www.linkedin.com/company/11158404/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BfIWl%2BuDpScOA%2FHIjtxxjmA%3D%3D&amp;licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-background_details_company" title="LinkedIn"><i class="icon-linkedin"></i></a></li><li><form action="https://mipermiso.solajero.com" method="post" name="test" target="_blank"> <input name="hash" value="a628ea28-e27f-4435-ab5b-70b0a5475a02" type="hidden"><input class="button boton_test" style="vertical-align:middle" name="enviar" value="HACER TEST ONLINE" type="submit"></form></li></ul></p>
-                    </div>
-                    <div class="footer2">
-                        <img alt="camion frontal bus footer - academia del transportista" class="transporte-footer" src="https://www.academiadeltransportista.com/wp-content/uploads/2019/08/camion-frontal-bus-footer-academiadeltransportista.png" />
-                        <img alt="logo footer - academia del transportista" class="logo-footer" src="https://www.academiadeltransportista.com/wp-content/uploads/2018/07/logo-footer-at-nueva.png" />
-                        <p class="texto-footer">Con más de 20 años de experiencia, AT Academia del Transportista es la mayor red de centros de Formación Profesional para el Empleo especializada en Transporte, Logística y Seguridad Vial Laboral, con más de 1000 centros de formación a nivel nacional.</p>
-                    </div>
-                    <div class="footer3">
-                        <p class="texto2-footer">Estamos acreditados por:</p>
-                        <img alt="logo dgt - academia del transportista" class="logo-dgt" src="https://www.academiadeltransportista.com/wp-content/uploads/2018/06/logo-dgt.jpg" />
-                        <img alt="logo ministerio transportes, movilidad y agenda urbana - academia del transportista" class="logo-ministerio-fomento" src="https://www.academiadeltransportista.com/wp-content/uploads/2020/07/logo-ministerio-transportes-movilidad-y-agenda-urbana-AT.png" />
-                        <img alt="logo ministerio educación, fp - academia del transportista" class="logo-ministerio-fomento" src="https://www.academiadeltransportista.com/wp-content/uploads/2020/11/logo-ministerio-educacion-f.png" />
-                        <img alt="logo ministerio empleo - academia del transportista" class="logo-ministerio-empleo" src="https://www.academiadeltransportista.com/wp-content/uploads/2018/06/logo-ministerio-empleo.jpg" />
-                        <img alt="logo apel - academia del transportista" class="logo-apel" src="https://www.academiadeltransportista.com/wp-content/uploads/2018/06/logo-apel.png" /><br />
-
-                        <img alt="logo eeej garantia juvenil - academia del transportista" class="logo-eeej" src="https://www.academiadeltransportista.com/wp-content/uploads/2020/04/logoeeejgarantiajuvenil.png" />
-                        <img alt="logo anced - academia del transportista" class="logo-anced" src="https://www.academiadeltransportista.com/wp-content/uploads/2020/04/ANCED-Logo_trazado_COLOR.png" />
-                    </div>
+		<div class="container">
+			<div class="column one column_column">
+				<div class="footer1">
+                <p class="titulo-footer">ACADEMIA DEL TRANSPORTISTA</p>
+                <p class="menu-footer"><a class="enlace-footer" href="https://www.academiadeltransportista.com/curso-renovacion-cap/">Renovación Cap</a> /  <!-- <a class="enlace-footer" href="https://www.academiadeltransportista.com/carnet-c/">Carnet C</a> / --> <a class="enlace-footer" href="https://www.academiadeltransportista.com/transporte-sanitario/">Transporte Sanitario</a> / <a class="enlace-footer" href="<?php echo get_permalink(88131); ?>">Profesor CAP</a> / <?php /* <a class="enlace-footer" href="https://www.academiadeltransportista.com/sala-de-prensa/">Sala de Prensa</a>*/ ?> <a class="enlace-footer" href="https://www.academiadeltransportista.com/informacion-legal/">Información Legal</a>  <ul class="social"><li class="facebook"><a target="_blank" href="https://www.facebook.com/atacademiadeltransportista" title="Facebook"><i class="icon-facebook"></i></a></li><li class="twitter"><a target="_blank" href="https://twitter.com/ATransportista" title="Twitter"><i class="icon-twitter"></i></a></li><li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCm3_3hZzE9msh6PUo6sB-Kw" title="YouTube"><i class="icon-youtube"></i></a></li><li class="linkedin"><a target="_blank" href="https://www.linkedin.com/company/11158404/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BfIWl%2BuDpScOA%2FHIjtxxjmA%3D%3D&amp;licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-background_details_company" title="LinkedIn"><i class="icon-linkedin"></i></a></li><li><form action="https://mipermiso.solajero.com" method="post" name="test" target="_blank"> <input name="hash" value="a628ea28-e27f-4435-ab5b-70b0a5475a02" type="hidden"><input class="button boton_test" style="vertical-align:middle" name="enviar" value="HACER TEST ONLINE" type="submit"></form></li></ul></p>
                 </div>
-            </div>
+                <div class="footer2">
+                <img alt="camion frontal bus footer - academia del transportista" class="transporte-footer" src="https://www.academiadeltransportista.com/wp-content/uploads/2019/08/camion-frontal-bus-footer-academiadeltransportista.png" />
+                <img alt="logo footer - academia del transportista" class="logo-footer" src="https://www.academiadeltransportista.com/wp-content/uploads/2018/07/logo-footer-at-nueva.png" />
+                <p class="texto-footer">Con más de 20 años de experiencia, AT Academia del Transportista es la mayor red de centros de Formación Profesional para el Empleo especializada en Transporte, Logística y Seguridad Vial Laboral, con más de 1000 centros de formación a nivel nacional.</p>
+                </div>
+                <div class="footer3">
+                <p class="texto2-footer">Estamos acreditados por:</p>
+                <img alt="logo dgt - academia del transportista" class="logo-dgt" src="https://www.academiadeltransportista.com/wp-content/uploads/2018/06/logo-dgt.jpg" />
+                <img alt="logo ministerio transportes, movilidad y agenda urbana - academia del transportista" class="logo-ministerio-fomento" src="https://www.academiadeltransportista.com/wp-content/uploads/2020/07/logo-ministerio-transportes-movilidad-y-agenda-urbana-AT.png" />
+               <img alt="logo ministerio educación, fp - academia del transportista" class="logo-ministerio-fomento" src="https://www.academiadeltransportista.com/wp-content/uploads/2020/11/logo-ministerio-educacion-f.png" />
+                <img alt="logo ministerio empleo - academia del transportista" class="logo-ministerio-empleo" src="https://www.academiadeltransportista.com/wp-content/uploads/2018/06/logo-ministerio-empleo.jpg" />
+                <img alt="logo apel - academia del transportista" class="logo-apel" src="https://www.academiadeltransportista.com/wp-content/uploads/2018/06/logo-apel.png" /><br />
+
+                <img alt="logo eeej garantia juvenil - academia del transportista" class="logo-eeej" src="https://www.academiadeltransportista.com/wp-content/uploads/2020/04/logoeeejgarantiajuvenil.png" />
+                <img alt="logo anced - academia del transportista" class="logo-anced" src="https://www.academiadeltransportista.com/wp-content/uploads/2020/04/ANCED-Logo_trazado_COLOR.png" />
+
+                </div>
+			</div>
+		</div>
+	</div>
 
 
+    <div class="footer-movil">
+		<div class="container">
+			<div class="column one column_column">
+                <div class="footer2">
+                <img alt="camion frontal bus footer - academia del transportista" class="transporte-footer" src="https://www.academiadeltransportista.com/wp-content/uploads/2019/08/camion-frontal-bus-footer-academiadeltransportista.png" />
+                <img alt="logo footer - academia del transportista" class="logo-footer" src="https://www.academiadeltransportista.com/wp-content/uploads/2018/07/logo-footer-at-nueva.png" />
+                <p class="texto-footer">Con más de 20 años de experiencia, AT Academia del Transportista es la mayor red de centros de Formación Profesional para el Empleo especializada en Transporte, Logística y Seguridad Vial Laboral, con más de 1000 centros de formación a nivel nacional.</p>
+                </div>
+                <div class="footer3">
+                <p class="texto2-footer">Estamos acreditados por:</p>
+                <img alt="logo dgt - academia del transportista" class="logo-dgt" src="https://www.academiadeltransportista.com/wp-content/uploads/2018/06/logo-dgt.jpg" />
+                <img alt="logo ministerio fomento - academia del transportista" class="logo-ministerio-fomento" src="https://www.academiadeltransportista.com/wp-content/uploads/2020/07/logo-ministerio-transportes-movilidad-y-agenda-urbana-AT.png" />
+                <img alt="logo ministerio educación, fp - academia del transportista" class="logo-ministerio-fomento" src="https://www.academiadeltransportista.com/wp-content/uploads/2020/11/logo-ministerio-educacion-f.png" />
+                <img alt="logo ministerio empleo - academia del transportista" class="logo-ministerio-empleo" src="https://www.academiadeltransportista.com/wp-content/uploads/2018/06/logo-ministerio-empleo.jpg" />
+                <img alt="logo apel - academia del transportista" class="logo-apel" src="https://www.academiadeltransportista.com/wp-content/uploads/2018/06/logo-apel.png" /><br />
 
-        </div>
+                <img alt="logo eeej garantia juvenil - academia del transportista" class="logo-eeej" src="https://www.academiadeltransportista.com/wp-content/uploads/2020/04/logoeeejgarantiajuvenil.png" />
+                <img alt="logo anced - academia del transportista" class="logo-anced" src="https://www.academiadeltransportista.com/wp-content/uploads/2020/04/ANCED-Logo_trazado_COLOR.png" />
 
-
-    
+                </div>
+                <div class="footer1">
+                <p class="titulo-footer">ACADEMIA DEL TRANSPORTISTA<p class="menu-footer"><a class="enlace-footer" href="https://www.academiadeltransportista.com/curso-renovacion-cap/">Renovación Cap</a> / <!-- <a class="enlace-footer" href="https://www.academiadeltransportista.com/carnet-c/">Carnet C</a> --> <a class="enlace-footer" href="https://www.academiadeltransportista.com/transporte-sanitario/">Transporte Sanitario</a> / <a class="enlace-footer" href="<?php echo get_permalink(88131); ?>">Profesor CAP</a> / <a class="enlace-footer" href="https://www.academiadeltransportista.com/informacion-legal/">Información Legal</a> <span class="barra-movil">/</span> <ul class="social"><li class="facebook"><a target="_blank" href="https://www.facebook.com/atacademiadeltransportista" title="Facebook"><i class="icon-facebook"></i></a></li><li class="twitter"><a target="_blank" href="https://twitter.com/ATransportista" title="Twitter"><i class="icon-twitter"></i></a></li><li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCm3_3hZzE9msh6PUo6sB-Kw" title="YouTube"><i class="icon-youtube"></i></a></li><li class="linkedin"><a target="_blank" href="https://www.linkedin.com/company/11158404/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BfIWl%2BuDpScOA%2FHIjtxxjmA%3D%3D&amp;licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-background_details_company" title="LinkedIn"><i class="icon-linkedin"></i></a></li><li><form action="https://mipermiso.solajero.com" method="post" name="test" target="_blank"> <input name="hash" value="a628ea28-e27f-4435-ab5b-70b0a5475a02" type="hidden"> <input class="button boton_test" style="vertical-align:middle" name="enviar" value="HACER TEST ONLINE" type="submit"></form></li></ul></p>
+                </div>
+			</div>
+		</div>
+	</div>
 
 
 	<?php
