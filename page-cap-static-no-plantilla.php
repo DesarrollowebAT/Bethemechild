@@ -2,8 +2,41 @@
 /**
  * Template name: CAP Static NO PLANTILLA
  */
+function getPageForm(){
+    get_header();
+    $formShortCode = "";
+    $formCourses = array(
+        "default" => "9042",
+        "carnet-c-e-trailer" => "88318"
+    );
 
-get_header();
+    // Coger el id de formulario de GET
+    if (isset($_GET['fid'])){
+        $formShortcode = '[contact-form-7 id="'.$_GET["fid"].'"]';
+    }
+    // Coger el id de formulario desde el path.
+    else {
+        $urlPermalink = get_permalink();
+        $urlPaths = explode("/",$urlPermalink);
+        $urlLastPath = array_key_last($urlPaths);
+        if ($urlPaths[$urlLastPath] == ""){
+            $urlPage = $urlPaths[$urlLastPath-1];
+        } else {
+            $urlPage = $urlPaths[$urlLastPath];
+        }
+
+        if (array_key_exists($urlPage,$formCourses)){
+            $formShortcode = '[contact-form-7 id="'.$formCourses[$urlPage].'"]';
+        } else {
+            $formShortcode = '[contact-form-7 id="'.$formCourses['default'].'"]';
+        }
+
+    }
+    $shortCode = do_shortcode($formShortcode);
+    echo $shortCode;
+    return;
+    //return $formShortCode;
+}
 
 /*$centro_mas_cercano=get_cursos_por_proximidad(1);
 $centro_mas_cercano=$centro_mas_cercano[0];
@@ -56,7 +89,10 @@ $centro_mas_cercano=get_permalink($centro_mas_cercano->ID); ?>
 													<p class="titulo-form-ciudad-trans">¿Te interesa este curso? Facilítanos tus datos de contacto</p><?php
 												}
 												/*echo do_shortcode('[contact-form-7 id="7257" title="Formulario ciudad renovación CAP"]');*/
-												echo do_shortcode('[contact-form-7 id="9042" title="Formulario ciudad renovación CAP GENÉRICO"]'); ?>
+
+                                                ?>  
+                                                <?php getPageForm(); ?>
+
                                             </div>
                                         </div>
                                     </div>
@@ -786,8 +822,10 @@ $centro_mas_cercano=get_permalink($centro_mas_cercano->ID); ?>
 													<p class="titulo-form-ciudad">Tenemos cursos de mañana, tarde noche y fin de semana cerca de ti</p>
 													<p class="titulo-form-ciudad-trans">¿Te interesa este curso? Facilítanos tus datos de contacto</p><?php
 												}*/
-												/*echo do_shortcode('[contact-form-7 id="2331" title="Formulario de Club AT"]');*/
-												echo do_shortcode('[contact-form-7 id="9042" title="Formulario ciudad renovación CAP GENÉRICO"]'); ?>
+												/*echo do_shortcode('[contact-form-7 id="2331" title="Formulario de Club AT"]');
+												echo do_shortcode('[contact-form-7 id="9042" title="Formulario ciudad renovación CAP GENÉRICO"]'); ?>*/
+                                                ?>  
+                                                <?php getPageForm(); ?>
                                             </div>
 										</div>
                                     </div>
