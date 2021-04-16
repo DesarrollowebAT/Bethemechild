@@ -715,7 +715,7 @@ if(is_user_logged_in())
             <div class="edit_form_container">
                 <form method="post" action="<?php echo get_permalink(get_the_id()).'?edit=true'; ?>" id="form_update_autoescuela_<?php echo get_the_id(); ?>" enctype="multipart/form-data">
                 	<input type="hidden" name="edit_form" value="true" />
-                    <!-- CONTENIDO DIV CURSOS -->
+                    <!-- CONTENIDO DIV CURSOS .-->
 					<div id="divcursos" style="display:none;">
 					<section class="cursos section_wrapper mcb-section-inner">
                                 	<div class="titulo_edicion numbered">Añade las próximas convocatorias de tus cursos CAP Inicial, CAP Continua, ADR Obtención y ADR Renovación:</div>
