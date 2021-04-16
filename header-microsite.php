@@ -154,12 +154,16 @@ else
                 <a class="transitions" href="<?php echo get_permalink(); ?>"><?php 
                     _e('Salir del modo de edición','academiadeltransportista'); ?>
                 </a>
-				</div><br>
+				</div>
+				<br>
+
 				<div class="vertical-align edit_microsite">
-				<div class="btnsubcursos" style="margin-right:150px">
+				<div class="btnsubcursos" style="margin-right:350px">
             		<button onclick="myFunction()">SUBIR CURSOS</button><?php 
             		 ?>
-                </a>
+            </div>
+			
+		
             </div><?php
           	
         } ?>
