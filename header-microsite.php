@@ -50,20 +50,28 @@
 
 <!-- wp_head() -->
 <?php wp_head(); ?>
-
-<!-- Rich snippets -->
+Rich snippets -->
+<!---
 <script type='application/ld+json'>
 {"@context":"http:\/\/schema.org","@type":"Organization","url":"https:\/\/academiadeltransportista.com\/",
 "sameAs":["https:\/\/www.facebook.com\/autoescuelasAT\/","https:\/\/plus.google.com\/u\/0\/ 105531205707824507956\/post","https:\/\/twitter.com\/ATautoescuelas","https:\/\/www.youtube.com\/channel\/UCm3_3hZzE9msh6PUo6sB-Kw"],
 "@id":"#organization",
 "name":"Academia del transportista",
-"logo":"https:\/\/www.academiadeltransportista.com\/wp-content\/uploads\/2017\/10\/logo_academia-.png",
+"logo":"https:\/\/localhost/AT\/wp-content\/uploads\/2017\/10\/logo_academia-.png",
 "telephone":"+34 900 696 558",
 "email":"info@academiadeltransportista.com"
 }
-</script>
+</script> -->
+
 
 <script src='https://www.google.com/recaptcha/api.js'></script>
+
+<script type="text/javascript">
+
+function myFunction() {
+  document.getElementById("divcursos").style.display = "block"; document.getElementById("Content").style.display = "none";}
+
+</script>
 
 </head>
 <?php $nivel_microsite=get_user_microsite_level(); ?>
@@ -106,6 +114,10 @@ if(false)/*get_current_user_id() != 6)*/
 				<a href="<?php echo get_permalink(); ?>" style="background:url(/wp-content/themes/betheme-child/img/microsites/icono-editar.png) <?php if(get_field('color_microsite') != ''){ the_field('color_microsite'); }else{ ?>#FF6600<?php } ?> no-repeat 30px 50%;"><?php 
 					_e('Salir del modo de edición','academiadeltransportista'); ?>
 				</a>
+			</div><div class="edit_microsite editing2">
+				<a href="<?php echo get_permalink(); ?>" style="background:url(/wp-content/themes/betheme-child/img/microsites/icono-editar.png) <?php if(get_field('color_microsite') != ''){ the_field('color_microsite'); }else{ ?>#FF6600<?php } ?> no-repeat 30px 50%;"><?php 
+					_e('Subir cursos','academiadeltransportista'); ?>
+				</a>
 			</div><?php		
 		}
 	}
@@ -142,7 +154,13 @@ else
                 <a class="transitions" href="<?php echo get_permalink(); ?>"><?php 
                     _e('Salir del modo de edición','academiadeltransportista'); ?>
                 </a>
-            </div><?php		
+				</div><br>
+				<div class="vertical-align edit_microsite">
+                <button onclick="myFunction()">SUBIR CURSOS</button><?php 
+                 _e('Subir cursos','academiadeltransportista') . '\n'; ?>
+                </a>
+            </div><?php
+          	
         } ?>
     </div><?php
 } ?>
