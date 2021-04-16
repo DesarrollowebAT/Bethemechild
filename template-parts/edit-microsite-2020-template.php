@@ -715,7 +715,199 @@ if(is_user_logged_in())
             <div class="edit_form_container">
                 <form method="post" action="<?php echo get_permalink(get_the_id()).'?edit=true'; ?>" id="form_update_autoescuela_<?php echo get_the_id(); ?>" enctype="multipart/form-data">
                 	<input type="hidden" name="edit_form" value="true" />
-                    <!-- #Content -->
+                    <!-- CONTENIDO DIV CURSOS -->
+					<div id="divcursos" style="display:none;">
+					<section class="cursos section_wrapper mcb-section-inner">
+                                	<div class="titulo_edicion numbered">Añade las próximas convocatorias de tus cursos CAP Inicial, CAP Continua, ADR Obtención y ADR Renovación:</div>
+                                    <div class="edit_block cursos nuevo_curso">
+	                                    <div class="titulo_edicion nuevo">Insertar nuevo curso:</div>
+                                    	<div class="curso" style="border-color:<?php if(get_field('color_microsite') != ''){ the_field('color_microsite'); }else{ ?>#FF6600<?php } ?>;">
+                                        	<div class="gutter">
+                                                <div class="the_input not_full_width">
+                                                    <input type="checkbox" name="insertar_nuevo_curso" value="Sí"> Insertar este nuevo curso
+                                                </div>
+                                                <div class="the_input tipo not_full_width radios">
+                                                    <p>Tipo de curso:</p>
+                                                    <div class="the_subinput">
+	                                                    <input type="radio" name="tipo_curso_nuevo" value="cap-inicial"> CAP Inicial
+                                                    </div>
+                                                    <div class="the_subinput">
+	                                                    <input type="radio" name="tipo_curso_nuevo" value="cap-continua"> CAP Continua
+                                                    </div><?php
+													if(false)/*current_user_can('administrator'))*/
+													{ ?>
+														<div class="the_subinput">
+                                                            <input type="radio" name="tipo_curso_nuevo" value="cap-ampliacion"> CAP Ampliación
+                                                        </div><?php
+													} ?>
+                                                    <div class="the_subinput">
+	                                                    <input type="radio" name="tipo_curso_nuevo" value="adr-obtencion"> ADR Obtención
+                                                    </div>
+                                                    <div class="the_subinput">
+	                                                    <input type="radio" name="tipo_curso_nuevo" value="adr-renovacion"> ADR Renovación
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div><?php
+												if(true)/*current_user_can('administrator'))*/
+												{ ?>
+													<div class="selector_tipo_curso the_input tipo_cap_inicial" style="display:none;">
+                                                        <span>Tipo de curso CAP Inicial:</span>
+                                                        <select name="tipo_cap_inicial_curso_nuevo" form="form_update_autoescuela_<?php echo get_the_id(); ?>">
+                                                            <option value="" selected="selected">Elige</option>
+                                                            <option value="mercancias">Mercancías</option>
+                                                            <option value="viajeros">Viajeros</option>
+                                                            <option value="mercancias-viajeros">Mercancías / Viajeros</option>
+                                                        </select>
+                                                    </div>
+													<?php /*<div class="selector_tipo_curso the_input tipo_cap_ampliacion" style="display:none;">
+                                                        <span>Tipo de curso CAP Ampliación:</span>
+                                                        <select name="tipo_cap_ampliacion_curso_nuevo" form="form_update_autoescuela_<?php echo get_the_id(); ?>">
+                                                        	<option value="" selected="selected">Elige</option>
+                                                            <option value="mercancias">Mercancías</option>
+                                                            <option value="viajeros">Viajeros</option>
+                                                        </select>
+                                                    </div>*/ ?>
+													<div class="selector_tipo_curso the_input tipo_adr" style="display:none;">
+                                                        <span>Tipo de curso ADR:</span>
+                                                        <select name="tipo_adr_curso_nuevo" form="form_update_autoescuela_<?php echo get_the_id(); ?>">
+                                                        	<option value="" selected="selected">Elige</option>
+                                                            <option value="basico">Básico</option>
+                                                            <option value="cisternas">Cisternas</option>
+                                                            <option value="basico-cisternas">Básico + Cisternas</option>
+                                                            <option value="explosivos">Explosivos</option>
+                                                            <option value="radiactivos">Radiactivos</option>
+                                                            <option value="otros">Otros (Indicad cuál)</option>
+                                                        </select>
+                                                        <div class="the_input tipo_adr_texto" style="display:none;">
+                                                            <span>Indica tipo de curso ADR:</span> <input type="text" name="tipo_adr_texto_curso_nuevo" />
+                                                        </div>
+                                                    </div><?php
+												} ?>
+                                                <?php /*<div class="the_input tipo_adr" style="display:none;">
+                                                    <span>Tipo de curso ADR:</span> <input type="text" name="tipo_adr_curso_nuevo" />
+                                                </div>*/ ?>
+                                                <div class="the_input">
+                                                    <span>Horario del curso:</span> <input type="text" name="horario_curso_nuevo" />
+                                                </div>
+                                                <div class="the_input half_size_left">
+                                                    <span>Fecha de inicio:</span> <input type="text" class="elDatePicker" name="fecha_inicio_curso_nuevo" />
+                                                </div>
+                                                <div class="the_input half_size_right">
+                                                    <span>Hora de inicio:</span> <input type="text" name="hora_inicio_curso_nuevo" />
+                                                </div>
+                                                <div class="the_input half_size_left">
+                                                    <span>Fecha de fin:</span> <input type="text" class="elDatePicker" name="fecha_fin_curso_nuevo" />
+                                                </div>
+                                                <div class="the_input half_size_right">
+                                                    <span>Turno:</span>
+                                                    <select name="turno_curso_nuevo" form="form_update_autoescuela_<?php echo get_the_id(); ?>">
+                                                        <option value="mananas" selected="selected">Mañanas</option>
+                                                        <option value="tardes">Tardes</option>
+                                                        <option value="findesemana">Fin de semana</option>
+                                                    </select>
+                                                </div>
+                                                <div class="the_input half_size_left">
+                                                    <span>Precio:</span> <input type="text" name="precio_curso_nuevo" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="edit_block cursos cursos_actuales">
+										<div class="titulo_edicion anadidos">Cursos añadidos:</div><?php
+                                        foreach($cursos_actuales as $curso)
+                                        { 	
+											$categoria=wp_get_post_terms($curso->ID,'tipo-curso'); ?>
+                                        	<div class="curso" curso_id="<?php echo $curso->ID; ?>" style="border-color:<?php if(get_field('color_microsite') != ''){ the_field('color_microsite'); }else{ ?>#FF6600<?php } ?>;">
+                                            	<div class="gutter">
+                                                    <div class="the_input not_full_width radios">
+                                                        <p>Tipo de curso:</p>
+                                                        <div class="the_subinput">
+                                                        	<input type="radio" name="tipo_curso_<?php echo $curso->ID; ?>" value="cap-inicial" <?php if($categoria[0]->slug == 'cap-inicial'){ ?>checked="checked"<?php } ?>> CAP Inicial
+                                                        </div>
+                                                        <div class="the_subinput">
+	                                                        <input type="radio" name="tipo_curso_<?php echo $curso->ID; ?>" value="cap-continua" <?php if($categoria[0]->slug == 'cap-continua'){ ?>checked="checked"<?php } ?>> CAP Continua
+                                                        </div>
+                                                        <div class="the_subinput">
+	                                                        <input type="radio" name="tipo_curso_<?php echo $curso->ID; ?>" value="adr-obtencion" <?php if($categoria[0]->slug == 'adr-obtencion'){ ?>checked="checked"<?php } ?>> ADR Obtención
+                                                        </div>
+                                                        <div class="the_subinput">
+	                                                        <input type="radio" name="tipo_curso_<?php echo $curso->ID; ?>" value="adr-renovacion" <?php if($categoria[0]->slug == 'adr-renovacion'){ ?>checked="checked"<?php } ?>> ADR Renovación
+                                                        </div>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                    <div class="selector_tipo_curso the_input tipo_cap_inicial" <?php if($categoria[0]->slug != 'cap-inicial'){ ?> style="display:none;" <?php } ?>>
+                                                        <span>Tipo de curso CAP Inicial:</span>
+                                                        <select name="tipo_cap_inicial_curso_<?php echo $curso->ID; ?>" form="form_update_autoescuela_<?php echo get_the_id(); ?>">
+                                                            <option value="" <?php if(get_field('tipo_cap_inicial',$curso->ID) == ''){ ?>selected="selected"<?php } ?>>Elige</option>
+                                                            <option value="mercancias" <?php if(get_field('tipo_cap_inicial',$curso->ID) == 'mercancias'){ ?>selected="selected"<?php } ?>>Mercancías</option>
+                                                            <option value="viajeros" <?php if(get_field('tipo_cap_inicial',$curso->ID) == 'viajeros'){ ?>selected="selected"<?php } ?>>Viajeros</option>
+                                                            <option value="mercancias-viajeros" <?php if(get_field('tipo_cap_inicial',$curso->ID) == 'mercancias-viajeros'){ ?>selected="selected"<?php } ?>>Mercancías / Viajeros</option>
+                                                        </select>
+                                                    </div>
+													<?php /*<div class="selector_tipo_curso the_input tipo_cap_ampliacion" style="display:none;">
+                                                        <span>Tipo de curso CAP Ampliación:</span>
+                                                        <select name="tipo_cap_ampliacion_curso_nuevo" form="form_update_autoescuela_<?php echo get_the_id(); ?>">
+                                                        	<option value="" selected="selected">Elige</option>
+                                                            <option value="mercancias">Mercancías</option>
+                                                            <option value="viajeros">Viajeros</option>
+                                                        </select>
+                                                    </div>*/ ?>
+                                                    <div class="selector_tipo_curso the_input tipo_adr" <?php if($categoria[0]->slug != 'adr-obtencion' && $categoria[0]->slug != 'adr-renovacion'){ ?> style="display:none;" <?php } ?>>
+                                                        <span>Tipo de curso ADR:</span>
+                                                        <select name="tipo_adr_curso_<?php echo $curso->ID; ?>" form="form_update_autoescuela_<?php echo get_the_id(); ?>">
+                                                            <option value="" <?php if(get_field('tipo_adr',$curso->ID) == ''){ ?>selected="selected"<?php } ?>>Elige</option>
+                                                            <option value="basico" <?php if(get_field('tipo_adr',$curso->ID) == 'basico'){ ?>selected="selected"<?php } ?>>Básico</option>
+                                                            <option value="cisternas" <?php if(get_field('tipo_adr',$curso->ID) == 'cisternas'){ ?>selected="selected"<?php } ?>>Cisternas</option>
+                                                            <option value="basico-cisternas" <?php if(get_field('tipo_adr',$curso->ID) == 'basico-cisternas'){ ?>selected="selected"<?php } ?>>Básico + Cisternas</option>
+                                                            <option value="explosivos" <?php if(get_field('tipo_adr',$curso->ID) == 'explosivos'){ ?>selected="selected"<?php } ?>>Explosivos</option>
+                                                            <option value="radiactivos" <?php if(get_field('tipo_adr',$curso->ID) == 'radiactivos'){ ?>selected="selected"<?php } ?>>Radiactivos</option>
+                                                            <option value="otros" <?php if(get_field('tipo_adr',$curso->ID) == 'otros'){ ?>selected="selected"<?php } ?>>Otros (Indicad cuál)</option>
+                                                        </select>
+														<div class="the_input tipo_adr_texto" <?php if(get_field('tipo_adr_texto',$curso->ID) == ''){ ?> style="display:none;" <?php } ?>>
+                                                            <span>Indica tipo de curso ADR:</span> <input type="text" name="tipo_adr_texto_curso_<?php echo $curso->ID; ?>" value="<?php the_field('tipo_adr_texto',$curso->ID); ?>" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                    <?php /*<div class="the_input tipo_adr">
+                                                        <span>Tipo de curso CAP/ADR:</span> <input type="text" name="tipo_adr_curso_<?php echo $curso->ID; ?>" value="<?php the_field('tipo_de_curso',$curso->ID); ?>" />
+                                                    </div>*/ ?>
+                                                    <div class="the_input">
+                                                        <span>Horario del curso:</span> <input type="text" name="horario_curso_<?php echo $curso->ID; ?>" value="<?php the_field('horario_texto',$curso->ID); ?>" />
+                                                    </div>
+                                                    <div class="the_input half_size_left">
+                                                        <span>Fecha de inicio:</span> <input type="text" class="elDatePicker" name="fecha_inicio_curso_<?php echo $curso->ID; ?>" value="<?php echo get_field('fecha_inicio',$curso->ID); ?>" />
+                                                    </div>
+                                                    <div class="the_input half_size_right">
+                                                        <span>Hora de inicio:</span> <input type="text" name="hora_inicio_curso_<?php echo $curso->ID; ?>" value="<?php the_field('hora_inicio',$curso->ID); ?>" />
+                                                    </div>
+                                                    <div class="the_input half_size_left">
+                                                        <span>Fecha de fin:</span> <input type="text" class="elDatePicker" name="fecha_fin_curso_<?php echo $curso->ID; ?>" value="<?php echo get_field('fecha_de_finalizacion',$curso->ID); ?>" />
+                                                    </div>
+                                                    <div class="the_input half_size_right">
+                                                        <span>Turno:</span>
+                                                        <select name="turno_curso_<?php echo $curso->ID; ?>" form="form_update_autoescuela_<?php echo get_the_id(); ?>">
+                                                            <option value="" <?php if(get_field('horario',$curso->ID)==''){ ?>selected="selected"<?php } ?>>- Elige -</option>
+                                                            <option value="mananas" <?php if(get_field('horario',$curso->ID)=='mananas'){ ?>selected="selected"<?php } ?>>Mañanas</option>
+                                                            <option value="tardes" <?php if(get_field('horario',$curso->ID)=='tardes'){ ?>selected="selected"<?php } ?>>Tardes</option>
+                                                            <option value="findesemana" <?php if(get_field('horario',$curso->ID)=='findesemana'){ ?>selected="selected"<?php } ?>>Fin de semana</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="the_input half_size_left">
+                                                        <span>Precio:</span> <input type="text" name="precio_curso_<?php echo $curso->ID; ?>" value="<?php echo get_post_meta($curso->ID,'_regular_price',true); ?>" />
+                                                    </div>
+                                                    <div class="the_input clear_only">
+														<input type="checkbox" name="eliminar_curso_<?php echo $curso->ID; ?>" value="si"> Eliminar este curso (marcar casilla y pulsar botón "Guardar cambios")
+													</div>
+                                                </div>
+											</div><?php                                            
+                                        } ?>
+                                    </div>
+                                </section>
+									</div>
+					
+					
+					<!-- #Content -->
+										
                     <div id="Content" class="new_2020" microsite-color="<?php echo str_replace('#','',$color_microsite); ?>" color-texto="<?php echo str_replace('#','',$tcolor); ?>">
                         <div class="content_wrapper clearfix"><?php
                             $logo=get_the_post_thumbnail_url();
@@ -770,10 +962,11 @@ if(is_user_logged_in())
                                                     $inputValue = get_field('telefono_movil');
                                                 }
                                             ?>
-                                            <input type="text" name="new_Whatsapptelf" id="new_Whatsapptelf" value="<?php echo $inputValue ?>" placeholder="Por favor, escriba un único número de teléfono"  minlength="9" maxlength="9" required pattern="[0-9]{9}">
-                                            <p style="font-size:12px;color:#000;">Por favor, escriba un único número de teléfono de 9 dígitos</p>
+                                            <input type="text" name="new_Whatsapptelf" id="new_Whatsapptelf" value="<?php echo $inputValue ?>" placeholder=""  maxlength="9">
+                                            <p style="font-size:10px;">Por favor, escriba un único número de teléfono"</p>
 
-                                            <div class="elemento tlf_movil"><p class="titulo" style="color:<?php echo $tcolor; ?>;">Teléfono movil:</p> 	<input type="text" name="new_tlf_movil" id="new_tlf_movil" value="<?php the_field('telefono_movil'); ?>" placeholder="Teléfono móvil del centro" ></div>
+
+                                            <div class="elemento tlf_movil"><p class="titulo" style="color:<?php echo $tcolor; ?>;">Teléfono movil:</p> 	<input type="text" name="new_tlf_movil" id="new_tlf_movil" value="<?php the_field('telefono_movil'); ?>" placeholder="Teléfono móvil del centro" maxlength="9"></div>
 
                                         </div>
                                     </div>
