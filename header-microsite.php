@@ -156,8 +156,9 @@ else
                 </a>
 				</div><br>
 				<div class="vertical-align edit_microsite">
-                <button onclick="myFunction()">SUBIR CURSOS</button><?php 
-                 _e('Subir cursos','academiadeltransportista') . '\n'; ?>
+				<div class="btnsubcursos" style="margin-right:150px">
+            		<button onclick="myFunction()">SUBIR CURSOS</button><?php 
+            		 ?>
                 </a>
             </div><?php
           	
